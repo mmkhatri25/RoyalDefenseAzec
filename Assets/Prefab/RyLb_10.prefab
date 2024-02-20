@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1791166996468136989}
+  m_IsPrefabParent: 1
+--- !u!4 &1791166996518469154
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468136989}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1791166996468136989
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791166996518469154}
+  - component: {fileID: 1791166998363964177}
+  m_Layer: 0
+  m_Name: "RyLb_10"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1791166998363964177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468136989}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15737845ecdbb2d15a5bef08647a81e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelContentID: "RyLb_10"
+  description: 
+  stageLevel:
+  - objectIDs: "WO_00."
+    positionIDs: "020300.030300."
+    behaviourID: 
+  - objectIDs: "ROS09."
+    positionIDs: "010700."
+    behaviourID: 
+  - objectIDs: "RO_07.RO_01."
+    positionIDs: "020400.020500."
+    behaviourID: 
+  - objectIDs: "BO_05."
+    positionIDs: "030000."
+    behaviourID: 
+  - objectIDs: "MO_06.MO_05."
+    positionIDs: "050200."
+    behaviourID: 
+  - objectIDs: "RO_08."
+    positionIDs: "021000."
+    behaviourID: 
+  - objectIDs: "RO_00."
+    positionIDs: "031100.021100.011300."
+    behaviourID: 
+  - objectIDs: "BO_06."
+    positionIDs: "010100."
+    behaviourID: 
+  - objectIDs: "MO_05."
+    positionIDs: "050000."
+    behaviourID: 

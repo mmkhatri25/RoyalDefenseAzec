@@ -1,0 +1,599 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1791166996468137058}
+  m_IsPrefabParent: 1
+--- !u!4 &1791166996518469947
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137058}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: -0.7071068}
+  m_LocalPosition: {x: 0, y: 0.3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1791166996518470514}
+  - {fileID: 1791166996518470398}
+  - {fileID: 1791166996518470265}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1791166996518470265
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137623}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0.3491088}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1791166996518469947}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1791166996518470398
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137509}
+  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: -0.7071068}
+  m_LocalPosition: {x: 0, y: 0.9, z: 0.15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1791166996518469947}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1791166996518470514
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137377}
+  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: -0.7071068}
+  m_LocalPosition: {x: 0, y: 0.252015, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1791166996518470120}
+  m_Father: {fileID: 1791166996518469947}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1791166996518470120
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137231}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0.001}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1791166996518470514}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1791166996468137058
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791166996518469947}
+  - component: {fileID: 1791166997541882817}
+  - component: {fileID: 1791166997357333280}
+  - component: {fileID: 1791166998363966825}
+  - component: {fileID: 1791166998363966658}
+  m_Layer: 2
+  m_Name: "seMM_01e2"
+  m_TagString: "Enemy"
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1791166996468137231
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791166996518470120}
+  - component: {fileID: 1791166997005011067}
+  - component: {fileID: 1791166996837238217}
+  - component: {fileID: 1791166998363966974}
+  - component: {fileID: 1791166998363967121}
+  m_Layer: 0
+  m_Name: "back"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1791166996468137377
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791166996518470514}
+  - component: {fileID: 1791166998363967257}
+  m_Layer: 0
+  m_Name: "Character Sprite"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1791166996468137509
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791166996518470398}
+  m_Layer: 0
+  m_Name: "Effect Position"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1791166996468137623
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791166996518470265}
+  m_Layer: 2
+  m_Name: "Projectile Position"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &1791166996837238217
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137231}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 0
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f7fb0ada89824ec7a7fb00d17c261af3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1791166997005011067
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137231}
+  m_Mesh: {fileID: 0}
+--- !u!54 &1791166997357333280
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137058}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &1791166997541882817
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137058}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 1, z: 0.8}
+  m_Center: {x: 0, y: 0.3, z: 0}
+--- !u!114 &1791166998363966658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137058}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0df756013bb302639966e81bfb9fbafe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scriptCharacterAnimation: {fileID: 1791166998363967257}
+  state: 0
+  unitDefaultAltitude: 0.3
+  unitAlignment: 1
+  unitAltitudeType: 0
+  unitState: 1
+  unitDirection: 0
+  unitDetector: {fileID: 1791166996468136999, guid: 4be529dca6ced85449c5bf8039203a36, type: 2}
+  unitTier: 0
+  attributeHealthMaximumValue: 10
+  attributeManaMaximumValue: 10
+  attributeHealthValue: 10
+  attributeManaValue: 10
+  attributeManaRegenValue: 0
+  attributeMovementSpeed: 2
+  attributeMovementVelocity: 0
+  attributeAttackSpeedDelay: 0
+  attributeDamageMultiplier: 0
+  attributeCriticalValue: 0
+  attributeAccuracyValue: 0
+  attributeEvasionValue: 0
+  attributeKnockResistanceValue: 0
+  unitEntranceBehaviour: 2
+  unitEntranceBehaviourAmountA: 4
+  unitEntranceBehaviourAmountB: 4.1
+  unitEntranceBehaviourAmountC: -1.2
+  unitEntranceBehaviourAmountD: 2
+  unitAttackBehaviour: 0
+  unitAttackBehaviourAmountA: 0
+  unitAttackBehaviourAmountB: 0
+  unitAttackBehaviourAmountC: 0
+  unitAttackBehaviourAmountD: 0
+  unitDefensiveBehaviour: 0
+  unitDefensiveBehaviourAmountA: 0
+  unitDefensiveBehaviourAmountB: 0
+  unitDefensiveBehaviourAmountC: 0
+  unitDefensiveBehaviourAmountD: 0
+  unitUniqueBehaviour: 0
+  unitUniqueBehaviourAmountA: 0
+  unitUniqueBehaviourAmountB: 0
+  unitUniqueBehaviourAmountC: 0
+  unitUniqueBehaviourAmountD: 0
+  unitRetreatBehaviour: 2
+  unitRetreatBehaviourAmountA: 4
+  unitRetreatBehaviourAmountB: -1.4
+  unitRetreatBehaviourAmountC: 0
+  unitRetreatBehaviourAmountD: 0
+  unitMovementType: 2
+  unitAltitudeAirMotionSpeed: 0
+  unitAltitudeAirHeightThreshold: 0
+  unitAltitudeAirDisableDropSpeed: 0
+  unitAltitudeAirDisableDropThreshold: 0
+  attackSpawnObject: {fileID: 0}
+  attackPosition: {fileID: 0}
+  attackStartDelay: 0.5
+  attackDelay: 1
+  attackEndDelay: 0.5
+  attackManaCost: 0
+  attackHealthCost: 0
+  unitOffenseAction: 0
+  attackRange: 1
+  attackRangeDistance: 1
+  unitColorState: 0
+  effectPosition: {fileID: 1791166996468137509}
+  effectPropertyDisplay: {fileID: 1791166996468137090, guid: 72020eba9e0f47b46abf2f788cf31dc9, type: 2}
+  effectHitDisplay: {fileID: 1791166996468137089, guid: d6f5dd96626099549b172a2b474ed3cb, type: 2}
+  statusAttackCount: 0
+  statusDamagedCount: 0
+  statusDisabledCount: 0
+--- !u!114 &1791166998363966825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137058}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da94cce2f96b1ad56be3d699d6005bba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthIndicatorHUD: {fileID: 0}
+  effectTextDisplay: {fileID: 0}
+  retreatDrop: {fileID: 1791166996468137007, guid: 7b29cdbcd302bea40a15c106071f6c65, type: 2}
+  retreatDropTier: 3
+  unitGroupID: 
+  unitClassID: 
+  unitNumberID: 
+  state: 0
+  unitAlignment: 1
+  unitMagicClass: 0
+  unitTier: 0
+  unitState: 0
+  unitOffenseNumber: 0
+  unitOffenseAction: 0
+  unitMovementType: 2
+  unitStatisticWeightClass: 1
+  unitDestinationPosition: -2.2
+  unitDefaultHeight: 0.3
+  unitDuration: 0
+  unitAltitudeType: 1
+  unitAltitudeAirMotionSpeed: 0
+  unitAltitudeAirHeightThreshold: 0
+  unitAltitudeAirDisableDropSpeed: 0
+  unitAltitudeAirDisableDropThreshold: 0
+  healthPoint: 4
+  healthRegenPoint: 1
+  damagePoint: 1
+  movementSpeedPoint: 2
+  maxMovementSpeedPoint: 8
+  attackSpeedPoint: 20
+  maxAttackSpeedPoint: 20
+  armorPoint: 0
+  manaPoint: 0
+  manaRegenPoint: 0
+  anchorPoint: 8
+  criticalPoint: 1
+  accuracyPoint: 0
+  evasionPoint: 1
+  movementSpeedVelocity: 0
+  effectHexable: 1
+  GrowthWaveHP: 0
+  GrowthLevelHP: 0
+  GrowthStageHP: 0
+  GrowthWaveMP: 0
+  GrowthLevelMP: 0
+  GrowthStageMP: 0
+  GrowthWaveDMG: 0
+  GrowthLevelDMG: 0
+  GrowthStageDMG: 0
+  GrowthWaveAS: 0
+  GrowthLevelAS: 0
+  GrowthStageAS: 0
+  GrowthWaveMS: 0.12
+  GrowthLevelMS: 0
+  GrowthStageMS: 0
+  GrowthWaveAP: 0
+  GrowthLevelAP: 0
+  GrowthStageAP: 0
+  GrowthWaveANP: 0
+  GrowthLevelANP: 0
+  GrowthStageANP: 0
+  GrowthWaveCRP: 0
+  GrowthLevelCRP: 0
+  GrowthStageCRP: 0
+  GrowthWaveACP: 0
+  GrowthLevelACP: 0
+  GrowthStageACP: 0
+  GrowthWaveEVP: 0
+  GrowthLevelEVP: 0
+  GrowthStageEVP: 0
+  effectTypeDefense: 00000000FEFFFFFF0000000000000000000000000000000000000000000000000000000000000000
+  effectClassDefense: 0000000000000000000000000000000000000000F6FFFFFF00000000000000000000000000000000000000009CFFFFFF000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  Offense:
+  - unitOffenseAction: 2
+    defendPlusArmorPoint: 0
+    defendPlusAnchorPoint: 0
+    attackAccuracyPrecision: 5
+    attackCriticalPrecision: 5
+    attackManaCost: 0
+    attackHealthCost: 0
+    attackSpawnObject: {fileID: 1791166996468137228, guid: 2a02c30de573b9741984f0f744c05fa6, type: 2}
+    attackPosition: {fileID: 1791166996518470265}
+    baseAttackRange: 0.1
+    baseAttackRangeRatio: 0.05
+    attackRange: 0
+    rangeDistance: 1.5
+    attackStartDelay: 0
+    attackDelay: -5
+    attackEndDelay: 1
+    alignment: 0
+    projectileType: 0
+    pureEffect: 0
+    effectType: 0
+    effectClass: 0
+    effectSubID: 0
+    hpAttributeToggle: 0
+    hpAttributeAmount: 0
+    hpOverTimeAttributeToggle: 0
+    hpOverTimeAttributeAmount: 0
+    hpOverTimeAttributeNumber: 0
+    hpOverTimeAttributeDelay: 0
+    hpOverTimeAttributeEffectClass: 3
+    hpOverTimeAttributeEffectNumber: 1
+    mpAttributeToggle: 0
+    mpAttributeAmount: 0
+    colorEffectToggle: 0
+    colorEffectColor: {r: 0, g: 0, b: 0, a: 0}
+    colorEffectDuration: 0
+    disableEffectToggle: 0
+    disableEffectDuration: 0
+    riseEffectToggle: 0
+    riseEffectDistance: 0
+    riseEffectDuration: 0
+    riseEffectDamping: 0
+    knockEffectToggle: 0
+    knockEffectDistance: 0
+    knockEffectDuration: 0
+    knockEffectDamping: 0
+    dmgAttributeToggle: 0
+    dmgAttributeAmount: 0
+    dmgAttributeDuration: 0
+    msAttributeToggle: 0
+    msAttributeAmount: 0
+    msAttributeDuration: 0
+    asAttributeToggle: 0
+    asAttributeAmount: 0
+    asAttributeDuration: 0
+    apAttributeToggle: 0
+    apAttributeAmount: 0
+    apAttributeDuration: 0
+    anpAttributeToggle: 0
+    anpAttributeAmount: 0
+    anpAttributeDuration: 0
+    mrpAttributeToggle: 0
+    mrpAttributeAmount: 0
+    mrpAttributeDuration: 0
+    crpAttributeToggle: 0
+    crpAttributeAmount: 0
+    crpAttributeDuration: 0
+    acpAttributeToggle: 0
+    acpAttributeAmount: 0
+    acpAttributeDuration: 0
+    evpAttributeToggle: 0
+    evpAttributeAmount: 0
+    evpAttributeDuration: 0
+  retreatEffect: []
+  currentDamagePoint: 0
+  currentMovementSpeedPoint: 0
+  currentAttackSpeedPoint: 0
+  currentArmorPoint: 0
+  currentManaRegenPoint: 0
+  currentAnchorPoint: 0
+  currentCriticalPoint: 0
+  currentAccuracyPoint: 0
+  currentEvasionPoint: 0
+  plusDamagePoint: 0
+  plusMovementSpeedPoint: 0
+  plusAttackSpeedPoint: 0
+  plusArmorPoint: 0
+  plusManaRegenPoint: 0
+  plusAnchorPoint: 0
+  plusCriticalPoint: 0
+  plusAccuracyPoint: 0
+  plusEvasionPoint: 0
+  plusUnitStateArmorPoint: 0
+  plusUnitStateAnchorPoint: 0
+  plusStaticDamagePoint: 0
+  plusStaticMovementSpeedPoint: 0
+  plusStaticAttackSpeedPoint: 0
+  plusStaticArmorPoint: 0
+  plusStaticManaRegenPoint: 0
+  plusStaticAnchorPoint: 0
+  plusStaticCriticalPoint: 0
+  plusStaticAccuracyPoint: 0
+  plusStaticEvasionPoint: 0
+  healthValue: 0
+  healthRegenValue: 0
+  damageValue: 0
+  movementSpeedValue: 0
+  attackSpeedDelay: 0
+  damageMultiplier: 0
+  manaValue: 0
+  manaRegenValue: 0
+  knockResistanceValue: 0
+  criticalValue: 0
+  accuracyValue: 0
+  evasionValue: 0
+  movementSpeedVelocityValue: 0
+  unitStatisticWeightValue: 0
+  statisticAltered: 0
+  statisticAlteredMRP: 0
+  statisticAlteredDMG: 0
+  statisticAlteredAS: 0
+  statisticAlteredMS: 0
+  statisticAlteredAP: 0
+  statisticAlteredANP: 0
+  statisticAlteredCRP: 0
+  statisticAlteredACP: 0
+  statisticAlteredEVP: 0
+  enableRetreatDrop: 0
+  enableRetreatEffect: 0
+--- !u!114 &1791166998363966974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88b38e574083bff5c2b7fda14c33d7c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+  _color: {r: 1, g: 1, b: 1, a: 1}
+  _scale: {x: 3, y: 3, z: 3}
+  _spriteId: 67
+  pixelPerfect: 0
+  boxCollider: {fileID: 0}
+  meshCollider: {fileID: 0}
+  meshColliderPositions: []
+  meshColliderMesh: {fileID: 0}
+  anim: {fileID: 1791166998363966741, guid: 6f3a0c9c8e798fb4a85e32cd4b02c123, type: 2}
+  clipId: 49
+  playAutomatically: 0
+  paused: 0
+  createCollider: 0
+--- !u!114 &1791166998363967121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60b94d766f01383452536f23994de2b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  state: 0
+  AnimationNumber: 0
+  OffenseNumber: 0
+  OffensiveClip:
+  - offensiveReadyClipName: "seMM02_01"
+    offensiveActionClipName: "seMM02_01"
+  idleClipName: "seMM02_01"
+  runForwardClipName: 
+  runBackwardClipName: 
+  walkingClipName: 
+  dashForwardClipName: 
+  dashBackwardClipName: 
+  disabledClipName: 
+  retreatClipName: "seMM02_00"
+  knockAwayClipName: 
+  tauntClipName: 
+  guardClipName: 
+--- !u!114 &1791166998363967257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137377}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df0ba68d32c3dbed8a6b74a42612b166, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SetAxisZ: 0
+  AnimationNumber: 0
+  OffenseNumber: 0
+  originalColor: {r: 1, g: 1, b: 1, a: 1}
+  spriteColor: {r: 0, g: 0, b: 0, a: 0}
+  characterSprite:
+  - {fileID: 1791166998363967121}
+  hexNumber: 0
+  characterHexSprite: {fileID: 0}
+  additionalSprites:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}

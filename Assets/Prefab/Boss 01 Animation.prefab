@@ -1,0 +1,1868 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1791166996468137142}
+  m_IsPrefabParent: 1
+--- !u!4 &1791166996518470031
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137142}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1791166996468137142
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791166996518470031}
+  - component: {fileID: 1791166998363966741}
+  m_Layer: 0
+  m_Name: "Boss 01 Animation"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1791166998363966741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137142}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dbebc67a20de1eae6b7f28714816f92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clips:
+  - name: "blank"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 8
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 30
+    loopStart: 0
+    wrapMode: 6
+  - name: "seTF01_00"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 1
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 6
+  - name: "seTF01_03"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 0
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 6
+  - name: "seTF01_10"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 7
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 6
+  - name: "seTF01_11"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 4
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 6
+  - name: "seTF01_00p"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 6
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 6
+  - name: "seTF01_03p"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 9
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 10
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 3
+    loopStart: 0
+    wrapMode: 0
+  - name: "seTF01_07p"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 2
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 3
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 5
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 6
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 2
+  - name: "seGB01_00"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 13
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 6
+  - name: "seGB01_00m1"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 12
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 6
+  - name: "seGB01_07m1"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 16
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 6
+  - name: "seGB01_10"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 15
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 6
+  - name: "seGB01_11"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 11
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 6
+  - name: "ee01_00"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 18
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 6
+  - name: "ee01_01"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 19
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 6
+  - name: "ee01_11"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 21
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 6
+  - name: "seKN01_00"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 27
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 6
+  - name: "seKN01_01"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 20
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 24
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 6
+    loopStart: 0
+    wrapMode: 0
+  - name: "seKN01_07"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 26
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 23
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 22
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 26
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 2
+  - name: "seKN01_10"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 17
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 6
+  - name: "seKN01_11"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 25
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 6
+  - name: "seDW01_00"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 45
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 6
+  - name: "seDW01_03"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 47
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 6
+  - name: "seDW01_03p"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 33
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 34
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 3
+    loopStart: 0
+    wrapMode: 0
+  - name: "seDW01_09"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 45
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 31
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 45
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 2
+  - name: "seDW01_10"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 40
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 6
+  - name: "seDW01_11"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 43
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 6
+  - name: "seOG01_00"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 57
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 6
+  - name: "seOG01_03"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 54
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 6
+  - name: "seOG01_03p"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 37
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 55
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 3
+    loopStart: 0
+    wrapMode: 0
+  - name: "seOG01_09"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 28
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 60
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 63
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 2
+  - name: "seOG01_10"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 58
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 6
+  - name: "seOG01_11"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 38
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 6
+  - name: "seEF01_00"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 35
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 6
+  - name: "seEF01_03"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 35
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 53
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 3
+    loopStart: 0
+    wrapMode: 0
+  - name: "seEF01_09"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 46
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 6
+  - name: "seEF01_10"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 29
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 6
+  - name: "seEF01_11"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 41
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 6
+  - name: "seEF01_09p"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 30
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 52
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 39
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 49
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 30
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 2
+  - name: "e04_00"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 51
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 6
+  - name: "e04_03"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 44
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 42
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 3
+    loopStart: 0
+    wrapMode: 0
+  - name: "e04_11"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 48
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 32
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 6
+    loopStart: 0
+    wrapMode: 0
+  - name: "seUD01_00"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 61
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 6
+  - name: "seUD01_01"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 59
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 6
+  - name: "seUD01_07"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 62
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 36
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 56
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 62
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 2
+  - name: "seUD01_10"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 50
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 6
+  - name: "seUD01_11"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 64
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 6
+  - name: "seMM01_00"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 68
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 6
+  - name: "seMM01_11p"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 69
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 6
+  - name: "seMM02_00"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 67
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 65
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 3
+    loopStart: 0
+    wrapMode: 0
+  - name: "seMM02_01"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 66
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 6
+  - name: "seMM01_10p"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 70
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 6
+  - name: "seNA01_00"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 78
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 6
+  - name: "seNA01_03"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 74
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 6
+  - name: "seNA01_03p"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 73
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 72
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 3
+    loopStart: 0
+    wrapMode: 0
+  - name: "seNA01_10"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 76
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 6
+  - name: "seNA01_11"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 77
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 6
+  - name: "seNA01_11p"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 75
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 71
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 6
+    loopStart: 0
+    wrapMode: 0
+  - name: "seNA01_09"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 79
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 78
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 2
+  - name: "seMY01_00e"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 81
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 80
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 3
+    loopStart: 0
+    wrapMode: 0
+  - name: "seMY01_00"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 90
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 6
+  - name: "seMY01_01"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 83
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 6
+  - name: "seMY01_10"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 84
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 6
+  - name: "seMY01_11"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 87
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 6
+  - name: "seMY01_09"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 82
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 6
+  - name: "seMY01_09p"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 86
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 89
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 88
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 85
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 86
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 2
+  - name: "seMY01_00a1"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 92
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 6
+  - name: "seBG01_00"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 99
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 6
+  - name: "seBG01_01"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 161
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 3
+    loopStart: 0
+    wrapMode: 6
+  - name: "seBG01_10"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 98
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 6
+  - name: "seBG01_11"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 93
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 6
+  - name: "seBG01_e00"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 97
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 6
+  - name: "seBG01_e00p"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 96
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 8
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 3
+    loopStart: 0
+    wrapMode: 0
+  - name: "seBG01_e10p"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 94
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 6
+  - name: "seBG01_e11p"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 95
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 6
+  - name: "seSK01_00"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 103
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 100
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 101
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 2
+  - name: "seSK01_03"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 107
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 104
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 3
+    loopStart: 0
+    wrapMode: 0
+  - name: "seSK01_07"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 101
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 100
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 108
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 2
+  - name: "seSK01_10"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 109
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 6
+  - name: "seSK01_11"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 106
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 6
+  - name: "seSK01_13"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 102
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 105
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 6
+    loopStart: 0
+    wrapMode: 2
+  - name: "sePL01_08"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 116
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 111
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 110
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 6
+    loopStart: 0
+    wrapMode: 2
+  - name: "sePL01_03"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 113
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 115
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 3
+    loopStart: 0
+    wrapMode: 0
+  - name: "sePL01_09"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 110
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 111
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 117
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 117
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 117
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 111
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 110
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 2
+  - name: "sePL01_10"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 118
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 6
+  - name: "sePL01_11"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 114
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 112
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 6
+    loopStart: 0
+    wrapMode: 0
+  - name: "sePL01_00"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 116
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 6
+  - name: "seWW01_00"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 126
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 6
+  - name: "seWW01_01"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 124
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 6
+  - name: "seWW01_07"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 123
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 121
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 2
+  - name: "seWW01_10"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 125
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 6
+  - name: "seWW01_11"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 122
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 6
+  - name: "seWW01_11p"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 120
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 127
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 6
+    loopStart: 0
+    wrapMode: 0
+  - name: "seTL01_06"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 134
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 129
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 130
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 2
+  - name: "seTL01_03"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 135
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 131
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 3
+    loopStart: 0
+    wrapMode: 0
+  - name: "seTL01_07"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 130
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 129
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 134
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 2
+  - name: "seTL01_10"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 132
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 6
+  - name: "seTL01_11"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 128
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 6
+  - name: "seVP01_00"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 136
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 6
+  - name: "seVP01_09"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 136
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 137
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 2
+  - name: "seVP01_10"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 138
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 6
+  - name: "seVP01_11"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 139
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 6
+  - name: "seAS01_00"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 147
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 6
+  - name: "seAS01_01"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 146
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 6
+  - name: "seAS01_07"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 140
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 6
+  - name: "seAS01_05"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 140
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 145
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 6
+    loopStart: 0
+    wrapMode: 2
+  - name: "seAS01_10"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 148
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 6
+  - name: "seAS01_11"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 144
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 6
+  - name: "seAS01_-01"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 141
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 6
+  - name: "sePR01_00"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 149
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 6
+  - name: "sePR01_01"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 150
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 6
+  - name: "sePR01_10"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 151
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 6
+  - name: "sePR01_11"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 152
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 6
+  - name: "sePR01_e"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 153
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 6
+  - name: "seGH01_00"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 157
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 6
+  - name: "seGH01_03"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 158
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 6
+  - name: "seGH01_10"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 155
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 6
+  - name: "seGH01_11"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 154
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 6
+  - name: "seOG01_08"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 28
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 6
+  - name: "seBG01_07"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 91
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 160
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 162
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 91
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 2
+  - name: "seBG01_06"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 91
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 6
+  - name: "seKN01_06"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 26
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 6
+  - name: "seTL01_00"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 133
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 6
+  - name: "seTFEZ_00"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 169
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 6
+  - name: "seTFEZ_01"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 168
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 171
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 6
+    loopStart: 0
+    wrapMode: 0
+  - name: "seTFEZ_07"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 164
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 167
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 170
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 164
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 2
+  - name: "seTFEZ_10"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 163
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 6
+  - name: "seTFEZ_11"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 165
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 6
+  - name: "seTFEZ_12"
+    frames:
+    - spriteCollection: {fileID: 1791166998363966742, guid: 9c59485db2899a047aeac39f324a6bcd, type: 2}
+      spriteId: 166
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 15
+    loopStart: 0
+    wrapMode: 6

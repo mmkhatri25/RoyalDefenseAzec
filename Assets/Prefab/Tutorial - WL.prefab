@@ -1,0 +1,4343 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1791166996468137418}
+  m_IsPrefabParent: 1
+--- !u!4 &1791166996518469544
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137418}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1791166996518469541}
+  - {fileID: 1791166996518469538}
+  - {fileID: 1791166996518469535}
+  - {fileID: 1791166996518469532}
+  - {fileID: 1791166996518469529}
+  - {fileID: 1791166996518469525}
+  - {fileID: 1791166996518469521}
+  - {fileID: 1791166996518469517}
+  - {fileID: 1791166996518469513}
+  - {fileID: 1791166996518469509}
+  - {fileID: 1791166996518469547}
+  - {fileID: 1791166996518469504}
+  - {fileID: 1791166996518469500}
+  - {fileID: 1791166996518469496}
+  - {fileID: 1791166996518469492}
+  - {fileID: 1791166996518469487}
+  - {fileID: 1791166996518469483}
+  - {fileID: 1791166996518469478}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1791166996518469478
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137362}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.75, y: 1.5, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1791166996518469349}
+  - {fileID: 1791166996518469377}
+  - {fileID: 1791166996518469319}
+  m_Father: {fileID: 1791166996518469544}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1791166996518469483
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137379}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1791166996518469544}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1791166996518469487
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137391}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1791166996518469544}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1791166996518469492
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137358}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.5, y: 0.4, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1791166996518469544}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1791166996518469496
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137383}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3, y: 0.4, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1791166996518469544}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1791166996518469500
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137387}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.5, y: 0.4, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1791166996518469544}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1791166996518469504
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137395}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2, y: 0.3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1791166996518469544}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1791166996518469509
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137374}
+  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 2, y: 0.3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1791166996518469398}
+  m_Father: {fileID: 1791166996518469544}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1791166996518469513
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137353}
+  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 3.5, y: 0.3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1791166996518469413}
+  m_Father: {fileID: 1791166996518469544}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1791166996518469517
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137366}
+  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 3, y: 0.3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1791166996518469424}
+  m_Father: {fileID: 1791166996518469544}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1791166996518469521
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137370}
+  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 2.5, y: 0.3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1791166996518469431}
+  m_Father: {fileID: 1791166996518469544}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1791166996518469525
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137403}
+  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 7, y: 0.141847, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1791166996518469439}
+  m_Father: {fileID: 1791166996518469544}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1791166996518469529
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137415}
+  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 7, y: 0.1418471, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1791166996518469447}
+  m_Father: {fileID: 1791166996518469544}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1791166996518469532
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137400}
+  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 7, y: 0.1418471, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1791166996518469454}
+  m_Father: {fileID: 1791166996518469544}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1791166996518469535
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137412}
+  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 7, y: 0.1418471, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1791166996518469460}
+  m_Father: {fileID: 1791166996518469544}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1791166996518469538
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137409}
+  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 7, y: 0.1418471, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1791166996518469467}
+  m_Father: {fileID: 1791166996518469544}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1791166996518469541
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137406}
+  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 7, y: 0.1418471, z: -2.135474E-07}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1791166996518469473}
+  m_Father: {fileID: 1791166996518469544}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1791166996518469547
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137421}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.300452, y: 0.459296, z: -0.7}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1791166996518469548}
+  - {fileID: 1791166996518469550}
+  m_Father: {fileID: 1791166996518469544}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1791166996518469319
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468136962}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.25, y: 1.78169, z: 5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1791166996518469478}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1791166996518469349
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137224}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 3.18169, z: 1.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1791166996518469283}
+  - {fileID: 1791166996518469237}
+  - {fileID: 1791166996518469184}
+  - {fileID: 1791166996518469087}
+  m_Father: {fileID: 1791166996518469478}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1791166996518469377
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137252}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.25, y: 1.78169, z: 5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1791166996518469478}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1791166996518469398
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137273}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 1.26181E-09, y: 0.37095, z: 0.01058483}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1791166996518469509}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1791166996518469413
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137288}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 1.26181E-09, y: 0.3066114, z: 0.01058483}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1791166996518469513}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1791166996518469424
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137299}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 1.26181E-09, y: 0.3066114, z: 0.01058483}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1791166996518469517}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1791166996518469431
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137306}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 1.26181E-09, y: 0.3066114, z: 0.01058483}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1791166996518469521}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1791166996518469439
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137314}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 1.26181E-09, y: 0.4, z: 0.01058483}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1791166996518469525}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1791166996518469447
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137322}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 1.26181E-09, y: 0.4, z: 0.01058483}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1791166996518469529}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1791166996518469454
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137329}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 1.26181E-09, y: 0.4, z: 0.01058483}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1791166996518469532}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1791166996518469460
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137335}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 1.26181E-09, y: 0.4, z: 0.01058483}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1791166996518469535}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1791166996518469467
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137342}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 1.26181E-09, y: 0.4, z: 0.01058483}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1791166996518469538}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1791166996518469473
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137348}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 1.26181E-09, y: 0.4, z: 0.01058483}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1791166996518469541}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1791166996518469548
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137422}
+  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0.2429664, y: -0.3325759, z: 0.09999999}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1791166996518469549}
+  m_Father: {fileID: 1791166996518469547}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1791166996518469550
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137424}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.316648, y: 0.06450903, z: 0.2336872}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1791166996518469547}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1791166996518469087
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137060}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.05674481, y: -1.098074, z: 3.3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1791166996518469349}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1791166996518469184
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137113}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -1.178864, z: 3.589694}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1791166996518469349}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1791166996518469237
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137159}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.8980744, z: 3.3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1791166996518469349}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1791166996518469283
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137194}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -2.170663, z: 3.4}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1791166996518469349}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1791166996518469549
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137423}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 2.173118E-08, y: 0.46, z: 0.1822944}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1791166996518469548}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1791166996468136962
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791166996518469319}
+  - component: {fileID: 1791166997005009067}
+  - component: {fileID: 1791166996837236667}
+  - component: {fileID: 1791166998363963984}
+  - component: {fileID: 1791166998363963886}
+  m_Layer: 0
+  m_Name: "Portrait R"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1791166996468137060
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791166996518469087}
+  - component: {fileID: 1791166996837236718}
+  - component: {fileID: 1791166997005009118}
+  - component: {fileID: 1791166998363964098}
+  - component: {fileID: 1791166998363964045}
+  m_Layer: 0
+  m_Name: "Story Text"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1791166996468137113
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791166996518469184}
+  - component: {fileID: 1791166997005009159}
+  - component: {fileID: 1791166996837236759}
+  - component: {fileID: 1791166998363964144}
+  m_Layer: 0
+  m_Name: "Sprite0"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1791166996468137159
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791166996518469237}
+  - component: {fileID: 1791166996837236789}
+  - component: {fileID: 1791166997005009189}
+  - component: {fileID: 1791166998363964223}
+  - component: {fileID: 1791166998363964185}
+  m_Layer: 0
+  m_Name: "Speaker Name Text"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1791166996468137194
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791166996518469283}
+  - component: {fileID: 1791166996837236813}
+  - component: {fileID: 1791166997005009213}
+  - component: {fileID: 1791166998363964285}
+  - component: {fileID: 1791166998363964256}
+  m_Layer: 0
+  m_Name: "_Speech Icon"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1791166996468137224
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791166996518469349}
+  m_Layer: 0
+  m_Name: "Speech"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1791166996468137252
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791166996518469377}
+  - component: {fileID: 1791166997005009229}
+  - component: {fileID: 1791166996837236829}
+  - component: {fileID: 1791166998363964355}
+  - component: {fileID: 1791166998363964337}
+  m_Layer: 0
+  m_Name: "Portrait L"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1791166996468137273
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791166996518469398}
+  - component: {fileID: 1791166997005009239}
+  - component: {fileID: 1791166996837236839}
+  - component: {fileID: 1791166998363964388}
+  m_Layer: 0
+  m_Name: "AnimatedSprite"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1791166996468137288
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791166996518469413}
+  - component: {fileID: 1791166997005009248}
+  - component: {fileID: 1791166996837236848}
+  - component: {fileID: 1791166998363964411}
+  m_Layer: 0
+  m_Name: "AnimatedSprite"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1791166996468137299
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791166996518469424}
+  - component: {fileID: 1791166997005009254}
+  - component: {fileID: 1791166996837236854}
+  - component: {fileID: 1791166998363964425}
+  m_Layer: 0
+  m_Name: "AnimatedSprite"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1791166996468137306
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791166996518469431}
+  - component: {fileID: 1791166997005009261}
+  - component: {fileID: 1791166996837236861}
+  - component: {fileID: 1791166998363964438}
+  m_Layer: 0
+  m_Name: "AnimatedSprite"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1791166996468137314
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791166996518469439}
+  - component: {fileID: 1791166997005009266}
+  - component: {fileID: 1791166996837236866}
+  - component: {fileID: 1791166998363964452}
+  m_Layer: 0
+  m_Name: "AnimatedSprite"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1791166996468137322
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791166996518469447}
+  - component: {fileID: 1791166997005009271}
+  - component: {fileID: 1791166996837236871}
+  - component: {fileID: 1791166998363964468}
+  m_Layer: 0
+  m_Name: "AnimatedSprite"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1791166996468137329
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791166996518469454}
+  - component: {fileID: 1791166997005009275}
+  - component: {fileID: 1791166996837236875}
+  - component: {fileID: 1791166998363964479}
+  m_Layer: 0
+  m_Name: "AnimatedSprite"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1791166996468137335
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791166996518469460}
+  - component: {fileID: 1791166997005009279}
+  - component: {fileID: 1791166996837236879}
+  - component: {fileID: 1791166998363964489}
+  m_Layer: 0
+  m_Name: "AnimatedSprite"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1791166996468137342
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791166996518469467}
+  - component: {fileID: 1791166997005009283}
+  - component: {fileID: 1791166996837236883}
+  - component: {fileID: 1791166998363964499}
+  m_Layer: 0
+  m_Name: "AnimatedSprite"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1791166996468137348
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791166996518469473}
+  - component: {fileID: 1791166997005009287}
+  - component: {fileID: 1791166996837236887}
+  - component: {fileID: 1791166998363964509}
+  m_Layer: 0
+  m_Name: "AnimatedSprite"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1791166996468137353
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791166996518469513}
+  - component: {fileID: 1791166998363964418}
+  m_Layer: 0
+  m_Name: "_Character Guard 3"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1791166996468137358
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791166996518469492}
+  m_Layer: 0
+  m_Name: "Character Position"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1791166996468137362
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791166996518469478}
+  - component: {fileID: 1791166998363964374}
+  m_Layer: 0
+  m_Name: "Story Elements"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1791166996468137366
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791166996518469517}
+  - component: {fileID: 1791166998363964431}
+  m_Layer: 0
+  m_Name: "_Character Guard 2"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1791166996468137370
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791166996518469521}
+  - component: {fileID: 1791166998363964445}
+  m_Layer: 0
+  m_Name: "_Character Guard 1"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1791166996468137374
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791166996518469509}
+  - component: {fileID: 1791166998363964400}
+  m_Layer: 0
+  m_Name: "_Character Main"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1791166996468137379
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791166996518469483}
+  - component: {fileID: 1791166998363964313}
+  m_Layer: 0
+  m_Name: "Scene Pool"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1791166996468137383
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791166996518469496}
+  m_Layer: 0
+  m_Name: "Character Position"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1791166996468137387
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791166996518469500}
+  m_Layer: 0
+  m_Name: "Character Position"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1791166996468137391
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791166996518469487}
+  m_Layer: 0
+  m_Name: "Shard Position"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1791166996468137395
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791166996518469504}
+  m_Layer: 0
+  m_Name: "Character Position"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1791166996468137400
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791166996518469532}
+  - component: {fileID: 1791166998363964484}
+  m_Layer: 0
+  m_Name: "_Character Castle Guard 4"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1791166996468137403
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791166996518469525}
+  - component: {fileID: 1791166998363964460}
+  m_Layer: 0
+  m_Name: "_Character Castle Guard 6"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1791166996468137406
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791166996518469541}
+  - component: {fileID: 1791166998363964514}
+  m_Layer: 0
+  m_Name: "_Character Castle Guard 1"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1791166996468137409
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791166996518469538}
+  - component: {fileID: 1791166998363964504}
+  m_Layer: 0
+  m_Name: "_Character Castle Guard 2"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1791166996468137412
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791166996518469535}
+  - component: {fileID: 1791166998363964494}
+  m_Layer: 0
+  m_Name: "_Character Castle Guard 3"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1791166996468137415
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791166996518469529}
+  - component: {fileID: 1791166998363964474}
+  m_Layer: 0
+  m_Name: "_Character Castle Guard 5"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1791166996468137418
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791166996518469544}
+  - component: {fileID: 1791166998363964519}
+  m_Layer: 0
+  m_Name: "Tutorial - WL"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1791166996468137421
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791166996518469547}
+  - component: {fileID: 1791166996837236891}
+  - component: {fileID: 1791166997005009291}
+  - component: {fileID: 1791166998363964524}
+  m_Layer: 0
+  m_Name: "cage"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1791166996468137422
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791166996518469548}
+  - component: {fileID: 1791166998363964527}
+  m_Layer: 0
+  m_Name: "_Character King"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1791166996468137423
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791166996518469549}
+  - component: {fileID: 1791166997005009293}
+  - component: {fileID: 1791166996837236893}
+  - component: {fileID: 1791166998363964530}
+  m_Layer: 0
+  m_Name: "AnimatedSprite"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1791166996468137424
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791166996518469550}
+  - component: {fileID: 1791166997005009295}
+  - component: {fileID: 1791166996837236895}
+  - component: {fileID: 1791166998363964533}
+  m_Layer: 2
+  m_Name: "Throne"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &1791166996837236667
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468136962}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 0
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: e23a61ce08514559b5aa8a11e41df7c2, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &1791166996837236718
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137060}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 0
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: d969f3a4f85b4921b99d748c749ce860, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &1791166996837236759
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137113}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 0
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 28659de96f3945b7bddf5c675eb523ec, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &1791166996837236789
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137159}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 0
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: d969f3a4f85b4921b99d748c749ce860, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &1791166996837236813
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137194}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 0
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 5eb46a0b28e14c659445e31e283e13bd, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &1791166996837236829
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137252}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 0
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: e23a61ce08514559b5aa8a11e41df7c2, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &1791166996837236839
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137273}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 0
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: e23a61ce08514559b5aa8a11e41df7c2, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &1791166996837236848
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137288}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 0
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: e23a61ce08514559b5aa8a11e41df7c2, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &1791166996837236854
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137299}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 0
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: e23a61ce08514559b5aa8a11e41df7c2, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &1791166996837236861
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137306}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 0
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: e23a61ce08514559b5aa8a11e41df7c2, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &1791166996837236866
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137314}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 0
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 5eb46a0b28e14c659445e31e283e13bd, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &1791166996837236871
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137322}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 0
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 5eb46a0b28e14c659445e31e283e13bd, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &1791166996837236875
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137329}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 0
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 5eb46a0b28e14c659445e31e283e13bd, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &1791166996837236879
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137335}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 0
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 5eb46a0b28e14c659445e31e283e13bd, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &1791166996837236883
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137342}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 0
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 5eb46a0b28e14c659445e31e283e13bd, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &1791166996837236887
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137348}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 0
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 5eb46a0b28e14c659445e31e283e13bd, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &1791166996837236891
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137421}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 0
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: a9273b8536e0420584bd7908589e49fd, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &1791166996837236893
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137423}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 0
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 5eb46a0b28e14c659445e31e283e13bd, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &1791166996837236895
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137424}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 0
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 416074191d94475ba44843e493506b00, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1791166997005009067
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468136962}
+  m_Mesh: {fileID: 0}
+--- !u!33 &1791166997005009118
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137060}
+  m_Mesh: {fileID: 0}
+--- !u!33 &1791166997005009159
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137113}
+  m_Mesh: {fileID: 0}
+--- !u!33 &1791166997005009189
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137159}
+  m_Mesh: {fileID: 0}
+--- !u!33 &1791166997005009213
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137194}
+  m_Mesh: {fileID: 0}
+--- !u!33 &1791166997005009229
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137252}
+  m_Mesh: {fileID: 0}
+--- !u!33 &1791166997005009239
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137273}
+  m_Mesh: {fileID: 0}
+--- !u!33 &1791166997005009248
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137288}
+  m_Mesh: {fileID: 0}
+--- !u!33 &1791166997005009254
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137299}
+  m_Mesh: {fileID: 0}
+--- !u!33 &1791166997005009261
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137306}
+  m_Mesh: {fileID: 0}
+--- !u!33 &1791166997005009266
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137314}
+  m_Mesh: {fileID: 0}
+--- !u!33 &1791166997005009271
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137322}
+  m_Mesh: {fileID: 0}
+--- !u!33 &1791166997005009275
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137329}
+  m_Mesh: {fileID: 0}
+--- !u!33 &1791166997005009279
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137335}
+  m_Mesh: {fileID: 0}
+--- !u!33 &1791166997005009283
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137342}
+  m_Mesh: {fileID: 0}
+--- !u!33 &1791166997005009287
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137348}
+  m_Mesh: {fileID: 0}
+--- !u!33 &1791166997005009291
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137421}
+  m_Mesh: {fileID: 0}
+--- !u!33 &1791166997005009293
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137423}
+  m_Mesh: {fileID: 0}
+--- !u!33 &1791166997005009295
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137424}
+  m_Mesh: {fileID: 0}
+--- !u!114 &1791166998363963886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468136962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecf7b5b7c4ea4b4bd35eb8fecab2edf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activateType: 0
+  activate: 0
+  regularScale: 1
+  expandScale: 1.5
+  expandSpeed: 0.1
+--- !u!114 &1791166998363963984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468136962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88b38e574083bff5c2b7fda14c33d7c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collection: {fileID: 1791166998363963981, guid: 7134ee94a5b652041b7b2913edb8c622, type: 2}
+  _color: {r: 1, g: 1, b: 1, a: 1}
+  _scale: {x: 2.5, y: 2.5, z: 3}
+  _spriteId: 12
+  pixelPerfect: 0
+  boxCollider: {fileID: 0}
+  meshCollider: {fileID: 0}
+  meshColliderPositions: []
+  meshColliderMesh: {fileID: 0}
+  anim: {fileID: 1791166998363963953, guid: 7d4963f04c50c4d49a82fb5ef36a7164, type: 2}
+  clipId: 0
+  playAutomatically: 0
+  paused: 0
+  createCollider: 0
+--- !u!114 &1791166998363964045
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137060}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecf7b5b7c4ea4b4bd35eb8fecab2edf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activateType: 0
+  activate: 0
+  regularScale: 1
+  expandScale: 1.5
+  expandSpeed: 0.1
+--- !u!114 &1791166998363964098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137060}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 900cdaa12bf5f7a3ed38d0ff948dacb0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _font: {fileID: 1791166998363963982, guid: 44e006873ca04f741b2ac3ba5dec92ad, type: 2}
+  _text: "omg! he is gone!!!\nwhere can he be?"
+  _color: {r: 1, g: 1, b: 1, a: 1}
+  _color2: {r: 1, g: 1, b: 1, a: 1}
+  _useGradient: 0
+  _textureGradient: 0
+  _anchor: 1
+  _scale: {x: 2, y: 2, z: 2}
+  _kerning: 0
+  _maxChars: 1000
+  _inlineStyling: 0
+  pixelPerfect: 0
+  spacing: 0
+  lineSpacing: 0
+--- !u!114 &1791166998363964144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02bff1f49f3a92e3c875f389f7423c11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collection: {fileID: 1791166998363963963, guid: c86c7286b3c92f14da400ff8cf8610e7, type: 2}
+  _color: {r: 0, g: 0, b: 0, a: 0.5882353}
+  _scale: {x: 30, y: 3, z: 3}
+  _spriteId: 39
+  pixelPerfect: 0
+  boxCollider: {fileID: 0}
+  meshCollider: {fileID: 0}
+  meshColliderPositions: []
+  meshColliderMesh: {fileID: 0}
+--- !u!114 &1791166998363964185
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecf7b5b7c4ea4b4bd35eb8fecab2edf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activateType: 0
+  activate: 0
+  regularScale: 1
+  expandScale: 1.5
+  expandSpeed: 0.1
+--- !u!114 &1791166998363964223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 900cdaa12bf5f7a3ed38d0ff948dacb0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _font: {fileID: 1791166998363963982, guid: 44e006873ca04f741b2ac3ba5dec92ad, type: 2}
+  _text: "wink:"
+  _color: {r: 1, g: 1, b: 1, a: 1}
+  _color2: {r: 1, g: 1, b: 1, a: 1}
+  _useGradient: 0
+  _textureGradient: 0
+  _anchor: 4
+  _scale: {x: 3, y: 3, z: 3}
+  _kerning: 0
+  _maxChars: 1000
+  _inlineStyling: 0
+  pixelPerfect: 0
+  spacing: 0
+  lineSpacing: 0
+--- !u!114 &1791166998363964256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6af08e70f16148b9ba4f8d721c8b18e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  state: 0
+--- !u!114 &1791166998363964285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88b38e574083bff5c2b7fda14c33d7c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collection: {fileID: 1791166998363963974, guid: 9f78d679d1052a54ba396d7bffccadf5, type: 2}
+  _color: {r: 1, g: 1, b: 1, a: 1}
+  _scale: {x: 1.5, y: 1.5, z: 3}
+  _spriteId: 35
+  pixelPerfect: 0
+  boxCollider: {fileID: 0}
+  meshCollider: {fileID: 0}
+  meshColliderPositions: []
+  meshColliderMesh: {fileID: 0}
+  anim: {fileID: 1791166998363963973, guid: afe3b5289a291854288474decd9454fb, type: 2}
+  clipId: 19
+  playAutomatically: 0
+  paused: 0
+  createCollider: 0
+--- !u!114 &1791166998363964313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137379}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c883ea58117e6fa3750e04749c9af6d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  poolName: "Scene Pool"
+  dontDestroyOnLoad: 0
+  logMessages: 0
+  _perPrefabPoolOptions:
+  - prefab: {fileID: 1791166996518469391, guid: 3ff431de3a09ce24199952aaa14069cd, type: 2}
+    preloadAmount: 1
+    limitInstances: 0
+    limitAmount: 100
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+  - prefab: {fileID: 1791166996518469392, guid: 6d036a7d1e7a32e4da4381a9a0fbbaea, type: 2}
+    preloadAmount: 1
+    limitInstances: 0
+    limitAmount: 100
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+  - prefab: {fileID: 1791166996518469393, guid: 9eb829d0612668f4aaf01d3615f752ed, type: 2}
+    preloadAmount: 3
+    limitInstances: 0
+    limitAmount: 100
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+  maxParticleDespawnTime: 60
+--- !u!114 &1791166998363964337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecf7b5b7c4ea4b4bd35eb8fecab2edf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activateType: 0
+  activate: 0
+  regularScale: 1
+  expandScale: 1.5
+  expandSpeed: 0.1
+--- !u!114 &1791166998363964355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88b38e574083bff5c2b7fda14c33d7c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collection: {fileID: 1791166998363963981, guid: 7134ee94a5b652041b7b2913edb8c622, type: 2}
+  _color: {r: 1, g: 1, b: 1, a: 1}
+  _scale: {x: 2.5, y: 2.5, z: 3}
+  _spriteId: 12
+  pixelPerfect: 0
+  boxCollider: {fileID: 0}
+  meshCollider: {fileID: 0}
+  meshColliderPositions: []
+  meshColliderMesh: {fileID: 0}
+  anim: {fileID: 1791166998363963953, guid: 7d4963f04c50c4d49a82fb5ef36a7164, type: 2}
+  clipId: 0
+  playAutomatically: 0
+  paused: 0
+  createCollider: 0
+--- !u!114 &1791166998363964374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e17059e351424c4d4f7899627cf5ee0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  portraitLeft: 
+  portraitRight: 
+  speakerName: 
+  speakerSpeech: 
+  portraitLeftSprite: {fileID: 1791166998363964355}
+  portraitLeftSpritePopEffet: {fileID: 1791166998363964337}
+  portraitRightSprite: {fileID: 1791166998363963984}
+  portraitRightSpritePopEffet: {fileID: 1791166998363963886}
+  speechObject: {fileID: 1791166996468137224}
+  speakerNameText: {fileID: 1791166998363964223}
+  speakerNamePopEffet: {fileID: 1791166998363964185}
+  speakerSpeechText: {fileID: 1791166998363964098}
+  speakerTextPopEffet: {fileID: 1791166998363964045}
+--- !u!114 &1791166998363964388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88b38e574083bff5c2b7fda14c33d7c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collection: {fileID: 1791166998363963981, guid: 7134ee94a5b652041b7b2913edb8c622, type: 2}
+  _color: {r: 1, g: 1, b: 1, a: 1}
+  _scale: {x: -1.9, y: 1.9, z: 2.4}
+  _spriteId: 1
+  pixelPerfect: 0
+  boxCollider: {fileID: 0}
+  meshCollider: {fileID: 0}
+  meshColliderPositions: []
+  meshColliderMesh: {fileID: 0}
+  anim: {fileID: 1791166998363963980, guid: a9364034a94151f48b0a551e8ce20a76, type: 2}
+  clipId: 1
+  playAutomatically: 1
+  paused: 0
+  createCollider: 0
+--- !u!114 &1791166998363964400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137374}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd9fbd11cac6ba04256a9e118a914635, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 1791166998363964388}
+  playAnimationName: "WZ_N1"
+  movingAnimationName: "WZ_N1"
+  characterDirection: 0
+  movementSpeed: 1
+  moveForward: 0
+  moveUp: 0
+  characterAction: 0
+  sceneLogic: {fileID: 0}
+  tutorialLogic: {fileID: 1791166998363964519}
+--- !u!114 &1791166998363964411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88b38e574083bff5c2b7fda14c33d7c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collection: {fileID: 1791166998363963981, guid: 7134ee94a5b652041b7b2913edb8c622, type: 2}
+  _color: {r: 1, g: 1, b: 1, a: 1}
+  _scale: {x: -2.4, y: 2.4, z: 2.4}
+  _spriteId: 14
+  pixelPerfect: 0
+  boxCollider: {fileID: 0}
+  meshCollider: {fileID: 0}
+  meshColliderPositions: []
+  meshColliderMesh: {fileID: 0}
+  anim: {fileID: 1791166998363963980, guid: a9364034a94151f48b0a551e8ce20a76, type: 2}
+  clipId: 11
+  playAutomatically: 1
+  paused: 0
+  createCollider: 0
+--- !u!114 &1791166998363964418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137353}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd9fbd11cac6ba04256a9e118a914635, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 1791166998363964411}
+  playAnimationName: "pgWZ_00"
+  movingAnimationName: "pgWZ_02"
+  characterDirection: 0
+  movementSpeed: 1
+  moveForward: 0
+  moveUp: 0
+  characterAction: 0
+  sceneLogic: {fileID: 0}
+  tutorialLogic: {fileID: 1791166998363964519}
+--- !u!114 &1791166998363964425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137299}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88b38e574083bff5c2b7fda14c33d7c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collection: {fileID: 1791166998363963981, guid: 7134ee94a5b652041b7b2913edb8c622, type: 2}
+  _color: {r: 1, g: 1, b: 1, a: 1}
+  _scale: {x: -2.4, y: 2.4, z: 2.4}
+  _spriteId: 14
+  pixelPerfect: 0
+  boxCollider: {fileID: 0}
+  meshCollider: {fileID: 0}
+  meshColliderPositions: []
+  meshColliderMesh: {fileID: 0}
+  anim: {fileID: 1791166998363963980, guid: a9364034a94151f48b0a551e8ce20a76, type: 2}
+  clipId: 11
+  playAutomatically: 1
+  paused: 0
+  createCollider: 0
+--- !u!114 &1791166998363964431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137366}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd9fbd11cac6ba04256a9e118a914635, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 1791166998363964425}
+  playAnimationName: "pgWZ_00"
+  movingAnimationName: "pgWZ_02"
+  characterDirection: 0
+  movementSpeed: 1
+  moveForward: 0
+  moveUp: 0
+  characterAction: 0
+  sceneLogic: {fileID: 0}
+  tutorialLogic: {fileID: 1791166998363964519}
+--- !u!114 &1791166998363964438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88b38e574083bff5c2b7fda14c33d7c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collection: {fileID: 1791166998363963981, guid: 7134ee94a5b652041b7b2913edb8c622, type: 2}
+  _color: {r: 1, g: 1, b: 1, a: 1}
+  _scale: {x: -2.4, y: 2.4, z: 2.4}
+  _spriteId: 14
+  pixelPerfect: 0
+  boxCollider: {fileID: 0}
+  meshCollider: {fileID: 0}
+  meshColliderPositions: []
+  meshColliderMesh: {fileID: 0}
+  anim: {fileID: 1791166998363963980, guid: a9364034a94151f48b0a551e8ce20a76, type: 2}
+  clipId: 11
+  playAutomatically: 1
+  paused: 0
+  createCollider: 0
+--- !u!114 &1791166998363964445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137370}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd9fbd11cac6ba04256a9e118a914635, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 1791166998363964438}
+  playAnimationName: "pgWZ_00"
+  movingAnimationName: "pgWZ_02"
+  characterDirection: 0
+  movementSpeed: 1
+  moveForward: 0
+  moveUp: 0
+  characterAction: 0
+  sceneLogic: {fileID: 0}
+  tutorialLogic: {fileID: 1791166998363964519}
+--- !u!114 &1791166998363964452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88b38e574083bff5c2b7fda14c33d7c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collection: {fileID: 1791166998363963974, guid: 9f78d679d1052a54ba396d7bffccadf5, type: 2}
+  _color: {r: 1, g: 1, b: 1, a: 1}
+  _scale: {x: -2.4, y: 2.4, z: 2.4}
+  _spriteId: 7
+  pixelPerfect: 0
+  boxCollider: {fileID: 0}
+  meshCollider: {fileID: 0}
+  meshColliderPositions: []
+  meshColliderMesh: {fileID: 0}
+  anim: {fileID: 1791166998363963973, guid: afe3b5289a291854288474decd9454fb, type: 2}
+  clipId: 1
+  playAutomatically: 1
+  paused: 0
+  createCollider: 0
+--- !u!114 &1791166998363964460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137403}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd9fbd11cac6ba04256a9e118a914635, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 1791166998363964452}
+  playAnimationName: "guard_idle"
+  movingAnimationName: "guard_run"
+  characterDirection: 0
+  movementSpeed: 1
+  moveForward: 0
+  moveUp: 0
+  characterAction: 3
+  sceneLogic: {fileID: 0}
+  tutorialLogic: {fileID: 0}
+--- !u!114 &1791166998363964468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88b38e574083bff5c2b7fda14c33d7c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collection: {fileID: 1791166998363963974, guid: 9f78d679d1052a54ba396d7bffccadf5, type: 2}
+  _color: {r: 1, g: 1, b: 1, a: 1}
+  _scale: {x: -2.4, y: 2.4, z: 2.4}
+  _spriteId: 7
+  pixelPerfect: 0
+  boxCollider: {fileID: 0}
+  meshCollider: {fileID: 0}
+  meshColliderPositions: []
+  meshColliderMesh: {fileID: 0}
+  anim: {fileID: 1791166998363963973, guid: afe3b5289a291854288474decd9454fb, type: 2}
+  clipId: 1
+  playAutomatically: 1
+  paused: 0
+  createCollider: 0
+--- !u!114 &1791166998363964474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137415}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd9fbd11cac6ba04256a9e118a914635, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 1791166998363964468}
+  playAnimationName: "guard_idle"
+  movingAnimationName: "guard_run"
+  characterDirection: 0
+  movementSpeed: 1
+  moveForward: 0
+  moveUp: 0
+  characterAction: 3
+  sceneLogic: {fileID: 0}
+  tutorialLogic: {fileID: 0}
+--- !u!114 &1791166998363964479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137329}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88b38e574083bff5c2b7fda14c33d7c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collection: {fileID: 1791166998363963974, guid: 9f78d679d1052a54ba396d7bffccadf5, type: 2}
+  _color: {r: 1, g: 1, b: 1, a: 1}
+  _scale: {x: -2.4, y: 2.4, z: 2.4}
+  _spriteId: 7
+  pixelPerfect: 0
+  boxCollider: {fileID: 0}
+  meshCollider: {fileID: 0}
+  meshColliderPositions: []
+  meshColliderMesh: {fileID: 0}
+  anim: {fileID: 1791166998363963973, guid: afe3b5289a291854288474decd9454fb, type: 2}
+  clipId: 1
+  playAutomatically: 1
+  paused: 0
+  createCollider: 0
+--- !u!114 &1791166998363964484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd9fbd11cac6ba04256a9e118a914635, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 1791166998363964479}
+  playAnimationName: "guard_idle"
+  movingAnimationName: "guard_run"
+  characterDirection: 0
+  movementSpeed: 1
+  moveForward: 0
+  moveUp: 0
+  characterAction: 3
+  sceneLogic: {fileID: 0}
+  tutorialLogic: {fileID: 0}
+--- !u!114 &1791166998363964489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137335}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88b38e574083bff5c2b7fda14c33d7c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collection: {fileID: 1791166998363963974, guid: 9f78d679d1052a54ba396d7bffccadf5, type: 2}
+  _color: {r: 1, g: 1, b: 1, a: 1}
+  _scale: {x: -2.4, y: 2.4, z: 2.4}
+  _spriteId: 7
+  pixelPerfect: 0
+  boxCollider: {fileID: 0}
+  meshCollider: {fileID: 0}
+  meshColliderPositions: []
+  meshColliderMesh: {fileID: 0}
+  anim: {fileID: 1791166998363963973, guid: afe3b5289a291854288474decd9454fb, type: 2}
+  clipId: 1
+  playAutomatically: 1
+  paused: 0
+  createCollider: 0
+--- !u!114 &1791166998363964494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137412}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd9fbd11cac6ba04256a9e118a914635, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 1791166998363964489}
+  playAnimationName: "guard_idle"
+  movingAnimationName: "guard_run"
+  characterDirection: 0
+  movementSpeed: 1
+  moveForward: 0
+  moveUp: 0
+  characterAction: 3
+  sceneLogic: {fileID: 0}
+  tutorialLogic: {fileID: 0}
+--- !u!114 &1791166998363964499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88b38e574083bff5c2b7fda14c33d7c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collection: {fileID: 1791166998363963974, guid: 9f78d679d1052a54ba396d7bffccadf5, type: 2}
+  _color: {r: 1, g: 1, b: 1, a: 1}
+  _scale: {x: -2.4, y: 2.4, z: 2.4}
+  _spriteId: 7
+  pixelPerfect: 0
+  boxCollider: {fileID: 0}
+  meshCollider: {fileID: 0}
+  meshColliderPositions: []
+  meshColliderMesh: {fileID: 0}
+  anim: {fileID: 1791166998363963973, guid: afe3b5289a291854288474decd9454fb, type: 2}
+  clipId: 1
+  playAutomatically: 1
+  paused: 0
+  createCollider: 0
+--- !u!114 &1791166998363964504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137409}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd9fbd11cac6ba04256a9e118a914635, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 1791166998363964499}
+  playAnimationName: "guard_idle"
+  movingAnimationName: "guard_run"
+  characterDirection: 0
+  movementSpeed: 1
+  moveForward: 0
+  moveUp: 0
+  characterAction: 3
+  sceneLogic: {fileID: 0}
+  tutorialLogic: {fileID: 0}
+--- !u!114 &1791166998363964509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88b38e574083bff5c2b7fda14c33d7c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collection: {fileID: 1791166998363963974, guid: 9f78d679d1052a54ba396d7bffccadf5, type: 2}
+  _color: {r: 1, g: 1, b: 1, a: 1}
+  _scale: {x: -2.4, y: 2.4, z: 2.4}
+  _spriteId: 7
+  pixelPerfect: 0
+  boxCollider: {fileID: 0}
+  meshCollider: {fileID: 0}
+  meshColliderPositions: []
+  meshColliderMesh: {fileID: 0}
+  anim: {fileID: 1791166998363963973, guid: afe3b5289a291854288474decd9454fb, type: 2}
+  clipId: 1
+  playAutomatically: 1
+  paused: 0
+  createCollider: 0
+--- !u!114 &1791166998363964514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137406}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd9fbd11cac6ba04256a9e118a914635, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 1791166998363964509}
+  playAnimationName: "guard_idle"
+  movingAnimationName: "guard_run"
+  characterDirection: 0
+  movementSpeed: 1
+  moveForward: 0
+  moveUp: 0
+  characterAction: 3
+  sceneLogic: {fileID: 0}
+  tutorialLogic: {fileID: 0}
+--- !u!114 &1791166998363964519
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137418}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f607ff1c0af3e358d34add020c855a04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  regularClick: {fileID: 8300000, guid: 397fd9ec01164db1a7b83ed7385dbfae, type: 3}
+  actCompleteClick: {fileID: 8300000, guid: 6b39b4ddea0543cf9b669dd559437316, type: 3}
+  continueScene: 0
+  actComplete: 0
+  state: 0
+  act: 0
+  actSceneNumber: 0
+  sceneNumber: 0
+  ActObject:
+  - Act:
+    - actSpawn: {fileID: 1791166996468137266, guid: 3ff431de3a09ce24199952aaa14069cd, type: 2}
+      actSpawnLocation: {fileID: 1791166996518469504}
+      Inst: {fileID: 0}
+  - Act:
+    - actSpawn: {fileID: 1791166996468137147, guid: 5f845ffcf41ddc94ea83f02cf43160bd, type: 2}
+      actSpawnLocation: {fileID: 1791166996518469487}
+      Inst: {fileID: 0}
+    - actSpawn: {fileID: 1791166996468137148, guid: 2b1b9b302534eb64e98a93e88bf3d1df, type: 2}
+      actSpawnLocation: {fileID: 1791166996518469487}
+      Inst: {fileID: 0}
+    - actSpawn: {fileID: 1791166996468137149, guid: 44659df0321f15b45886deb2ce9e1132, type: 2}
+      actSpawnLocation: {fileID: 1791166996518469487}
+      Inst: {fileID: 0}
+  - Act:
+    - actSpawn: {fileID: 1791166996468137268, guid: 9eb829d0612668f4aaf01d3615f752ed, type: 2}
+      actSpawnLocation: {fileID: 1791166996518469500}
+      Inst: {fileID: 0}
+    - actSpawn: {fileID: 1791166996468137268, guid: 9eb829d0612668f4aaf01d3615f752ed, type: 2}
+      actSpawnLocation: {fileID: 1791166996518469496}
+      Inst: {fileID: 0}
+    - actSpawn: {fileID: 1791166996468137268, guid: 9eb829d0612668f4aaf01d3615f752ed, type: 2}
+      actSpawnLocation: {fileID: 1791166996518469492}
+      Inst: {fileID: 0}
+    - actSpawn: {fileID: 1791166996468137267, guid: 6d036a7d1e7a32e4da4381a9a0fbbaea, type: 2}
+      actSpawnLocation: {fileID: 1791166996518469504}
+      Inst: {fileID: 0}
+  - Act: []
+  shardDrop: {fileID: 1791166996468137014, guid: 91ea70a1132679e448091fd9a382706f, type: 2}
+  shardDropPosition: {fileID: 1791166996518469487}
+  ActScenes:
+  - Scenes:
+    - act: 0
+      sceneDelay: 0
+      Character: []
+      sceneSound: {fileID: 0}
+      speechPortraitLeft: 
+      speechPortraitRight: 
+      speechSpeakerName: 
+      speechText: 
+    - act: 0
+      sceneDelay: 0
+      Character:
+      - characterObject: {fileID: 1791166998363964400}
+        playAnimationName: 
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 3
+      sceneSound: {fileID: 0}
+      speechPortraitLeft: 
+      speechPortraitRight: "pp_WZ"
+      speechSpeakerName: "wink"
+      speechText: "blink!! you let the king go, this instant!!"
+    - act: 0
+      sceneDelay: 0
+      Character:
+      - characterObject: {fileID: 1791166998363964400}
+        playAnimationName: 
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 3
+      sceneSound: {fileID: 0}
+      speechPortraitLeft: 
+      speechPortraitRight: "pp_WZ"
+      speechSpeakerName: "wink"
+      speechText: "his highness has important meetings to attend!"
+    - act: 0
+      sceneDelay: 0
+      Character:
+      - characterObject: {fileID: 1791166998363964400}
+        playAnimationName: 
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 0
+      sceneSound: {fileID: 0}
+      speechPortraitLeft: "pp_WL"
+      speechPortraitRight: 
+      speechSpeakerName: "blink"
+      speechText: "as i mention earlier, all we want is what is owed to us, \nnothing
+      more, nothing less."
+    - act: 0
+      sceneDelay: 0
+      Character:
+      - characterObject: {fileID: 1791166998363964400}
+        playAnimationName: 
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 3
+      sceneSound: {fileID: 0}
+      speechPortraitLeft: 
+      speechPortraitRight: "pp_WZ"
+      speechSpeakerName: "wink"
+      speechText: "@#$%!...(sigh)\u2026 your highness! could you simply pay the \nman, so
+      that we may be on our way?!"
+    - act: 0
+      sceneDelay: 0
+      Character:
+      - characterObject: {fileID: 1791166998363964400}
+        playAnimationName: 
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 0
+      - characterObject: {fileID: 1791166998363964527}
+        playAnimationName: 
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 3
+      sceneSound: {fileID: 0}
+      speechPortraitLeft: "sp_king"
+      speechPortraitRight: 
+      speechSpeakerName: "king"
+      speechText: "this thug is not getting anything from me."
+    - act: 0
+      sceneDelay: 0
+      Character:
+      - characterObject: {fileID: 1791166998363964400}
+        playAnimationName: 
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 3
+      - characterObject: {fileID: 1791166998363964527}
+        playAnimationName: 
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 0
+      sceneSound: {fileID: 0}
+      speechPortraitLeft: 
+      speechPortraitRight: "pp_WZ"
+      speechSpeakerName: "wink"
+      speechText: "@#$%!...(sigh)\u2026ok blink, how much does his kingship \nowe you this
+      day?"
+    - act: 0
+      sceneDelay: 0
+      Character:
+      - characterObject: {fileID: 1791166998363964400}
+        playAnimationName: 
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 0
+      - characterObject: {fileID: 1791166998363964527}
+        playAnimationName: "king_angry"
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 3
+      sceneSound: {fileID: 0}
+      speechPortraitLeft: "sp_king"
+      speechPortraitRight: 
+      speechSpeakerName: "king"
+      speechText: "DON'T YOU DARE! don't you dare! i'm warning you, wink!"
+    - act: 0
+      sceneDelay: 0
+      Character:
+      - characterObject: {fileID: 1791166998363964400}
+        playAnimationName: 
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 0
+      - characterObject: {fileID: 1791166998363964527}
+        playAnimationName: "king_mad"
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 0
+      sceneSound: {fileID: 0}
+      speechPortraitLeft: "pp_WL"
+      speechPortraitRight: 
+      speechSpeakerName: "blink"
+      speechText: "hehehe, you have no choice! you want to make it to \nyour meetings,
+      then pay up!"
+    - act: 0
+      sceneDelay: 0
+      Character:
+      - characterObject: {fileID: 1791166998363964400}
+        playAnimationName: 
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 0
+      - characterObject: {fileID: 1791166998363964527}
+        playAnimationName: "king_angry"
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 4
+      sceneSound: {fileID: 0}
+      speechPortraitLeft: "sp_king"
+      speechPortraitRight: 
+      speechSpeakerName: "king"
+      speechText: "blasted jinx! ignore his demands and get me \nout this instance!"
+    - act: 0
+      sceneDelay: 0
+      Character:
+      - characterObject: {fileID: 1791166998363964400}
+        playAnimationName: 
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 4
+      - characterObject: {fileID: 1791166998363964527}
+        playAnimationName: "king_angry"
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 3
+      sceneSound: {fileID: 0}
+      speechPortraitLeft: 
+      speechPortraitRight: "pp_WZ"
+      speechSpeakerName: "wink"
+      speechText: "ah... ah... yes milord!"
+    - act: 1
+      sceneDelay: 0
+      Character:
+      - characterObject: {fileID: 1791166998363964400}
+        playAnimationName: 
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 100
+        moveForward: -20
+        moveUp: 0
+        characterAction: 0
+      - characterObject: {fileID: 1791166998363964527}
+        playAnimationName: "king_angry"
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 3
+      sceneSound: {fileID: 0}
+      speechPortraitLeft: 
+      speechPortraitRight: 
+      speechSpeakerName: 
+      speechText: 
+    - act: 0
+      sceneDelay: 2
+      Character:
+      - characterObject: {fileID: 1791166998363964400}
+        playAnimationName: 
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 100
+        moveForward: 20
+        moveUp: 0
+        characterAction: 0
+      - characterObject: {fileID: 1791166998363964527}
+        playAnimationName: "king_angry"
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 3
+      sceneSound: {fileID: 0}
+      speechPortraitLeft: 
+      speechPortraitRight: 
+      speechSpeakerName: 
+      speechText: " "
+  - Scenes:
+    - act: 0
+      sceneDelay: 0
+      Character: []
+      sceneSound: {fileID: 0}
+      speechPortraitLeft: 
+      speechPortraitRight: 
+      speechSpeakerName: 
+      speechText: 
+    - act: -4
+      sceneDelay: 0
+      Character: []
+      sceneSound: {fileID: 0}
+      speechPortraitLeft: "pp_WL"
+      speechPortraitRight: 
+      speechSpeakerName: "blink"
+      speechText: "'mana shards!'"
+    - act: 0
+      sceneDelay: 0
+      Character: []
+      sceneSound: {fileID: 0}
+      speechPortraitLeft: "pp_WL"
+      speechPortraitRight: 
+      speechSpeakerName: "blink"
+      speechText: "'gathering them will fuel mine magic! it would be \nbest if i collect
+      them before they dissolve!'"
+    - act: 2
+      sceneDelay: 0
+      Character: []
+      sceneSound: {fileID: 0}
+      speechPortraitLeft: 
+      speechPortraitRight: 
+      speechSpeakerName: 
+      speechText: 
+  - Scenes:
+    - act: 0
+      sceneDelay: 0
+      Character: []
+      sceneSound: {fileID: 0}
+      speechPortraitLeft: 
+      speechPortraitRight: 
+      speechSpeakerName: 
+      speechText: 
+    - act: 0
+      sceneDelay: 0
+      Character:
+      - characterObject: {fileID: 1791166998363964400}
+        playAnimationName: 
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 0
+      - characterObject: {fileID: 1791166998363964527}
+        playAnimationName: "king_angry"
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 3
+      sceneSound: {fileID: 0}
+      speechPortraitLeft: "sp_king"
+      speechPortraitRight: 
+      speechSpeakerName: "king"
+      speechText: "useless! useless ingrates! the lot of you!"
+    - act: 0
+      sceneDelay: 0
+      Character:
+      - characterObject: {fileID: 1791166998363964400}
+        playAnimationName: 
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 3
+      - characterObject: {fileID: 1791166998363964527}
+        playAnimationName: "king_mad"
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 0
+      sceneSound: {fileID: 0}
+      speechPortraitLeft: 
+      speechPortraitRight: "pp_WZ"
+      speechSpeakerName: "wink"
+      speechText: "by the makers! we are going to be late if nothing is \ndone\u2026"
+    - act: 0
+      sceneDelay: 0
+      Character:
+      - characterObject: {fileID: 1791166998363964400}
+        playAnimationName: 
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 3
+      - characterObject: {fileID: 1791166998363964527}
+        playAnimationName: "king_mad"
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 0
+      sceneSound: {fileID: 0}
+      speechPortraitLeft: 
+      speechPortraitRight: "pp_WZ"
+      speechSpeakerName: "wink"
+      speechText: "sir blink, please i beg of you let the king go!"
+    - act: 0
+      sceneDelay: 0
+      Character:
+      - characterObject: {fileID: 1791166998363964400}
+        playAnimationName: 
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 0
+      - characterObject: {fileID: 1791166998363964527}
+        playAnimationName: "king_mad"
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 0
+      sceneSound: {fileID: 0}
+      speechPortraitLeft: "pp_WL"
+      speechPortraitRight: 
+      speechSpeakerName: "blink"
+      speechText: "you act as if we actually want to keep him prisoner!"
+    - act: 0
+      sceneDelay: 0
+      Character:
+      - characterObject: {fileID: 1791166998363964400}
+        playAnimationName: 
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 0
+      - characterObject: {fileID: 1791166998363964527}
+        playAnimationName: "king_mad"
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 0
+      sceneSound: {fileID: 0}
+      speechPortraitLeft: "pp_WL"
+      speechPortraitRight: 
+      speechSpeakerName: "blink"
+      speechText: "as i said, give us what is owed and we will be on \nour way."
+    - act: 0
+      sceneDelay: 0
+      Character:
+      - characterObject: {fileID: 1791166998363964400}
+        playAnimationName: 
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 0
+      - characterObject: {fileID: 1791166998363964527}
+        playAnimationName: "king_mad"
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 0
+      sceneSound: {fileID: 0}
+      speechPortraitLeft: 
+      speechPortraitRight: "pp_WZ"
+      speechSpeakerName: "wink"
+      speechText: "milord... please?"
+    - act: 0
+      sceneDelay: 0
+      Character:
+      - characterObject: {fileID: 1791166998363964400}
+        playAnimationName: 
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 0
+      - characterObject: {fileID: 1791166998363964527}
+        playAnimationName: "king_mad_pointing"
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 4
+      sceneSound: {fileID: 0}
+      speechPortraitLeft: "sp_king"
+      speechPortraitRight: 
+      speechSpeakerName: "king"
+      speechText: "no means no! now get me out!"
+    - act: 0
+      sceneDelay: 0
+      Character:
+      - characterObject: {fileID: 1791166998363964400}
+        playAnimationName: 
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 4
+      - characterObject: {fileID: 1791166998363964527}
+        playAnimationName: "king_mad"
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 0
+      sceneSound: {fileID: 0}
+      speechPortraitLeft: 
+      speechPortraitRight: "pp_WZ"
+      speechSpeakerName: "wink"
+      speechText: "a... yes milord! guards forward!"
+    - act: 0
+      sceneDelay: 0
+      Character:
+      - characterObject: {fileID: 1791166998363964400}
+        playAnimationName: 
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 4
+      - characterObject: {fileID: 1791166998363964527}
+        playAnimationName: "king_angry"
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 3
+      - characterObject: {fileID: 1791166998363964445}
+        playAnimationName: 
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 4
+      - characterObject: {fileID: 1791166998363964431}
+        playAnimationName: 
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 4
+      - characterObject: {fileID: 1791166998363964418}
+        playAnimationName: 
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 4
+      sceneSound: {fileID: 0}
+      speechPortraitLeft: 
+      speechPortraitRight: 
+      speechSpeakerName: "royal guards"
+      speechText: "yes sir!"
+    - act: 3
+      sceneDelay: 0
+      Character:
+      - characterObject: {fileID: 1791166998363964400}
+        playAnimationName: 
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 100
+        moveForward: -20
+        moveUp: 0
+        characterAction: 0
+      - characterObject: {fileID: 1791166998363964527}
+        playAnimationName: "king_angry"
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 3
+      - characterObject: {fileID: 1791166998363964445}
+        playAnimationName: 
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 100
+        moveForward: -20
+        moveUp: 0
+        characterAction: 0
+      - characterObject: {fileID: 1791166998363964431}
+        playAnimationName: 
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 100
+        moveForward: -20
+        moveUp: 0
+        characterAction: 0
+      - characterObject: {fileID: 1791166998363964418}
+        playAnimationName: 
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 100
+        moveForward: -20
+        moveUp: 0
+        characterAction: 0
+      sceneSound: {fileID: 0}
+      speechPortraitLeft: 
+      speechPortraitRight: 
+      speechSpeakerName: 
+      speechText: 
+    - act: 0
+      sceneDelay: 2
+      Character:
+      - characterObject: {fileID: 1791166998363964400}
+        playAnimationName: 
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 100
+        moveForward: 20
+        moveUp: 0
+        characterAction: 0
+      - characterObject: {fileID: 1791166998363964527}
+        playAnimationName: "king_mad"
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 0
+      - characterObject: {fileID: 1791166998363964445}
+        playAnimationName: 
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 100
+        moveForward: 20
+        moveUp: 0
+        characterAction: 0
+      - characterObject: {fileID: 1791166998363964431}
+        playAnimationName: 
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 100
+        moveForward: 20
+        moveUp: 0
+        characterAction: 0
+      - characterObject: {fileID: 1791166998363964418}
+        playAnimationName: 
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 100
+        moveForward: 20
+        moveUp: 0
+        characterAction: 0
+      sceneSound: {fileID: 0}
+      speechPortraitLeft: 
+      speechPortraitRight: 
+      speechSpeakerName: 
+      speechText: " "
+  - Scenes:
+    - act: 0
+      sceneDelay: 1
+      Character: []
+      sceneSound: {fileID: 0}
+      speechPortraitLeft: 
+      speechPortraitRight: 
+      speechSpeakerName: 
+      speechText: 
+    - act: 0
+      sceneDelay: 0
+      Character: []
+      sceneSound: {fileID: 0}
+      speechPortraitLeft: "pp_WL"
+      speechPortraitRight: 
+      speechSpeakerName: "blink"
+      speechText: "'after that encounter, my goons have been injured.'"
+    - act: 0
+      sceneDelay: 0
+      Character: []
+      sceneSound: {fileID: 0}
+      speechPortraitLeft: "pp_WL"
+      speechPortraitRight: 
+      speechSpeakerName: "blink"
+      speechText: "'luckily, a potion will restore them to health.'"
+    - act: 0
+      sceneDelay: 0
+      Character: []
+      sceneSound: {fileID: 0}
+      speechPortraitLeft: "pp_WL"
+      speechPortraitRight: 
+      speechSpeakerName: "blink"
+      speechText: "'i should also restore some of my mana. i must \nuse the ether!'"
+    - act: 4
+      sceneDelay: 0
+      Character: []
+      sceneSound: {fileID: 0}
+      speechPortraitLeft: 
+      speechPortraitRight: 
+      speechSpeakerName: 
+      speechText: 
+  - Scenes:
+    - act: 0
+      sceneDelay: 0
+      Character: []
+      sceneSound: {fileID: 0}
+      speechPortraitLeft: 
+      speechPortraitRight: 
+      speechSpeakerName: 
+      speechText: 
+    - act: 0
+      sceneDelay: 0
+      Character:
+      - characterObject: {fileID: 1791166998363964527}
+        playAnimationName: "king_mad"
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 0
+      - characterObject: {fileID: 1791166998363964400}
+        playAnimationName: 
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 1
+        moveForward: 2
+        moveUp: 0
+        characterAction: 3
+      sceneSound: {fileID: 0}
+      speechPortraitLeft: 
+      speechPortraitRight: "pp_WZ"
+      speechSpeakerName: "wink"
+      speechText: "time is short. the citizens are to arrive soon."
+    - act: 0
+      sceneDelay: 0
+      Character:
+      - characterObject: {fileID: 1791166998363964527}
+        playAnimationName: "king_mad"
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 0
+      - characterObject: {fileID: 1791166998363964400}
+        playAnimationName: 
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 3
+      sceneSound: {fileID: 0}
+      speechPortraitLeft: 
+      speechPortraitRight: "pp_WZ"
+      speechSpeakerName: "wink"
+      speechText: "sir blink? milord? please..."
+    - act: 0
+      sceneDelay: 0
+      Character:
+      - characterObject: {fileID: 1791166998363964527}
+        playAnimationName: "king_mad"
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 0
+      - characterObject: {fileID: 1791166998363964400}
+        playAnimationName: 
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 0
+      sceneSound: {fileID: 0}
+      speechPortraitLeft: "pp_WL"
+      speechPortraitRight: 
+      speechSpeakerName: "blink"
+      speechText: "our payment?"
+    - act: 0
+      sceneDelay: 0
+      Character:
+      - characterObject: {fileID: 1791166998363964527}
+        playAnimationName: "king_angry"
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 4
+      - characterObject: {fileID: 1791166998363964400}
+        playAnimationName: 
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 0
+      sceneSound: {fileID: 0}
+      speechPortraitLeft: "sp_king"
+      speechPortraitRight: 
+      speechSpeakerName: "king"
+      speechText: "NEVER!"
+    - act: 0
+      sceneDelay: 0
+      Character:
+      - characterObject: {fileID: 1791166998363964527}
+        playAnimationName: "king_mad"
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 0
+      - characterObject: {fileID: 1791166998363964400}
+        playAnimationName: 
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 0
+      sceneSound: {fileID: 0}
+      speechPortraitLeft: "pp_WL"
+      speechPortraitRight: 
+      speechSpeakerName: "blink"
+      speechText: "so be it. he remains."
+    - act: 0
+      sceneDelay: 0
+      Character:
+      - characterObject: {fileID: 1791166998363964527}
+        playAnimationName: "king_mad"
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 0
+      - characterObject: {fileID: 1791166998363964400}
+        playAnimationName: 
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 0
+      sceneSound: {fileID: 0}
+      speechPortraitLeft: 
+      speechPortraitRight: "pp_WZ"
+      speechSpeakerName: "wink"
+      speechText: "please! by the makers!"
+    - act: 0
+      sceneDelay: 5
+      Character:
+      - characterObject: {fileID: 1791166998363964527}
+        playAnimationName: "king_mad"
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 0
+      - characterObject: {fileID: 1791166998363964400}
+        playAnimationName: 
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 0
+      - characterObject: {fileID: 1791166998363964514}
+        playAnimationName: 
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 3
+        moveForward: 10
+        moveUp: 0
+        characterAction: 3
+      - characterObject: {fileID: 1791166998363964504}
+        playAnimationName: 
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 1
+        moveForward: 50
+        moveUp: 0
+        characterAction: 0
+      - characterObject: {fileID: 1791166998363964494}
+        playAnimationName: 
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 1.5
+        moveForward: 50
+        moveUp: 0
+        characterAction: 0
+      sceneSound: {fileID: 0}
+      speechPortraitLeft: 
+      speechPortraitRight: 
+      speechSpeakerName: 
+      speechText: " "
+    - act: 0
+      sceneDelay: 0
+      Character:
+      - characterObject: {fileID: 1791166998363964527}
+        playAnimationName: "king_mad"
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 0
+      - characterObject: {fileID: 1791166998363964400}
+        playAnimationName: 
+        movingAnimationName: 
+        characterDirection: 1
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 4
+      - characterObject: {fileID: 1791166998363964514}
+        playAnimationName: 
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 3
+      sceneSound: {fileID: 0}
+      speechPortraitLeft: 
+      speechPortraitRight: 
+      speechSpeakerName: "guard"
+      speechText: "sir wink! the village folks, they... they are \nout of control!"
+    - act: 0
+      sceneDelay: 0
+      Character:
+      - characterObject: {fileID: 1791166998363964527}
+        playAnimationName: "king_mad"
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 0
+      - characterObject: {fileID: 1791166998363964400}
+        playAnimationName: 
+        movingAnimationName: 
+        characterDirection: 1
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 4
+      - characterObject: {fileID: 1791166998363964514}
+        playAnimationName: 
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 3
+      sceneSound: {fileID: 0}
+      speechPortraitLeft: 
+      speechPortraitRight: 
+      speechSpeakerName: "guard"
+      speechText: "we cannot stall them any further."
+    - act: 0
+      sceneDelay: 0
+      Character:
+      - characterObject: {fileID: 1791166998363964527}
+        playAnimationName: "king_mad"
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 0
+      - characterObject: {fileID: 1791166998363964400}
+        playAnimationName: 
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 4
+      - characterObject: {fileID: 1791166998363964514}
+        playAnimationName: 
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 1
+        moveForward: 50
+        moveUp: 0
+        characterAction: 0
+      sceneSound: {fileID: 0}
+      speechPortraitLeft: 
+      speechPortraitRight: "pp_WZ"
+      speechSpeakerName: "wink"
+      speechText: "blink! time is running out."
+    - act: 0
+      sceneDelay: 0
+      Character:
+      - characterObject: {fileID: 1791166998363964527}
+        playAnimationName: "king_mad"
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 0
+      - characterObject: {fileID: 1791166998363964400}
+        playAnimationName: 
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 3
+      sceneSound: {fileID: 0}
+      speechPortraitLeft: 
+      speechPortraitRight: "pp_WZ"
+      speechSpeakerName: "wink"
+      speechText: "this castle will surely be under siege by the mob if we \ndon't act
+      fast. let him go!"
+    - act: 0
+      sceneDelay: 0
+      Character:
+      - characterObject: {fileID: 1791166998363964527}
+        playAnimationName: "king_mad"
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 0
+      - characterObject: {fileID: 1791166998363964400}
+        playAnimationName: 
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 0
+      sceneSound: {fileID: 0}
+      speechPortraitLeft: "pp_WL"
+      speechPortraitRight: 
+      speechSpeakerName: "blink"
+      speechText: "we are not interesting in releasing this stubborn oath \nfor free..."
+    - act: 0
+      sceneDelay: 0
+      Character:
+      - characterObject: {fileID: 1791166998363964527}
+        playAnimationName: "king_mad"
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 0
+      - characterObject: {fileID: 1791166998363964400}
+        playAnimationName: 
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 0
+      sceneSound: {fileID: 0}
+      speechPortraitLeft: "pp_WL"
+      speechPortraitRight: 
+      speechSpeakerName: "blink"
+      speechText: "...and this siege you speak of, we can handle that."
+    - act: 0
+      sceneDelay: 0
+      Character:
+      - characterObject: {fileID: 1791166998363964527}
+        playAnimationName: "king_mad"
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 0
+      - characterObject: {fileID: 1791166998363964400}
+        playAnimationName: 
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 0
+      sceneSound: {fileID: 0}
+      speechPortraitLeft: "pp_WL"
+      speechPortraitRight: 
+      speechSpeakerName: "blink"
+      speechText: "besides, how long can these silly people keep attempting \r\nto siege
+      until they get bored. a few days, maybe an \r\nhour."
+    - act: 0
+      sceneDelay: 0
+      Character:
+      - characterObject: {fileID: 1791166998363964527}
+        playAnimationName: "king_mad"
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 0
+      - characterObject: {fileID: 1791166998363964400}
+        playAnimationName: 
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 3
+      sceneSound: {fileID: 0}
+      speechPortraitLeft: 
+      speechPortraitRight: "pp_WZ"
+      speechSpeakerName: "wink"
+      speechText: "please blink, you don't understand! they are\u2026 persistent. they\ncan
+      keep it for weeks if not months."
+    - act: 0
+      sceneDelay: 0
+      Character:
+      - characterObject: {fileID: 1791166998363964527}
+        playAnimationName: "king_mad"
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 0
+      - characterObject: {fileID: 1791166998363964400}
+        playAnimationName: 
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 0
+      sceneSound: {fileID: 0}
+      speechPortraitLeft: "pp_WL"
+      speechPortraitRight: 
+      speechSpeakerName: "blink"
+      speechText: "haha... well, welcome them in. let me stretch out \nmy limbs buahaha"
+    - act: 0
+      sceneDelay: 0
+      Character:
+      - characterObject: {fileID: 1791166998363964527}
+        playAnimationName: "king_mad"
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 0
+      - characterObject: {fileID: 1791166998363964400}
+        playAnimationName: 
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 0
+      sceneSound: {fileID: 0}
+      speechPortraitLeft: "pp_WL"
+      speechPortraitRight: 
+      speechSpeakerName: "blink"
+      speechText: "this will be most... entertaining. "
+    - act: 0
+      sceneDelay: 0
+      Character:
+      - characterObject: {fileID: 1791166998363964527}
+        playAnimationName: "king_mad"
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 0
+      - characterObject: {fileID: 1791166998363964400}
+        playAnimationName: 
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 0
+      sceneSound: {fileID: 0}
+      speechPortraitLeft: "pp_WL"
+      speechPortraitRight: 
+      speechSpeakerName: "blink"
+      speechText: "why must an opportunity like this be wasted."
+    - act: 0
+      sceneDelay: 0
+      Character:
+      - characterObject: {fileID: 1791166998363964527}
+        playAnimationName: "king_mad"
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 0
+      - characterObject: {fileID: 1791166998363964400}
+        playAnimationName: 
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 4
+      sceneSound: {fileID: 0}
+      speechPortraitLeft: 
+      speechPortraitRight: "pp_WZ"
+      speechSpeakerName: "wink"
+      speechText: "ent... entertainment? you... you are insane!"
+    - act: 0
+      sceneDelay: 5
+      Character:
+      - characterObject: {fileID: 1791166998363964527}
+        playAnimationName: "king_mad"
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 0
+      - characterObject: {fileID: 1791166998363964400}
+        playAnimationName: 
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 0
+      - characterObject: {fileID: 1791166998363964484}
+        playAnimationName: 
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 3
+        moveForward: 10
+        moveUp: 0
+        characterAction: 3
+      sceneSound: {fileID: 0}
+      speechPortraitLeft: 
+      speechPortraitRight: 
+      speechSpeakerName: 
+      speechText: " "
+    - act: 0
+      sceneDelay: 0
+      Character:
+      - characterObject: {fileID: 1791166998363964527}
+        playAnimationName: "king_mad"
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 0
+      - characterObject: {fileID: 1791166998363964400}
+        playAnimationName: 
+        movingAnimationName: 
+        characterDirection: 1
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 0
+      - characterObject: {fileID: 1791166998363964484}
+        playAnimationName: 
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 3
+      sceneSound: {fileID: 0}
+      speechPortraitLeft: 
+      speechPortraitRight: 
+      speechSpeakerName: "guard"
+      speechText: "sir wink... sir wink... there is no stopping them."
+    - act: 0
+      sceneDelay: 0
+      Character:
+      - characterObject: {fileID: 1791166998363964527}
+        playAnimationName: "king_mad"
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 0
+      - characterObject: {fileID: 1791166998363964400}
+        playAnimationName: 
+        movingAnimationName: 
+        characterDirection: 1
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 0
+      - characterObject: {fileID: 1791166998363964484}
+        playAnimationName: 
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 3
+      - characterObject: {fileID: 1791166998363964474}
+        playAnimationName: 
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 2
+        moveForward: 50
+        moveUp: 0
+        characterAction: 0
+      sceneSound: {fileID: 0}
+      speechPortraitLeft: 
+      speechPortraitRight: 
+      speechSpeakerName: "guard"
+      speechText: "we have to retreat immediately! hurry!"
+    - act: 0
+      sceneDelay: 0
+      Character:
+      - characterObject: {fileID: 1791166998363964527}
+        playAnimationName: "king_mad"
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 0
+      - characterObject: {fileID: 1791166998363964400}
+        playAnimationName: 
+        movingAnimationName: 
+        characterDirection: 1
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 4
+      - characterObject: {fileID: 1791166998363964484}
+        playAnimationName: 
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 0
+      - characterObject: {fileID: 1791166998363964460}
+        playAnimationName: 
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 0
+      sceneSound: {fileID: 0}
+      speechPortraitLeft: 
+      speechPortraitRight: "pp_WZ"
+      speechSpeakerName: "wink"
+      speechText: "oh... by the makers! "
+    - act: 0
+      sceneDelay: 0
+      Character:
+      - characterObject: {fileID: 1791166998363964527}
+        playAnimationName: "king_mad"
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 0
+      - characterObject: {fileID: 1791166998363964400}
+        playAnimationName: 
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 3
+      - characterObject: {fileID: 1791166998363964484}
+        playAnimationName: 
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 0
+      - characterObject: {fileID: 1791166998363964460}
+        playAnimationName: 
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 0
+      sceneSound: {fileID: 0}
+      speechPortraitLeft: 
+      speechPortraitRight: "pp_WZ"
+      speechSpeakerName: "wink"
+      speechText: "milord i promise you i will return to fetch you! "
+    - act: 0
+      sceneDelay: 0
+      Character:
+      - characterObject: {fileID: 1791166998363964527}
+        playAnimationName: "king_mad"
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 0
+      - characterObject: {fileID: 1791166998363964400}
+        playAnimationName: 
+        movingAnimationName: "WZ_G11"
+        characterDirection: 0
+        movementSpeed: 2
+        moveForward: -15
+        moveUp: 0
+        characterAction: 0
+      - characterObject: {fileID: 1791166998363964484}
+        playAnimationName: 
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 0
+      - characterObject: {fileID: 1791166998363964445}
+        playAnimationName: 
+        movingAnimationName: 
+        characterDirection: 1
+        movementSpeed: 1
+        moveForward: 12
+        moveUp: 0
+        characterAction: 0
+      - characterObject: {fileID: 1791166998363964431}
+        playAnimationName: 
+        movingAnimationName: 
+        characterDirection: 1
+        movementSpeed: 1
+        moveForward: 12
+        moveUp: 0
+        characterAction: 0
+      - characterObject: {fileID: 1791166998363964418}
+        playAnimationName: 
+        movingAnimationName: 
+        characterDirection: 1
+        movementSpeed: 1
+        moveForward: 12
+        moveUp: 0
+        characterAction: 0
+      sceneSound: {fileID: 0}
+      speechPortraitLeft: 
+      speechPortraitRight: "pp_WZ"
+      speechSpeakerName: "wink"
+      speechText: "goodbyyeeeeeeee~~~"
+    - act: 0
+      sceneDelay: 0
+      Character:
+      - characterObject: {fileID: 1791166998363964527}
+        playAnimationName: "king_angry"
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 4
+      - characterObject: {fileID: 1791166998363964484}
+        playAnimationName: 
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 0
+      sceneSound: {fileID: 0}
+      speechPortraitLeft: "sp_king"
+      speechPortraitRight: 
+      speechSpeakerName: "king"
+      speechText: "@#$%#$!!! you blasted jinx! don't leave me!\ndon't leave me!"
+    - act: 0
+      sceneDelay: 0
+      Character:
+      - characterObject: {fileID: 1791166998363964527}
+        playAnimationName: "king_angry"
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 3
+      - characterObject: {fileID: 1791166998363964484}
+        playAnimationName: 
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 2
+      - characterObject: {fileID: 1791166998363964460}
+        playAnimationName: 
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 1.5
+        moveForward: 50
+        moveUp: 0
+        characterAction: 0
+      sceneSound: {fileID: 0}
+      speechPortraitLeft: 
+      speechPortraitRight: 
+      speechSpeakerName: "guard"
+      speechText: "sor\u2026 sor... sorry your majesty\u2026. \ngoodbyyeeeeeeee~~~"
+    - act: 0
+      sceneDelay: 0
+      Character:
+      - characterObject: {fileID: 1791166998363964527}
+        playAnimationName: "king_scared"
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 0
+        moveForward: 0
+        moveUp: 0
+        characterAction: 1
+      - characterObject: {fileID: 1791166998363964484}
+        playAnimationName: 
+        movingAnimationName: 
+        characterDirection: 0
+        movementSpeed: 1
+        moveForward: 50
+        moveUp: 0
+        characterAction: 0
+      sceneSound: {fileID: 0}
+      speechPortraitLeft: 
+      speechPortraitRight: 
+      speechSpeakerName: "guard"
+      speechText: "EVERYONE PANIC!"
+    - act: 5
+      sceneDelay: 0
+      Character: []
+      sceneSound: {fileID: 0}
+      speechPortraitLeft: 
+      speechPortraitRight: 
+      speechSpeakerName: 
+      speechText: 
+  sceneSpeechLogic: {fileID: 1791166998363964374}
+  sceneTextIcon: {fileID: 1791166998363964256}
+  storySpeechObject: {fileID: 1791166996468137362}
+  tutorialInfoTrigger: 0
+--- !u!114 &1791166998363964524
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02bff1f49f3a92e3c875f389f7423c11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collection: {fileID: 1791166998363963977, guid: dfbd6fd02a765ab4fbf76e8a10ba15d0, type: 2}
+  _color: {r: 0.3134328, g: 0.3134328, b: 0.3134328, a: 1}
+  _scale: {x: 1.6, y: 1.6, z: 2.4}
+  _spriteId: 6
+  pixelPerfect: 0
+  boxCollider: {fileID: 0}
+  meshCollider: {fileID: 0}
+  meshColliderPositions: []
+  meshColliderMesh: {fileID: 0}
+--- !u!114 &1791166998363964527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137422}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd9fbd11cac6ba04256a9e118a914635, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 1791166998363964530}
+  playAnimationName: "king_mad"
+  movingAnimationName: 
+  characterDirection: 0
+  movementSpeed: 0
+  moveForward: 0
+  moveUp: 0
+  characterAction: 0
+  sceneLogic: {fileID: 0}
+  tutorialLogic: {fileID: 1791166998363964519}
+--- !u!114 &1791166998363964530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137423}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88b38e574083bff5c2b7fda14c33d7c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collection: {fileID: 1791166998363963974, guid: 9f78d679d1052a54ba396d7bffccadf5, type: 2}
+  _color: {r: 1, g: 1, b: 1, a: 1}
+  _scale: {x: -2.4, y: 2.4, z: 2.4}
+  _spriteId: 24
+  pixelPerfect: 0
+  boxCollider: {fileID: 0}
+  meshCollider: {fileID: 0}
+  meshColliderPositions: []
+  meshColliderMesh: {fileID: 0}
+  anim: {fileID: 1791166998363963973, guid: afe3b5289a291854288474decd9454fb, type: 2}
+  clipId: 15
+  playAutomatically: 0
+  paused: 0
+  createCollider: 0
+--- !u!114 &1791166998363964533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02bff1f49f3a92e3c875f389f7423c11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collection: {fileID: 1791166998363963952, guid: 402059aaf32c6cb4f957cd24b1942cee, type: 2}
+  _color: {r: 1, g: 0.8823529, b: 0.7843137, a: 1}
+  _scale: {x: 2.2, y: 2.2, z: 2.2}
+  _spriteId: 6
+  pixelPerfect: 0
+  boxCollider: {fileID: 0}
+  meshCollider: {fileID: 0}
+  meshColliderPositions: []
+  meshColliderMesh: {fileID: 0}

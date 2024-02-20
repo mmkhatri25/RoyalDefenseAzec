@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1791166996468136915}
+  m_IsPrefabParent: 1
+--- !u!4 &1791166996518469804
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468136915}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.262018, y: 0.6494686, z: 0.2161405}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1791166996468136915
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791166996518469804}
+  - component: {fileID: 1791166998363966507}
+  m_Layer: 0
+  m_Name: "MM"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1791166998363966507
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468136915}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b284f5b348a0d5e8c3112ea309d7d529, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyID: "MM"
+  waveUnits:
+  - {fileID: 1791166996468137059, guid: d0d76aa804118dc478437c8e139b3300, type: 2}
+  - {fileID: 1791166996468137060, guid: 61ffcff85093eee44bd508e4efbc547f, type: 2}
+  - {fileID: 1791166996468137061, guid: 0fe099c6e13618e43b2cb6a198d73060, type: 2}
+  - {fileID: 1791166996468137057, guid: b81b606425f45bb4c864dc664b095d76, type: 2}
+  - {fileID: 1791166996468137058, guid: a2210fc3914beee459dac1f3d4b5ab93, type: 2}
+  bossUnits:
+  - {fileID: 1791166996468137052, guid: 783ef14715811634a838d9fccb2a3ca1, type: 2}
+  BossSpeech:
+  - playerCharacterID: 
+    warningQuote: "A MONSTER HAS ENTER"
+    introductionSpeech: 
+    championName: 
+    musicTrackNumber: 0
+    minSpawnRatio: 1.5
+    maxSpawnRatio: 4.5
+  recurringUnits:
+  - {fileID: 1791166996468137059, guid: d0d76aa804118dc478437c8e139b3300, type: 2}
+  - {fileID: 1791166996468137060, guid: 61ffcff85093eee44bd508e4efbc547f, type: 2}
+  - {fileID: 1791166996468137061, guid: 0fe099c6e13618e43b2cb6a198d73060, type: 2}
+  levelPreview: {fileID: 1791166996468137053, guid: acb74e390882c5143b6ce789e99db7f2, type: 2}

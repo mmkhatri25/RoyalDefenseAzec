@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1791166996468136955}
+  m_IsPrefabParent: 1
+--- !u!4 &1791166996518469844
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468136955}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.817049, y: 0.3298564, z: -2.384186E-07}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1791166996468136955
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791166996518469844}
+  - component: {fileID: 1791166998363966547}
+  m_Layer: 0
+  m_Name: "2 emerald ring of iron"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1791166998363966547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468136955}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f31579c060e2f1518563e58798b10e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemName: "emerald ring of iron"
+  itemLock: 2
+  itemID: "GI_3_7"
+  itemNameID: "a_ringIron"
+  PassivePrefab: {fileID: 1791166996468136985, guid: dbbdb4ece25cc2743b899223b0c75e6d, type: 2}
+  ItemPrefab: {fileID: 0}
+  itemMaximumCharges: 0
+  itemManaCost: 0
+  itemCoolDown: 0
+  itemShopAmount: 0
+  itemCost: 18
+  itemIconID: 
+  itemBG: 0
+  itemDescriptionQuote: "'every thief worth his salt knows never to steal her away, she keeps
+  none but her own'"
+  itemDescriptionInfo: "object: +1 damage. -1 speed."
+  scrollType: 0
+  arrowDirection: 0
+  centreScrollTypeHeight: 0
+  indicatorType: 0
+  activateSound: {fileID: 0}

@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Block
+  - Object
+  - Enemy
+  - Exit
+  - Hero
+  - Wave
+  - Ground
+  - Screen Edge
+  - Mana
+  - Roof
+  - TmA
+  - TmB
+  - AtAA
+  - AtAB
+  - AtAAB
+  - AtSA
+  - AtBA
+  - AtBB
+  - AtBAB
+  - AtSB
+  - AtSAB
+  - Custom
+  - Red
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: "Default"
+    uniqueID: 0
+    locked: 0

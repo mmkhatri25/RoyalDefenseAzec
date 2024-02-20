@@ -1,0 +1,232 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1791166996468136994
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1791166996518469119}
+  - component: {fileID: 1791166998363964014}
+  - component: {fileID: 1791166998363964072}
+  - component: {fileID: 1791166998363963920}
+  m_Layer: 0
+  m_Name: Data Manager
+  m_TagString: 
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1791166996518469119
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791166996468136994}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.05002368, y: 0.907222, z: -5.901611}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1791166998363964014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791166996468136994}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3464aa917c7a46e91966243442e9ac0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  newName: Data Manager
+  parentName: ' Managers'
+--- !u!114 &1791166998363964072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791166996468136994}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35d2e4aab4e77a83e1c509403803b082, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameVersion: 2.1.1
+  targetFrameRate: 60
+  releaseMode: 2
+  unlockMode: 1
+  levelStartMode: 1
+  iapMode: 0
+  iCloudSave: 1
+  gameCenterMode: 3
+  gameAnalyticsMode: 3
+  autoTutorialMode: 1
+  saveMode: 0
+  debugMode: 0
+  debugNumber: 0
+  soundMode: 0
+  gameTutorialMode: 0
+  gameMode: 0
+  gameLevel: 0
+  gameStage: 0
+  gameLevelPerStage: 6
+  gameMaximumLevel: 18
+  gameChallengeCost: 15
+  playerCurrency: 0
+  playerKey: 0
+  selectedCharacterID: 
+  selectedCharacterName: 
+  selectedCharacterClass: 
+  selectedCharacterLevelProgress: 0
+  selectedCharacterLevelRating: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  selectedCharacterRatingGold: 0
+  selectedCharacterRatingSilver: 0
+  selectedCharacterRatingBronze: 0
+  selectedCharacterCompletionPercent: 0
+  selectedCharacterBestWaveRecord: 000000000000000000000000
+  selectedCharacterBestUnitRecord: 000000000000000000000000
+  selectedCharacterStoryAttempts: 0
+  selectedCharacterStoryVictories: 0
+  selectedCharacterStoryDefeats: 0
+  selectedCharacterStoryVictoryRate: 0
+  selectedCharacterChallengeAttempts: 0
+  selectedCharacterChallengeStreak: 0
+  selectedCharacterSpellsCasted: 00000000000000000000000000000000
+  selectedCharacterItemRating:
+  - 
+  - 
+  - 
+  CharacterData:
+  - characterStoryUnlocks: 0
+    characterNextBookUnlock: 0
+    characterID: WZ
+    characterName: 
+    characterClass: high wizard
+    characterObject: {fileID: 1791166996468136993, guid: 3711fa8c53631fb4cab815ed0e82e8a7,
+      type: 3}
+    characterObjectInst: {fileID: 0}
+    characterLOCK: 0
+    levelProgress: 0
+    levelRating: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    ratingGold: 0
+    ratingSilver: 0
+    ratingBronze: 0
+    completionPercent: 0
+    itemLock: 0
+    bestWaveRecord: 000000000000000000000000
+    bestUnitRecord: 000000000000000000000000
+    gameStoryAttempts: 0
+    gameStoryVictories: 0
+    gameStoryDefeats: 0
+    gameStoryVictoryRate: 0
+    gameChallengeAttempts: 0
+    gameChallengeStreak: 0
+    gameSpellsCasted: 00000000000000000000000000000000
+    gameItemRating:
+    - 
+    - 
+    - 
+  - characterStoryUnlocks: 0
+    characterNextBookUnlock: 0
+    characterID: WL
+    characterName: 
+    characterClass: crimson warlock
+    characterObject: {fileID: 1791166996468137200, guid: aa515a96f7975e84aab7a70f0c07780f,
+      type: 3}
+    characterObjectInst: {fileID: 0}
+    characterLOCK: 0
+    levelProgress: 0
+    levelRating: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    ratingGold: 0
+    ratingSilver: 0
+    ratingBronze: 0
+    completionPercent: 0
+    itemLock: 0
+    bestWaveRecord: 000000000000000000000000
+    bestUnitRecord: 000000000000000000000000
+    gameStoryAttempts: 0
+    gameStoryVictories: 0
+    gameStoryDefeats: 0
+    gameStoryVictoryRate: 0
+    gameChallengeAttempts: 0
+    gameChallengeStreak: 0
+    gameSpellsCasted: 00000000000000000000000000000000
+    gameItemRating:
+    - 
+    - 
+    - 
+  - characterStoryUnlocks: 0
+    characterNextBookUnlock: 0
+    characterID: WT
+    characterName: 
+    characterClass: 
+    characterObject: {fileID: 1791166996468137174, guid: 7eb199a637b527e41a17e0ac7a023222,
+      type: 3}
+    characterObjectInst: {fileID: 0}
+    characterLOCK: 0
+    levelProgress: 0
+    levelRating: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    ratingGold: 0
+    ratingSilver: 0
+    ratingBronze: 0
+    completionPercent: 0
+    itemLock: 0
+    bestWaveRecord: 000000000000000000000000
+    bestUnitRecord: 000000000000000000000000
+    gameStoryAttempts: 0
+    gameStoryVictories: 0
+    gameStoryDefeats: 0
+    gameStoryVictoryRate: 0
+    gameChallengeAttempts: 0
+    gameChallengeStreak: 0
+    gameSpellsCasted: 00000000000000000000000000000000
+    gameItemRating:
+    - 
+    - 
+    - 
+  ChallengeWaveRecord:
+  - recordName: 
+    recordNumber: 0
+    recordCharacter: 
+  - recordName: 
+    recordNumber: 0
+    recordCharacter: 
+  - recordName: 
+    recordNumber: 0
+    recordCharacter: 
+  ChallengeUnitRecord:
+  - recordName: 
+    recordNumber: 0
+    recordCharacter: 
+  - recordName: 
+    recordNumber: 0
+    recordCharacter: 
+  - recordName: 
+    recordNumber: 0
+    recordCharacter: 
+--- !u!114 &1791166998363963920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791166996468136994}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1981bad3a4af95c0279f5b163a4b8b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lockID: 
+  lockToggle: 0
+  resetID: 
+  resetToggle: 0
+  currencyAmount: 1000000
+  data: {fileID: 1791166998363964072}

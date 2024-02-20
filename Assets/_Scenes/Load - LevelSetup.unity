@@ -1,0 +1,6204 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!196 &1
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!29 &9999991
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &9999992
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 0
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0.3731193, g: 0.38073996, b: 0.35872698, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &9999993
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 12
+  m_GIWorkflowMode: 0
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 1
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 0
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 500
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 500
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 2
+    m_PVRDenoiserTypeDirect: 0
+    m_PVRDenoiserTypeIndirect: 0
+    m_PVRDenoiserTypeAO: 0
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 0
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 0}
+  m_LightingSettings: {fileID: 4890085278179872738, guid: 2619eee39b2fedb498ff57b0c3b85f71,
+    type: 2}
+--- !u!1 &1791166996468136893
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1791166996518468545}
+  - component: {fileID: 1791166998363962316}
+  m_Layer: 0
+  m_Name: __Level Manager
+  m_TagString: 
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1791166996468136894
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1791166996518468546}
+  - component: {fileID: 1791166996786904005}
+  - component: {fileID: 1791166998531734473}
+  - component: {fileID: 1791166997810314182}
+  - component: {fileID: 1791166998363962315}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1791166996468136895
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1791166996518468547}
+  - component: {fileID: 1791166998363962317}
+  m_Layer: 0
+  m_Name: __Item Manager
+  m_TagString: 
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1791166996468136896
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1791166996518468548}
+  - component: {fileID: 1791166998363962318}
+  m_Layer: 0
+  m_Name: UC
+  m_TagString: 
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1791166996518468545
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791166996468136893}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.262018, y: 0.6494686, z: 0.2161405}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1791166996518468546
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791166996468136894}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -30}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1791166996518468547
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791166996468136895}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -289.1301, y: 1.904141, z: -24}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1791166996518468548
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791166996468136896}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.4307755, y: 3.599024, z: -19.65137}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!20 &1791166996786904005
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791166996468136894}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0.01960784}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 1
+  orthographic size: 2.4
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 0
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!81 &1791166997810314182
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791166996468136894}
+  m_Enabled: 1
+--- !u!114 &1791166998363962315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791166996468136894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c7b552c45f6e42913eeb3d8b70dd6d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  loadFunction: 0
+  levelSetup: {fileID: 1791166998363962316}
+--- !u!114 &1791166998363962316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791166996468136893}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67bc91a77b47192bcf1c74ae73d4ade7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activate: 10
+  LoadScene: Load - Game
+  loadDelay: 0.5
+  playerCharacterID: 
+  data: {fileID: 0}
+  contentData: {fileID: 0}
+  playerData: {fileID: 0}
+  stageControl: {fileID: 0}
+  unitContentData: {fileID: 0}
+  itemContentData: {fileID: 0}
+  levelIDs:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  WaveIDs:
+  - waveID: 
+    enemyBundle: {fileID: 0}
+  - waveID: 
+    enemyBundle: {fileID: 0}
+  - waveID: 
+    enemyBundle: {fileID: 0}
+  - waveID: 
+    enemyBundle: {fileID: 0}
+  - waveID: 
+    enemyBundle: {fileID: 0}
+  - waveID: 
+    enemyBundle: {fileID: 0}
+  - waveID: 
+    enemyBundle: {fileID: 0}
+  - waveID: 
+    enemyBundle: {fileID: 0}
+  - waveID: 
+    enemyBundle: {fileID: 0}
+  - waveID: 
+    enemyBundle: {fileID: 0}
+  - waveID: 
+    enemyBundle: {fileID: 0}
+  - waveID: 
+    enemyBundle: {fileID: 0}
+  - waveID: 
+    enemyBundle: {fileID: 0}
+  - waveID: 
+    enemyBundle: {fileID: 0}
+  - waveID: 
+    enemyBundle: {fileID: 0}
+  - waveID: 
+    enemyBundle: {fileID: 0}
+  - waveID: 
+    enemyBundle: {fileID: 0}
+  - waveID: 
+    enemyBundle: {fileID: 0}
+  RecurringUnitList:
+  - unitID: 
+    recurringUnits:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  - unitID: 
+    recurringUnits:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  - unitID: 
+    recurringUnits:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  - unitID: 
+    recurringUnits:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  - unitID: 
+    recurringUnits:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  - unitID: 
+    recurringUnits:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  - unitID: 
+    recurringUnits:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  - unitID: 
+    recurringUnits:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  - unitID: 
+    recurringUnits:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  - unitID: 
+    recurringUnits:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  - unitID: 
+    recurringUnits:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  - unitID: 
+    recurringUnits:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  - unitID: 
+    recurringUnits:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  - unitID: 
+    recurringUnits:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  - unitID: 
+    recurringUnits:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  - unitID: 
+    recurringUnits:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  - unitID: 
+    recurringUnits:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  - unitID: 
+    recurringUnits:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  levelSpawn:
+  - levelName: 
+    EnemyRandomPrefab: []
+    waveSpawn:
+    - NumberOfEnemy: 0
+      SpawnRatio: 0
+      enemySpawn:
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+    - NumberOfEnemy: 0
+      SpawnRatio: 0
+      enemySpawn:
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+    - NumberOfEnemy: 0
+      SpawnRatio: 0
+      enemySpawn:
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+    - NumberOfEnemy: 0
+      SpawnRatio: 0
+      enemySpawn:
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+  - levelName: 
+    EnemyRandomPrefab: []
+    waveSpawn:
+    - NumberOfEnemy: 0
+      SpawnRatio: 0
+      enemySpawn:
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+    - NumberOfEnemy: 0
+      SpawnRatio: 0
+      enemySpawn:
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+    - NumberOfEnemy: 0
+      SpawnRatio: 0
+      enemySpawn:
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+    - NumberOfEnemy: 0
+      SpawnRatio: 0
+      enemySpawn:
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+  - levelName: 
+    EnemyRandomPrefab: []
+    waveSpawn:
+    - NumberOfEnemy: 0
+      SpawnRatio: 0
+      enemySpawn:
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+    - NumberOfEnemy: 0
+      SpawnRatio: 0
+      enemySpawn:
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+    - NumberOfEnemy: 0
+      SpawnRatio: 0
+      enemySpawn:
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+    - NumberOfEnemy: 0
+      SpawnRatio: 0
+      enemySpawn:
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+  - levelName: 
+    EnemyRandomPrefab: []
+    waveSpawn:
+    - NumberOfEnemy: 0
+      SpawnRatio: 0
+      enemySpawn:
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+    - NumberOfEnemy: 0
+      SpawnRatio: 0
+      enemySpawn:
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+    - NumberOfEnemy: 0
+      SpawnRatio: 0
+      enemySpawn:
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+    - NumberOfEnemy: 0
+      SpawnRatio: 0
+      enemySpawn:
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+  - levelName: 
+    EnemyRandomPrefab: []
+    waveSpawn:
+    - NumberOfEnemy: 0
+      SpawnRatio: 0
+      enemySpawn:
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+    - NumberOfEnemy: 0
+      SpawnRatio: 0
+      enemySpawn:
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+    - NumberOfEnemy: 0
+      SpawnRatio: 0
+      enemySpawn:
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+    - NumberOfEnemy: 0
+      SpawnRatio: 0
+      enemySpawn:
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+    - NumberOfEnemy: 0
+      SpawnRatio: 0
+      enemySpawn:
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+  - levelName: 
+    EnemyRandomPrefab: []
+    waveSpawn:
+    - NumberOfEnemy: 0
+      SpawnRatio: 0
+      enemySpawn:
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+    - NumberOfEnemy: 0
+      SpawnRatio: 0
+      enemySpawn:
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+    - NumberOfEnemy: 0
+      SpawnRatio: 0
+      enemySpawn:
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+    - NumberOfEnemy: 0
+      SpawnRatio: 0
+      enemySpawn:
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+    - NumberOfEnemy: 0
+      SpawnRatio: 0
+      enemySpawn:
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+  - levelName: 
+    EnemyRandomPrefab: []
+    waveSpawn:
+    - NumberOfEnemy: 0
+      SpawnRatio: 0
+      enemySpawn:
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+    - NumberOfEnemy: 0
+      SpawnRatio: 0
+      enemySpawn:
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+    - NumberOfEnemy: 0
+      SpawnRatio: 0
+      enemySpawn:
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+    - NumberOfEnemy: 0
+      SpawnRatio: 0
+      enemySpawn:
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+    - NumberOfEnemy: 0
+      SpawnRatio: 0
+      enemySpawn:
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+  - levelName: 
+    EnemyRandomPrefab: []
+    waveSpawn:
+    - NumberOfEnemy: 0
+      SpawnRatio: 0
+      enemySpawn:
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+    - NumberOfEnemy: 0
+      SpawnRatio: 0
+      enemySpawn:
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+    - NumberOfEnemy: 0
+      SpawnRatio: 0
+      enemySpawn:
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+    - NumberOfEnemy: 0
+      SpawnRatio: 0
+      enemySpawn:
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+    - NumberOfEnemy: 0
+      SpawnRatio: 0
+      enemySpawn:
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+  - levelName: 
+    EnemyRandomPrefab: []
+    waveSpawn:
+    - NumberOfEnemy: 0
+      SpawnRatio: 0
+      enemySpawn:
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+    - NumberOfEnemy: 0
+      SpawnRatio: 0
+      enemySpawn:
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+    - NumberOfEnemy: 0
+      SpawnRatio: 0
+      enemySpawn:
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+    - NumberOfEnemy: 0
+      SpawnRatio: 0
+      enemySpawn:
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+    - NumberOfEnemy: 0
+      SpawnRatio: 0
+      enemySpawn:
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+  - levelName: 
+    EnemyRandomPrefab: []
+    waveSpawn:
+    - NumberOfEnemy: 0
+      SpawnRatio: 0
+      enemySpawn:
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+    - NumberOfEnemy: 0
+      SpawnRatio: 0
+      enemySpawn:
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+    - NumberOfEnemy: 0
+      SpawnRatio: 0
+      enemySpawn:
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+    - NumberOfEnemy: 0
+      SpawnRatio: 0
+      enemySpawn:
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+    - NumberOfEnemy: 0
+      SpawnRatio: 0
+      enemySpawn:
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+  - levelName: 
+    EnemyRandomPrefab: []
+    waveSpawn:
+    - NumberOfEnemy: 0
+      SpawnRatio: 0
+      enemySpawn:
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+    - NumberOfEnemy: 0
+      SpawnRatio: 0
+      enemySpawn:
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+    - NumberOfEnemy: 0
+      SpawnRatio: 0
+      enemySpawn:
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+    - NumberOfEnemy: 0
+      SpawnRatio: 0
+      enemySpawn:
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+    - NumberOfEnemy: 0
+      SpawnRatio: 0
+      enemySpawn:
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+    - NumberOfEnemy: 0
+      SpawnRatio: 0
+      enemySpawn:
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+  - levelName: 
+    EnemyRandomPrefab: []
+    waveSpawn:
+    - NumberOfEnemy: 0
+      SpawnRatio: 0
+      enemySpawn:
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+    - NumberOfEnemy: 0
+      SpawnRatio: 0
+      enemySpawn:
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+    - NumberOfEnemy: 0
+      SpawnRatio: 0
+      enemySpawn:
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+    - NumberOfEnemy: 0
+      SpawnRatio: 0
+      enemySpawn:
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+    - NumberOfEnemy: 0
+      SpawnRatio: 0
+      enemySpawn:
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+    - NumberOfEnemy: 0
+      SpawnRatio: 0
+      enemySpawn:
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+  - levelName: 
+    EnemyRandomPrefab: []
+    waveSpawn:
+    - NumberOfEnemy: 0
+      SpawnRatio: 0
+      enemySpawn:
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+    - NumberOfEnemy: 0
+      SpawnRatio: 0
+      enemySpawn:
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+    - NumberOfEnemy: 0
+      SpawnRatio: 0
+      enemySpawn:
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+    - NumberOfEnemy: 0
+      SpawnRatio: 0
+      enemySpawn:
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+    - NumberOfEnemy: 0
+      SpawnRatio: 0
+      enemySpawn:
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+    - NumberOfEnemy: 0
+      SpawnRatio: 0
+      enemySpawn:
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+  - levelName: 
+    EnemyRandomPrefab: []
+    waveSpawn:
+    - NumberOfEnemy: 0
+      SpawnRatio: 0
+      enemySpawn:
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+    - NumberOfEnemy: 0
+      SpawnRatio: 0
+      enemySpawn:
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+    - NumberOfEnemy: 0
+      SpawnRatio: 0
+      enemySpawn:
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+    - NumberOfEnemy: 0
+      SpawnRatio: 0
+      enemySpawn:
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+    - NumberOfEnemy: 0
+      SpawnRatio: 0
+      enemySpawn:
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+    - NumberOfEnemy: 0
+      SpawnRatio: 0
+      enemySpawn:
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+  - levelName: 
+    EnemyRandomPrefab: []
+    waveSpawn:
+    - NumberOfEnemy: 0
+      SpawnRatio: 0
+      enemySpawn:
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+    - NumberOfEnemy: 0
+      SpawnRatio: 0
+      enemySpawn:
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+    - NumberOfEnemy: 0
+      SpawnRatio: 0
+      enemySpawn:
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+    - NumberOfEnemy: 0
+      SpawnRatio: 0
+      enemySpawn:
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+    - NumberOfEnemy: 0
+      SpawnRatio: 0
+      enemySpawn:
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+    - NumberOfEnemy: 0
+      SpawnRatio: 0
+      enemySpawn:
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+  - levelName: 
+    EnemyRandomPrefab: []
+    waveSpawn:
+    - NumberOfEnemy: 0
+      SpawnRatio: 0
+      enemySpawn:
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+    - NumberOfEnemy: 0
+      SpawnRatio: 0
+      enemySpawn:
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+    - NumberOfEnemy: 0
+      SpawnRatio: 0
+      enemySpawn:
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+    - NumberOfEnemy: 0
+      SpawnRatio: 0
+      enemySpawn:
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+    - NumberOfEnemy: 0
+      SpawnRatio: 0
+      enemySpawn:
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+    - NumberOfEnemy: 0
+      SpawnRatio: 0
+      enemySpawn:
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+  - levelName: 
+    EnemyRandomPrefab: []
+    waveSpawn:
+    - NumberOfEnemy: 0
+      SpawnRatio: 0
+      enemySpawn:
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+    - NumberOfEnemy: 0
+      SpawnRatio: 0
+      enemySpawn:
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+    - NumberOfEnemy: 0
+      SpawnRatio: 0
+      enemySpawn:
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+    - NumberOfEnemy: 0
+      SpawnRatio: 0
+      enemySpawn:
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+    - NumberOfEnemy: 0
+      SpawnRatio: 0
+      enemySpawn:
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+    - NumberOfEnemy: 0
+      SpawnRatio: 0
+      enemySpawn:
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+  - levelName: 
+    EnemyRandomPrefab: []
+    waveSpawn:
+    - NumberOfEnemy: 0
+      SpawnRatio: 0
+      enemySpawn:
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+    - NumberOfEnemy: 0
+      SpawnRatio: 0
+      enemySpawn:
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+    - NumberOfEnemy: 0
+      SpawnRatio: 0
+      enemySpawn:
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+    - NumberOfEnemy: 0
+      SpawnRatio: 0
+      enemySpawn:
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+    - NumberOfEnemy: 0
+      SpawnRatio: 0
+      enemySpawn:
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+    - NumberOfEnemy: 0
+      SpawnRatio: 0
+      enemySpawn:
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+      - EnemyPrefab: {fileID: 0}
+        EnemyAmount: 0
+        EnemyChance: 0
+  BossSpeech:
+  - speechType: 0
+    portraitID: 
+    warningQuote: A CHAMPION
+    introductionSpeech: speech
+    championName: name
+    musicTrackNumber: 0
+    minSpawnRatio: 0
+    maxSpawnRatio: 0
+  - speechType: 0
+    portraitID: 
+    warningQuote: A CHAMPION
+    introductionSpeech: speech
+    championName: name
+    musicTrackNumber: 0
+    minSpawnRatio: 0
+    maxSpawnRatio: 0
+  - speechType: 0
+    portraitID: 
+    warningQuote: A CHAMPION
+    introductionSpeech: speech
+    championName: name
+    musicTrackNumber: 0
+    minSpawnRatio: 0
+    maxSpawnRatio: 0
+  - speechType: 0
+    portraitID: 
+    warningQuote: A CHAMPION
+    introductionSpeech: speech
+    championName: name
+    musicTrackNumber: 0
+    minSpawnRatio: 0
+    maxSpawnRatio: 0
+  - speechType: 0
+    portraitID: 
+    warningQuote: A CHAMPION
+    introductionSpeech: speech
+    championName: name
+    musicTrackNumber: 0
+    minSpawnRatio: 0
+    maxSpawnRatio: 0
+  - speechType: 0
+    portraitID: 
+    warningQuote: A CHAMPION
+    introductionSpeech: speech
+    championName: name
+    musicTrackNumber: 0
+    minSpawnRatio: 0
+    maxSpawnRatio: 0
+  - speechType: 0
+    portraitID: 
+    warningQuote: A CHAMPION
+    introductionSpeech: speech
+    championName: name
+    musicTrackNumber: 0
+    minSpawnRatio: 0
+    maxSpawnRatio: 0
+  - speechType: 0
+    portraitID: 
+    warningQuote: A CHAMPION
+    introductionSpeech: speech
+    championName: name
+    musicTrackNumber: 0
+    minSpawnRatio: 0
+    maxSpawnRatio: 0
+  - speechType: 0
+    portraitID: 
+    warningQuote: A CHAMPION
+    introductionSpeech: speech
+    championName: name
+    musicTrackNumber: 0
+    minSpawnRatio: 0
+    maxSpawnRatio: 0
+  - speechType: 0
+    portraitID: 
+    warningQuote: A CHAMPION
+    introductionSpeech: speech
+    championName: name
+    musicTrackNumber: 0
+    minSpawnRatio: 0
+    maxSpawnRatio: 0
+  - speechType: 0
+    portraitID: 
+    warningQuote: A CHAMPION
+    introductionSpeech: speech
+    championName: name
+    musicTrackNumber: 0
+    minSpawnRatio: 0
+    maxSpawnRatio: 0
+  - speechType: 0
+    portraitID: 
+    warningQuote: A CHAMPION
+    introductionSpeech: speech
+    championName: name
+    musicTrackNumber: 0
+    minSpawnRatio: 0
+    maxSpawnRatio: 0
+  - speechType: 0
+    portraitID: 
+    warningQuote: A CHAMPION
+    introductionSpeech: speech
+    championName: name
+    musicTrackNumber: 0
+    minSpawnRatio: 0
+    maxSpawnRatio: 0
+  - speechType: 0
+    portraitID: 
+    warningQuote: A CHAMPION
+    introductionSpeech: speech
+    championName: name
+    musicTrackNumber: 0
+    minSpawnRatio: 0
+    maxSpawnRatio: 0
+  - speechType: 0
+    portraitID: 
+    warningQuote: A CHAMPION
+    introductionSpeech: speech
+    championName: name
+    musicTrackNumber: 0
+    minSpawnRatio: 0
+    maxSpawnRatio: 0
+  - speechType: 0
+    portraitID: 
+    warningQuote: A CHAMPION
+    introductionSpeech: speech
+    championName: name
+    musicTrackNumber: 0
+    minSpawnRatio: 0
+    maxSpawnRatio: 0
+  - speechType: 0
+    portraitID: 
+    warningQuote: A CHAMPION
+    introductionSpeech: speech
+    championName: name
+    musicTrackNumber: 0
+    minSpawnRatio: 0
+    maxSpawnRatio: 0
+  - speechType: 0
+    portraitID: 
+    warningQuote: A CHAMPION
+    introductionSpeech: speech
+    championName: name
+    musicTrackNumber: 0
+    minSpawnRatio: 0
+    maxSpawnRatio: 0
+  levelPreview:
+  - {fileID: 1791166996468136963, guid: e60a3ffc7f03e894c822a5988274879b, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  objectPreviewSigns:
+  - {fileID: 1791166996468137574, guid: a4a1d01468df4704eaf919e80b1bff39, type: 3}
+  - {fileID: 1791166996468137575, guid: 4183dae7e4831db4ba64df0941230f6f, type: 3}
+  - {fileID: 1791166996468137314, guid: b58920ff842379042a6dd4ab4f38da2b, type: 3}
+  - {fileID: 1791166996468137153, guid: c0eac340d6a4b7a488ae4599b3577ff4, type: 3}
+  - {fileID: 1791166996468137450, guid: 18b70967bbab03345af1261108864e69, type: 3}
+  characterTutorial: {fileID: 0}
+  storyElements:
+  - 
+  - 
+  - 
+  - 
+  - 
+  ItemUnlockID:
+  - itemID: 
+    itemState: 0
+  - itemID: 
+    itemState: 0
+  - itemID: 
+    itemState: 0
+  - itemID: 
+    itemState: 0
+  ShopItems:
+  - ClassNames: items
+    ItemInfos:
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+  - ClassNames: scrolls
+    ItemInfos:
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+  - ClassNames: accessories
+    ItemInfos:
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+    - itemName: 
+      itemCost: 0
+      itemID: 
+      itemIconID: 
+      itemShopAmount: 0
+      itemManaValue: 0
+      itemBG: 0
+      itemDescriptionLine1: 
+      itemDescriptionLine2: 
+--- !u!114 &1791166998363962317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791166996468136895}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08812e809179771f933a16193cb9f4f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  state: 0
+  itemDebug: 0
+  ItemIDs:
+  - itemName: 
+    itemLock: 0
+    itemID: 
+    itemNameID: 
+    itemClass: 0
+    itemNumber: 0
+    PassivePrefab: {fileID: 0}
+    ItemPrefab: {fileID: 0}
+    itemMaximumCharges: 0
+    itemManaCost: 0
+    itemCoolDown: 0
+    itemShopAmount: 0
+    itemCost: 0
+    itemIconID: 
+    itemBG: 0
+    itemDescriptionQuote: 
+    itemDescriptionInfo: 
+    scrollType: 0
+    arrowDirection: 0
+    centreScrollTypeHeight: 0
+    indicatorType: 0
+    activateSound: {fileID: 0}
+  - itemName: 
+    itemLock: 0
+    itemID: 
+    itemNameID: 
+    itemClass: 0
+    itemNumber: 0
+    PassivePrefab: {fileID: 0}
+    ItemPrefab: {fileID: 0}
+    itemMaximumCharges: 0
+    itemManaCost: 0
+    itemCoolDown: 0
+    itemShopAmount: 0
+    itemCost: 0
+    itemIconID: 
+    itemBG: 0
+    itemDescriptionQuote: 
+    itemDescriptionInfo: 
+    scrollType: 0
+    arrowDirection: 0
+    centreScrollTypeHeight: 0
+    indicatorType: 0
+    activateSound: {fileID: 0}
+  - itemName: 
+    itemLock: 0
+    itemID: 
+    itemNameID: 
+    itemClass: 0
+    itemNumber: 0
+    PassivePrefab: {fileID: 0}
+    ItemPrefab: {fileID: 0}
+    itemMaximumCharges: 0
+    itemManaCost: 0
+    itemCoolDown: 0
+    itemShopAmount: 0
+    itemCost: 0
+    itemIconID: 
+    itemBG: 0
+    itemDescriptionQuote: 
+    itemDescriptionInfo: 
+    scrollType: 0
+    arrowDirection: 0
+    centreScrollTypeHeight: 0
+    indicatorType: 0
+    activateSound: {fileID: 0}
+  - itemName: 
+    itemLock: 0
+    itemID: 
+    itemNameID: 
+    itemClass: 0
+    itemNumber: 0
+    PassivePrefab: {fileID: 0}
+    ItemPrefab: {fileID: 0}
+    itemMaximumCharges: 0
+    itemManaCost: 0
+    itemCoolDown: 0
+    itemShopAmount: 0
+    itemCost: 0
+    itemIconID: 
+    itemBG: 0
+    itemDescriptionQuote: 
+    itemDescriptionInfo: 
+    scrollType: 0
+    arrowDirection: 0
+    centreScrollTypeHeight: 0
+    indicatorType: 0
+    activateSound: {fileID: 0}
+  - itemName: 
+    itemLock: 0
+    itemID: 
+    itemNameID: 
+    itemClass: 0
+    itemNumber: 0
+    PassivePrefab: {fileID: 0}
+    ItemPrefab: {fileID: 0}
+    itemMaximumCharges: 0
+    itemManaCost: 0
+    itemCoolDown: 0
+    itemShopAmount: 0
+    itemCost: 0
+    itemIconID: 
+    itemBG: 0
+    itemDescriptionQuote: 
+    itemDescriptionInfo: 
+    scrollType: 0
+    arrowDirection: 0
+    centreScrollTypeHeight: 0
+    indicatorType: 0
+    activateSound: {fileID: 0}
+  - itemName: 
+    itemLock: 0
+    itemID: 
+    itemNameID: 
+    itemClass: 0
+    itemNumber: 0
+    PassivePrefab: {fileID: 0}
+    ItemPrefab: {fileID: 0}
+    itemMaximumCharges: 0
+    itemManaCost: 0
+    itemCoolDown: 0
+    itemShopAmount: 0
+    itemCost: 0
+    itemIconID: 
+    itemBG: 0
+    itemDescriptionQuote: 
+    itemDescriptionInfo: 
+    scrollType: 0
+    arrowDirection: 0
+    centreScrollTypeHeight: 0
+    indicatorType: 0
+    activateSound: {fileID: 0}
+  - itemName: 
+    itemLock: 0
+    itemID: 
+    itemNameID: 
+    itemClass: 0
+    itemNumber: 0
+    PassivePrefab: {fileID: 0}
+    ItemPrefab: {fileID: 0}
+    itemMaximumCharges: 0
+    itemManaCost: 0
+    itemCoolDown: 0
+    itemShopAmount: 0
+    itemCost: 0
+    itemIconID: 
+    itemBG: 0
+    itemDescriptionQuote: 
+    itemDescriptionInfo: 
+    scrollType: 0
+    arrowDirection: 0
+    centreScrollTypeHeight: 0
+    indicatorType: 0
+    activateSound: {fileID: 0}
+  - itemName: 
+    itemLock: 0
+    itemID: 
+    itemNameID: 
+    itemClass: 0
+    itemNumber: 0
+    PassivePrefab: {fileID: 0}
+    ItemPrefab: {fileID: 0}
+    itemMaximumCharges: 0
+    itemManaCost: 0
+    itemCoolDown: 0
+    itemShopAmount: 0
+    itemCost: 0
+    itemIconID: 
+    itemBG: 0
+    itemDescriptionQuote: 
+    itemDescriptionInfo: 
+    scrollType: 0
+    arrowDirection: 0
+    centreScrollTypeHeight: 0
+    indicatorType: 0
+    activateSound: {fileID: 0}
+  - itemName: 
+    itemLock: 0
+    itemID: 
+    itemNameID: 
+    itemClass: 0
+    itemNumber: 0
+    PassivePrefab: {fileID: 0}
+    ItemPrefab: {fileID: 0}
+    itemMaximumCharges: 0
+    itemManaCost: 0
+    itemCoolDown: 0
+    itemShopAmount: 0
+    itemCost: 0
+    itemIconID: 
+    itemBG: 0
+    itemDescriptionQuote: 
+    itemDescriptionInfo: 
+    scrollType: 0
+    arrowDirection: 0
+    centreScrollTypeHeight: 0
+    indicatorType: 0
+    activateSound: {fileID: 0}
+  - itemName: 
+    itemLock: 0
+    itemID: 
+    itemNameID: 
+    itemClass: 0
+    itemNumber: 0
+    PassivePrefab: {fileID: 0}
+    ItemPrefab: {fileID: 0}
+    itemMaximumCharges: 0
+    itemManaCost: 0
+    itemCoolDown: 0
+    itemShopAmount: 0
+    itemCost: 0
+    itemIconID: 
+    itemBG: 0
+    itemDescriptionQuote: 
+    itemDescriptionInfo: 
+    scrollType: 0
+    arrowDirection: 0
+    centreScrollTypeHeight: 0
+    indicatorType: 0
+    activateSound: {fileID: 0}
+  - itemName: 
+    itemLock: 0
+    itemID: 
+    itemNameID: 
+    itemClass: 0
+    itemNumber: 0
+    PassivePrefab: {fileID: 0}
+    ItemPrefab: {fileID: 0}
+    itemMaximumCharges: 0
+    itemManaCost: 0
+    itemCoolDown: 0
+    itemShopAmount: 0
+    itemCost: 0
+    itemIconID: 
+    itemBG: 0
+    itemDescriptionQuote: 
+    itemDescriptionInfo: 
+    scrollType: 0
+    arrowDirection: 0
+    centreScrollTypeHeight: 0
+    indicatorType: 0
+    activateSound: {fileID: 0}
+  - itemName: 
+    itemLock: 0
+    itemID: 
+    itemNameID: 
+    itemClass: 0
+    itemNumber: 0
+    PassivePrefab: {fileID: 0}
+    ItemPrefab: {fileID: 0}
+    itemMaximumCharges: 0
+    itemManaCost: 0
+    itemCoolDown: 0
+    itemShopAmount: 0
+    itemCost: 0
+    itemIconID: 
+    itemBG: 0
+    itemDescriptionQuote: 
+    itemDescriptionInfo: 
+    scrollType: 0
+    arrowDirection: 0
+    centreScrollTypeHeight: 0
+    indicatorType: 0
+    activateSound: {fileID: 0}
+  - itemName: 
+    itemLock: 0
+    itemID: 
+    itemNameID: 
+    itemClass: 0
+    itemNumber: 0
+    PassivePrefab: {fileID: 0}
+    ItemPrefab: {fileID: 0}
+    itemMaximumCharges: 0
+    itemManaCost: 0
+    itemCoolDown: 0
+    itemShopAmount: 0
+    itemCost: 0
+    itemIconID: 
+    itemBG: 0
+    itemDescriptionQuote: 
+    itemDescriptionInfo: 
+    scrollType: 0
+    arrowDirection: 0
+    centreScrollTypeHeight: 0
+    indicatorType: 0
+    activateSound: {fileID: 0}
+  - itemName: 
+    itemLock: 0
+    itemID: 
+    itemNameID: 
+    itemClass: 0
+    itemNumber: 0
+    PassivePrefab: {fileID: 0}
+    ItemPrefab: {fileID: 0}
+    itemMaximumCharges: 0
+    itemManaCost: 0
+    itemCoolDown: 0
+    itemShopAmount: 0
+    itemCost: 0
+    itemIconID: 
+    itemBG: 0
+    itemDescriptionQuote: 
+    itemDescriptionInfo: 
+    scrollType: 0
+    arrowDirection: 0
+    centreScrollTypeHeight: 0
+    indicatorType: 0
+    activateSound: {fileID: 0}
+  - itemName: 
+    itemLock: 0
+    itemID: 
+    itemNameID: 
+    itemClass: 0
+    itemNumber: 0
+    PassivePrefab: {fileID: 0}
+    ItemPrefab: {fileID: 0}
+    itemMaximumCharges: 0
+    itemManaCost: 0
+    itemCoolDown: 0
+    itemShopAmount: 0
+    itemCost: 0
+    itemIconID: 
+    itemBG: 0
+    itemDescriptionQuote: 
+    itemDescriptionInfo: 
+    scrollType: 0
+    arrowDirection: 0
+    centreScrollTypeHeight: 0
+    indicatorType: 0
+    activateSound: {fileID: 0}
+  - itemName: 
+    itemLock: 0
+    itemID: 
+    itemNameID: 
+    itemClass: 0
+    itemNumber: 0
+    PassivePrefab: {fileID: 0}
+    ItemPrefab: {fileID: 0}
+    itemMaximumCharges: 0
+    itemManaCost: 0
+    itemCoolDown: 0
+    itemShopAmount: 0
+    itemCost: 0
+    itemIconID: 
+    itemBG: 0
+    itemDescriptionQuote: 
+    itemDescriptionInfo: 
+    scrollType: 0
+    arrowDirection: 0
+    centreScrollTypeHeight: 0
+    indicatorType: 0
+    activateSound: {fileID: 0}
+  - itemName: 
+    itemLock: 0
+    itemID: 
+    itemNameID: 
+    itemClass: 0
+    itemNumber: 0
+    PassivePrefab: {fileID: 0}
+    ItemPrefab: {fileID: 0}
+    itemMaximumCharges: 0
+    itemManaCost: 0
+    itemCoolDown: 0
+    itemShopAmount: 0
+    itemCost: 0
+    itemIconID: 
+    itemBG: 0
+    itemDescriptionQuote: 
+    itemDescriptionInfo: 
+    scrollType: 0
+    arrowDirection: 0
+    centreScrollTypeHeight: 0
+    indicatorType: 0
+    activateSound: {fileID: 0}
+  - itemName: 
+    itemLock: 0
+    itemID: 
+    itemNameID: 
+    itemClass: 0
+    itemNumber: 0
+    PassivePrefab: {fileID: 0}
+    ItemPrefab: {fileID: 0}
+    itemMaximumCharges: 0
+    itemManaCost: 0
+    itemCoolDown: 0
+    itemShopAmount: 0
+    itemCost: 0
+    itemIconID: 
+    itemBG: 0
+    itemDescriptionQuote: 
+    itemDescriptionInfo: 
+    scrollType: 0
+    arrowDirection: 0
+    centreScrollTypeHeight: 0
+    indicatorType: 0
+    activateSound: {fileID: 0}
+  - itemName: 
+    itemLock: 0
+    itemID: 
+    itemNameID: 
+    itemClass: 0
+    itemNumber: 0
+    PassivePrefab: {fileID: 0}
+    ItemPrefab: {fileID: 0}
+    itemMaximumCharges: 0
+    itemManaCost: 0
+    itemCoolDown: 0
+    itemShopAmount: 0
+    itemCost: 0
+    itemIconID: 
+    itemBG: 0
+    itemDescriptionQuote: 
+    itemDescriptionInfo: 
+    scrollType: 0
+    arrowDirection: 0
+    centreScrollTypeHeight: 0
+    indicatorType: 0
+    activateSound: {fileID: 0}
+  - itemName: 
+    itemLock: 0
+    itemID: 
+    itemNameID: 
+    itemClass: 0
+    itemNumber: 0
+    PassivePrefab: {fileID: 0}
+    ItemPrefab: {fileID: 0}
+    itemMaximumCharges: 0
+    itemManaCost: 0
+    itemCoolDown: 0
+    itemShopAmount: 0
+    itemCost: 0
+    itemIconID: 
+    itemBG: 0
+    itemDescriptionQuote: 
+    itemDescriptionInfo: 
+    scrollType: 0
+    arrowDirection: 0
+    centreScrollTypeHeight: 0
+    indicatorType: 0
+    activateSound: {fileID: 0}
+  - itemName: 
+    itemLock: 0
+    itemID: 
+    itemNameID: 
+    itemClass: 0
+    itemNumber: 0
+    PassivePrefab: {fileID: 0}
+    ItemPrefab: {fileID: 0}
+    itemMaximumCharges: 0
+    itemManaCost: 0
+    itemCoolDown: 0
+    itemShopAmount: 0
+    itemCost: 0
+    itemIconID: 
+    itemBG: 0
+    itemDescriptionQuote: 
+    itemDescriptionInfo: 
+    scrollType: 0
+    arrowDirection: 0
+    centreScrollTypeHeight: 0
+    indicatorType: 0
+    activateSound: {fileID: 0}
+  - itemName: 
+    itemLock: 0
+    itemID: 
+    itemNameID: 
+    itemClass: 0
+    itemNumber: 0
+    PassivePrefab: {fileID: 0}
+    ItemPrefab: {fileID: 0}
+    itemMaximumCharges: 0
+    itemManaCost: 0
+    itemCoolDown: 0
+    itemShopAmount: 0
+    itemCost: 0
+    itemIconID: 
+    itemBG: 0
+    itemDescriptionQuote: 
+    itemDescriptionInfo: 
+    scrollType: 0
+    arrowDirection: 0
+    centreScrollTypeHeight: 0
+    indicatorType: 0
+    activateSound: {fileID: 0}
+  - itemName: 
+    itemLock: 0
+    itemID: 
+    itemNameID: 
+    itemClass: 0
+    itemNumber: 0
+    PassivePrefab: {fileID: 0}
+    ItemPrefab: {fileID: 0}
+    itemMaximumCharges: 0
+    itemManaCost: 0
+    itemCoolDown: 0
+    itemShopAmount: 0
+    itemCost: 0
+    itemIconID: 
+    itemBG: 0
+    itemDescriptionQuote: 
+    itemDescriptionInfo: 
+    scrollType: 0
+    arrowDirection: 0
+    centreScrollTypeHeight: 0
+    indicatorType: 0
+    activateSound: {fileID: 0}
+  - itemName: 
+    itemLock: 0
+    itemID: 
+    itemNameID: 
+    itemClass: 0
+    itemNumber: 0
+    PassivePrefab: {fileID: 0}
+    ItemPrefab: {fileID: 0}
+    itemMaximumCharges: 0
+    itemManaCost: 0
+    itemCoolDown: 0
+    itemShopAmount: 0
+    itemCost: 0
+    itemIconID: 
+    itemBG: 0
+    itemDescriptionQuote: 
+    itemDescriptionInfo: 
+    scrollType: 0
+    arrowDirection: 0
+    centreScrollTypeHeight: 0
+    indicatorType: 0
+    activateSound: {fileID: 0}
+  - itemName: 
+    itemLock: 0
+    itemID: 
+    itemNameID: 
+    itemClass: 0
+    itemNumber: 0
+    PassivePrefab: {fileID: 0}
+    ItemPrefab: {fileID: 0}
+    itemMaximumCharges: 0
+    itemManaCost: 0
+    itemCoolDown: 0
+    itemShopAmount: 0
+    itemCost: 0
+    itemIconID: 
+    itemBG: 0
+    itemDescriptionQuote: 
+    itemDescriptionInfo: 
+    scrollType: 0
+    arrowDirection: 0
+    centreScrollTypeHeight: 0
+    indicatorType: 0
+    activateSound: {fileID: 0}
+  - itemName: 
+    itemLock: 0
+    itemID: 
+    itemNameID: 
+    itemClass: 0
+    itemNumber: 0
+    PassivePrefab: {fileID: 0}
+    ItemPrefab: {fileID: 0}
+    itemMaximumCharges: 0
+    itemManaCost: 0
+    itemCoolDown: 0
+    itemShopAmount: 0
+    itemCost: 0
+    itemIconID: 
+    itemBG: 0
+    itemDescriptionQuote: 
+    itemDescriptionInfo: 
+    scrollType: 0
+    arrowDirection: 0
+    centreScrollTypeHeight: 0
+    indicatorType: 0
+    activateSound: {fileID: 0}
+  - itemName: 
+    itemLock: 0
+    itemID: 
+    itemNameID: 
+    itemClass: 0
+    itemNumber: 0
+    PassivePrefab: {fileID: 0}
+    ItemPrefab: {fileID: 0}
+    itemMaximumCharges: 0
+    itemManaCost: 0
+    itemCoolDown: 0
+    itemShopAmount: 0
+    itemCost: 0
+    itemIconID: 
+    itemBG: 0
+    itemDescriptionQuote: 
+    itemDescriptionInfo: 
+    scrollType: 0
+    arrowDirection: 0
+    centreScrollTypeHeight: 0
+    indicatorType: 0
+    activateSound: {fileID: 0}
+  - itemName: 
+    itemLock: 0
+    itemID: 
+    itemNameID: 
+    itemClass: 0
+    itemNumber: 0
+    PassivePrefab: {fileID: 0}
+    ItemPrefab: {fileID: 0}
+    itemMaximumCharges: 0
+    itemManaCost: 0
+    itemCoolDown: 0
+    itemShopAmount: 0
+    itemCost: 0
+    itemIconID: 
+    itemBG: 0
+    itemDescriptionQuote: 
+    itemDescriptionInfo: 
+    scrollType: 0
+    arrowDirection: 0
+    centreScrollTypeHeight: 0
+    indicatorType: 0
+    activateSound: {fileID: 0}
+  - itemName: 
+    itemLock: 0
+    itemID: 
+    itemNameID: 
+    itemClass: 0
+    itemNumber: 0
+    PassivePrefab: {fileID: 0}
+    ItemPrefab: {fileID: 0}
+    itemMaximumCharges: 0
+    itemManaCost: 0
+    itemCoolDown: 0
+    itemShopAmount: 0
+    itemCost: 0
+    itemIconID: 
+    itemBG: 0
+    itemDescriptionQuote: 
+    itemDescriptionInfo: 
+    scrollType: 0
+    arrowDirection: 0
+    centreScrollTypeHeight: 0
+    indicatorType: 0
+    activateSound: {fileID: 0}
+  - itemName: 
+    itemLock: 0
+    itemID: 
+    itemNameID: 
+    itemClass: 0
+    itemNumber: 0
+    PassivePrefab: {fileID: 0}
+    ItemPrefab: {fileID: 0}
+    itemMaximumCharges: 0
+    itemManaCost: 0
+    itemCoolDown: 0
+    itemShopAmount: 0
+    itemCost: 0
+    itemIconID: 
+    itemBG: 0
+    itemDescriptionQuote: 
+    itemDescriptionInfo: 
+    scrollType: 0
+    arrowDirection: 0
+    centreScrollTypeHeight: 0
+    indicatorType: 0
+    activateSound: {fileID: 0}
+  - itemName: 
+    itemLock: 0
+    itemID: 
+    itemNameID: 
+    itemClass: 0
+    itemNumber: 0
+    PassivePrefab: {fileID: 0}
+    ItemPrefab: {fileID: 0}
+    itemMaximumCharges: 0
+    itemManaCost: 0
+    itemCoolDown: 0
+    itemShopAmount: 0
+    itemCost: 0
+    itemIconID: 
+    itemBG: 0
+    itemDescriptionQuote: 
+    itemDescriptionInfo: 
+    scrollType: 0
+    arrowDirection: 0
+    centreScrollTypeHeight: 0
+    indicatorType: 0
+    activateSound: {fileID: 0}
+  - itemName: 
+    itemLock: 0
+    itemID: 
+    itemNameID: 
+    itemClass: 0
+    itemNumber: 0
+    PassivePrefab: {fileID: 0}
+    ItemPrefab: {fileID: 0}
+    itemMaximumCharges: 0
+    itemManaCost: 0
+    itemCoolDown: 0
+    itemShopAmount: 0
+    itemCost: 0
+    itemIconID: 
+    itemBG: 0
+    itemDescriptionQuote: 
+    itemDescriptionInfo: 
+    scrollType: 0
+    arrowDirection: 0
+    centreScrollTypeHeight: 0
+    indicatorType: 0
+    activateSound: {fileID: 0}
+  - itemName: 
+    itemLock: 0
+    itemID: 
+    itemNameID: 
+    itemClass: 0
+    itemNumber: 0
+    PassivePrefab: {fileID: 0}
+    ItemPrefab: {fileID: 0}
+    itemMaximumCharges: 0
+    itemManaCost: 0
+    itemCoolDown: 0
+    itemShopAmount: 0
+    itemCost: 0
+    itemIconID: 
+    itemBG: 0
+    itemDescriptionQuote: 
+    itemDescriptionInfo: 
+    scrollType: 0
+    arrowDirection: 0
+    centreScrollTypeHeight: 0
+    indicatorType: 0
+    activateSound: {fileID: 0}
+  - itemName: 
+    itemLock: 0
+    itemID: 
+    itemNameID: 
+    itemClass: 0
+    itemNumber: 0
+    PassivePrefab: {fileID: 0}
+    ItemPrefab: {fileID: 0}
+    itemMaximumCharges: 0
+    itemManaCost: 0
+    itemCoolDown: 0
+    itemShopAmount: 0
+    itemCost: 0
+    itemIconID: 
+    itemBG: 0
+    itemDescriptionQuote: 
+    itemDescriptionInfo: 
+    scrollType: 0
+    arrowDirection: 0
+    centreScrollTypeHeight: 0
+    indicatorType: 0
+    activateSound: {fileID: 0}
+  - itemName: 
+    itemLock: 0
+    itemID: 
+    itemNameID: 
+    itemClass: 0
+    itemNumber: 0
+    PassivePrefab: {fileID: 0}
+    ItemPrefab: {fileID: 0}
+    itemMaximumCharges: 0
+    itemManaCost: 0
+    itemCoolDown: 0
+    itemShopAmount: 0
+    itemCost: 0
+    itemIconID: 
+    itemBG: 0
+    itemDescriptionQuote: 
+    itemDescriptionInfo: 
+    scrollType: 0
+    arrowDirection: 0
+    centreScrollTypeHeight: 0
+    indicatorType: 0
+    activateSound: {fileID: 0}
+  - itemName: 
+    itemLock: 0
+    itemID: 
+    itemNameID: 
+    itemClass: 0
+    itemNumber: 0
+    PassivePrefab: {fileID: 0}
+    ItemPrefab: {fileID: 0}
+    itemMaximumCharges: 0
+    itemManaCost: 0
+    itemCoolDown: 0
+    itemShopAmount: 0
+    itemCost: 0
+    itemIconID: 
+    itemBG: 0
+    itemDescriptionQuote: 
+    itemDescriptionInfo: 
+    scrollType: 0
+    arrowDirection: 0
+    centreScrollTypeHeight: 0
+    indicatorType: 0
+    activateSound: {fileID: 0}
+  - itemName: 
+    itemLock: 0
+    itemID: 
+    itemNameID: 
+    itemClass: 0
+    itemNumber: 0
+    PassivePrefab: {fileID: 0}
+    ItemPrefab: {fileID: 0}
+    itemMaximumCharges: 0
+    itemManaCost: 0
+    itemCoolDown: 0
+    itemShopAmount: 0
+    itemCost: 0
+    itemIconID: 
+    itemBG: 0
+    itemDescriptionQuote: 
+    itemDescriptionInfo: 
+    scrollType: 0
+    arrowDirection: 0
+    centreScrollTypeHeight: 0
+    indicatorType: 0
+    activateSound: {fileID: 0}
+  - itemName: 
+    itemLock: 0
+    itemID: 
+    itemNameID: 
+    itemClass: 0
+    itemNumber: 0
+    PassivePrefab: {fileID: 0}
+    ItemPrefab: {fileID: 0}
+    itemMaximumCharges: 0
+    itemManaCost: 0
+    itemCoolDown: 0
+    itemShopAmount: 0
+    itemCost: 0
+    itemIconID: 
+    itemBG: 0
+    itemDescriptionQuote: 
+    itemDescriptionInfo: 
+    scrollType: 0
+    arrowDirection: 0
+    centreScrollTypeHeight: 0
+    indicatorType: 0
+    activateSound: {fileID: 0}
+  - itemName: 
+    itemLock: 0
+    itemID: 
+    itemNameID: 
+    itemClass: 0
+    itemNumber: 0
+    PassivePrefab: {fileID: 0}
+    ItemPrefab: {fileID: 0}
+    itemMaximumCharges: 0
+    itemManaCost: 0
+    itemCoolDown: 0
+    itemShopAmount: 0
+    itemCost: 0
+    itemIconID: 
+    itemBG: 0
+    itemDescriptionQuote: 
+    itemDescriptionInfo: 
+    scrollType: 0
+    arrowDirection: 0
+    centreScrollTypeHeight: 0
+    indicatorType: 0
+    activateSound: {fileID: 0}
+  - itemName: 
+    itemLock: 0
+    itemID: 
+    itemNameID: 
+    itemClass: 0
+    itemNumber: 0
+    PassivePrefab: {fileID: 0}
+    ItemPrefab: {fileID: 0}
+    itemMaximumCharges: 0
+    itemManaCost: 0
+    itemCoolDown: 0
+    itemShopAmount: 0
+    itemCost: 0
+    itemIconID: 
+    itemBG: 0
+    itemDescriptionQuote: 
+    itemDescriptionInfo: 
+    scrollType: 0
+    arrowDirection: 0
+    centreScrollTypeHeight: 0
+    indicatorType: 0
+    activateSound: {fileID: 0}
+  ItemIDsOrganize:
+  - itemBundle:
+    - {fileID: 1791166998363966529, guid: 0f9cae5c3d697cc40849f0679b5d935d, type: 3}
+    - {fileID: 1791166998363966523, guid: 002904e8bb7c26145bdeb66dd8c57a8b, type: 3}
+    - {fileID: 1791166998363966530, guid: 5385b5c87207def4d8fed2dfa5ae2979, type: 3}
+    - {fileID: 1791166998363966524, guid: b43e6feee0459e940825afee219faf27, type: 3}
+    - {fileID: 1791166998363966521, guid: 4d73543b94e63d84e9097d47c711133e, type: 3}
+    - {fileID: 1791166998363966525, guid: f256a101ab725b7408f26386c16a2cef, type: 3}
+    - {fileID: 1791166998363966526, guid: 96dca1b89ffb1e24db872bb2d4a74888, type: 3}
+    - {fileID: 1791166998363966527, guid: d4b6bc54358942f48870b30d383ad9a1, type: 3}
+    - {fileID: 1791166998363966522, guid: ac2e683113ee0424bb4771e10f339002, type: 3}
+    - {fileID: 1791166998363966528, guid: 792c8fed24fbd47cf8ad9603b5df6c9c, type: 3}
+  - itemBundle:
+    - {fileID: 1791166998363966535, guid: bac8e55e3caa53544ac431da822df5d3, type: 3}
+    - {fileID: 1791166998363966533, guid: ae3c77428ef660049b4acbe30cec655a, type: 3}
+    - {fileID: 1791166998363966536, guid: 9ffaaebdcdd10244ca8246013b40d604, type: 3}
+    - {fileID: 1791166998363966540, guid: 0a67fb02cba616c47b33366a46922380, type: 3}
+    - {fileID: 1791166998363966537, guid: 2907180a15e277e4d8079c9ab7c9729a, type: 3}
+    - {fileID: 1791166998363966538, guid: f4ad963d2fdc8f34fbc68f4e3c841c6b, type: 3}
+    - {fileID: 1791166998363966539, guid: b6cfc9b62bb89414683c3144fac92181, type: 3}
+    - {fileID: 1791166998363966531, guid: 8352b9adb94bacc498ef6c4d766f5304, type: 3}
+    - {fileID: 1791166998363966534, guid: 7a7c9ec15a2a3ec4ca035d711390be0f, type: 3}
+    - {fileID: 1791166998363966532, guid: 144d8fb8847e5934fabac14c435fd990, type: 3}
+  - itemBundle:
+    - {fileID: 1791166998363966541, guid: f93e70a92d5a0614189577fd74d8fe79, type: 3}
+    - {fileID: 1791166998363966544, guid: f374a65952d592640abf95b4ef21c36c, type: 3}
+    - {fileID: 1791166998363966551, guid: c114bf3f755941249aa1ff4269efc8e0, type: 3}
+    - {fileID: 1791166998363966543, guid: 021a1cbfd6c8af247b30269d52be4ee8, type: 3}
+    - {fileID: 1791166998363966542, guid: 3bdb5bedcda3c4f42898a018c5af2810, type: 3}
+    - {fileID: 1791166998363966545, guid: c2624e2acc5cc3842834e9d410a4135b, type: 3}
+    - {fileID: 1791166998363966547, guid: 4415d4dfc18bf854cb13f8d7cf5c1dc0, type: 3}
+    - {fileID: 1791166998363966549, guid: 0efefc284782c7140ab50f5ff68efe7d, type: 3}
+    - {fileID: 1791166998363966548, guid: cd6197e71898cbd4da4c0bd971e4cea6, type: 3}
+    - {fileID: 1791166998363966546, guid: 3250cb1b101c03e4b8c5a17693cb79ab, type: 3}
+    - {fileID: 1791166998363966554, guid: 5f15bd17335c75242aeb462b7ad2f05c, type: 3}
+    - {fileID: 1791166998363966553, guid: 4f74463a6ecc9ff488c70e894451bd0d, type: 3}
+    - {fileID: 1791166998363966552, guid: af80bf46cec56c749b1166e009f436e4, type: 3}
+    - {fileID: 1791166998363966550, guid: 4da4b12e660d73c4b959b8f3e0749d8c, type: 3}
+    - {fileID: 0}
+--- !u!114 &1791166998363962318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791166996468136896}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b97c7f74d45cc48dafc6b07f52b7743f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnemyIDs:
+  - enemyID: TFez
+    enemyBundle: {fileID: 1791166996468136922, guid: 9e9a1070072596140936e3f5c1f43218,
+      type: 3}
+  - enemyID: TF
+    enemyBundle: {fileID: 1791166996468136921, guid: 9e8d7aadd90cf3a4a804c08ed1dfb1b9,
+      type: 3}
+  - enemyID: GB
+    enemyBundle: {fileID: 1791166996468136912, guid: 3a30a9e61215a44409e9336af60a9512,
+      type: 3}
+  - enemyID: KN
+    enemyBundle: {fileID: 1791166996468136914, guid: b0ea8e934aba5a34c90cb1b4fad0a2bb,
+      type: 3}
+  - enemyID: DW
+    enemyBundle: {fileID: 1791166996468136910, guid: 52809e51fa7c6f34d9821255d5603dc6,
+      type: 3}
+  - enemyID: OG
+    enemyBundle: {fileID: 1791166996468136918, guid: 43b6722bf60cbf548905e8c914c16b36,
+      type: 3}
+  - enemyID: EF
+    enemyBundle: {fileID: 1791166996468136911, guid: 539220d7f20a7fd47a9b7c85bf036863,
+      type: 3}
+  - enemyID: UD
+    enemyBundle: {fileID: 1791166996468136923, guid: 16356497821f8224aa38485d6ab1ad0d,
+      type: 3}
+  - enemyID: NA
+    enemyBundle: {fileID: 1791166996468136917, guid: e72612460e69e8c468f4e144088b0e8c,
+      type: 3}
+  - enemyID: MY
+    enemyBundle: {fileID: 1791166996468136916, guid: 8f079757bdffc4b4eb0b15feafb865db,
+      type: 3}
+  - enemyID: MM
+    enemyBundle: {fileID: 1791166996468136915, guid: 1a295b4f1ee21c5459af966996c98c9f,
+      type: 3}
+  - enemyID: AS
+    enemyBundle: {fileID: 1791166996468136909, guid: 1d7288c60ffbf2747be225ed83766234,
+      type: 3}
+  - enemyID: GH
+    enemyBundle: {fileID: 1791166996468136913, guid: 3621d04a38500ce47bd405cfc25da14d,
+      type: 3}
+  - enemyID: VP
+    enemyBundle: {fileID: 1791166996468136924, guid: a9a848d36a148564dabdded21054512d,
+      type: 3}
+  - enemyID: WW
+    enemyBundle: {fileID: 1791166996468136927, guid: ef75da54f155fbc45a39a710bd3880e5,
+      type: 3}
+  - enemyID: WZ_DK
+    enemyBundle: {fileID: 1791166996468136928, guid: d2532e06ea073aa488212f5fea7a0b42,
+      type: 3}
+  - enemyID: WL_WZ
+    enemyBundle: {fileID: 1791166996468136925, guid: ae241daa02d1443c997c3cf9bb02b96e,
+      type: 3}
+  - enemyID: WT_SG
+    enemyBundle: {fileID: 1791166996468136926, guid: 819cf9ff720ac4db89b8f5cd01490b77,
+      type: 3}
+  - enemyID: PR
+    enemyBundle: {fileID: 1791166996468136919, guid: 33effe54d549d864e84a68b50523ec57,
+      type: 3}
+  - enemyID: SK
+    enemyBundle: {fileID: 1791166996468136920, guid: 398de99104aa3e74eb65f5f564e6da90,
+      type: 3}
+--- !u!124 &1791166998531734473
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791166996468136894}
+  m_Enabled: 1

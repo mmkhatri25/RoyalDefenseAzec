@@ -1,0 +1,654 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!196 &1
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!29 &9999991
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &9999992
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 0
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0.3731193, g: 0.38073996, b: 0.35872698, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &9999993
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 12
+  m_GIWorkflowMode: 0
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 1
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 0
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 500
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 500
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 2
+    m_PVRDenoiserTypeDirect: 0
+    m_PVRDenoiserTypeIndirect: 0
+    m_PVRDenoiserTypeAO: 0
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 0
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 0}
+  m_LightingSettings: {fileID: 4890085278179872738, guid: 0acd1789693fd924eb0d880ebf33201e,
+    type: 2}
+--- !u!1 &1791166996468136893
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1791166996518468543}
+  - component: {fileID: 1791166996786904001}
+  - component: {fileID: 1791166998531734469}
+  - component: {fileID: 1791166997810314178}
+  - component: {fileID: 1791166998363962311}
+  - component: {fileID: 1791166998363962312}
+  - component: {fileID: 1791166998363962313}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1791166996468136894
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1791166996518468544}
+  - component: {fileID: 1791166998363962314}
+  m_Layer: 0
+  m_Name: OC
+  m_TagString: 
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1791166996518468543
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791166996468136893}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.9, y: 1.4, z: -30}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1791166996518468544
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791166996468136894}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -289.1301, y: 1.904141, z: -24}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!20 &1791166996786904001
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791166996468136893}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0.01960784}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 1
+  orthographic size: 2.4
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 0
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!81 &1791166997810314178
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791166996468136893}
+  m_Enabled: 1
+--- !u!114 &1791166998363962311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791166996468136893}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59805755a08b5c53710990a4b075e974, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  transitionNumber: 1
+  SceneName: Game
+--- !u!114 &1791166998363962312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791166996468136893}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c7b552c45f6e42913eeb3d8b70dd6d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  loadFunction: -1
+  levelSetup: {fileID: 0}
+--- !u!114 &1791166998363962313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791166996468136893}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9684b6ccda206384c6e07484f6a962e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OC: {fileID: 1791166998363962314}
+  loadTransition: {fileID: 1791166998363962311}
+--- !u!114 &1791166998363962314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791166996468136894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1da6218c6e93bd44f601a7b3608ab529, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectLogicPrefab:
+  - {fileID: 1791166996468137545, guid: 27864c46b6738564789b59f10d16543d, type: 3}
+  - {fileID: 1791166996468137556, guid: 100d36b90b3bb6e468c10e8ce79c32ba, type: 3}
+  - {fileID: 1791166996468137554, guid: c027b28f9481219438fd5537ae59a55c, type: 3}
+  - {fileID: 1791166996468137283, guid: a3fcd018d24a1904e8e26c5c4b681cd6, type: 3}
+  ObjectList:
+  - objectID: SO1_00
+    objectName: GrHl Pole Lanterns
+    objectPrefab: {fileID: 1791166996468137117, guid: 930e9e7ee0ea21846be240ee8f59a89c,
+      type: 3}
+    defaultDuration: 4
+    defaultSpawnType: 2
+  - objectID: SO2_00
+    objectName: RyLb Pole Candles
+    objectPrefab: {fileID: 1791166996468137144, guid: d26dbb86146a1bc469d4d33a310bfeec,
+      type: 3}
+    defaultDuration: 4
+    defaultSpawnType: 2
+  - objectID: SO3_00
+    objectName: CaDg Pole Torch
+    objectPrefab: {fileID: 1791166996468137136, guid: bf18e2c8552dc184c9d8732a40100b46,
+      type: 3}
+    defaultDuration: 4
+    defaultSpawnType: 2
+  - objectID: RO_00
+    objectName: Square Chest
+    objectPrefab: {fileID: 1791166996468137082, guid: 0dc5e23d716330a42bd2b87b46963896,
+      type: 3}
+    defaultDuration: 20
+    defaultSpawnType: 2
+  - objectID: RO_01
+    objectName: Single Candle
+    objectPrefab: {fileID: 1791166996468137137, guid: 34108762d240f404bb976eae3430a8ef,
+      type: 3}
+    defaultDuration: 10
+    defaultSpawnType: 2
+  - objectID: RO_02
+    objectName: Books Bundle
+    objectPrefab: {fileID: 1791166996468137084, guid: dcc1a9852523b80469f3265631400cc8,
+      type: 3}
+    defaultDuration: 10
+    defaultSpawnType: 2
+  - objectID: RO_05
+    objectName: Chair
+    objectPrefab: {fileID: 1791166996468137085, guid: 9281ae1889dccfd4fa20ad10b8d5019c,
+      type: 3}
+    defaultDuration: 20
+    defaultSpawnType: 2
+  - objectID: RO_06
+    objectName: Skull
+    objectPrefab: {fileID: 1791166996468137086, guid: db1fccbbc09a5a74aadefad6e5c93ae4,
+      type: 3}
+    defaultDuration: 20
+    defaultSpawnType: 2
+  - objectID: RO_07
+    objectName: Skull Candle
+    objectPrefab: {fileID: 1791166996468137138, guid: 43989eea2f3b80c48bd554f511bd2f95,
+      type: 3}
+    defaultDuration: 20
+    defaultSpawnType: 2
+  - objectID: RO_08
+    objectName: Mechanical Globe
+    objectPrefab: {fileID: 1791166996468137088, guid: c7daf146a73823546b4359087a06b664,
+      type: 3}
+    defaultDuration: 20
+    defaultSpawnType: 2
+  - objectID: RO_09
+    objectName: Armour Helmet
+    objectPrefab: {fileID: 1791166996468137090, guid: 363483e77fccae44aaac50dfd0f5a134,
+      type: 3}
+    defaultDuration: 30
+    defaultSpawnType: 2
+  - objectID: ROS09
+    objectName: Armour Set
+    objectPrefab: {fileID: 1791166996468137089, guid: 4d14daa306536ce45861fb9d913f8e6a,
+      type: 3}
+    defaultDuration: 30
+    defaultSpawnType: 2
+  - objectID: UOR00
+    objectName: Alchemy RD All
+    objectPrefab: {fileID: 1791166996468136949, guid: b89f03acbe2e3cc4485db08f2a2e3580,
+      type: 3}
+    defaultDuration: 40
+    defaultSpawnType: 1
+  - objectID: RO_10
+    objectName: Key Gold
+    objectPrefab: {fileID: 1791166996468137093, guid: 0053b53b938ad3648a26444c0fb9a675,
+      type: 3}
+    defaultDuration: 20
+    defaultSpawnType: 2
+  - objectID: RO_11
+    objectName: Key Boss
+    objectPrefab: {fileID: 1791166996468137094, guid: d136182fdd3426b409301486e923f8c1,
+      type: 3}
+    defaultDuration: 20
+    defaultSpawnType: 2
+  - objectID: RO_13
+    objectName: Key Silver
+    objectPrefab: {fileID: 1791166996468137095, guid: 935021a02a2db7946a6848522822d2f2,
+      type: 3}
+    defaultDuration: 20
+    defaultSpawnType: 2
+  - objectID: RO_14
+    objectName: Chalice Silver
+    objectPrefab: {fileID: 1791166996468137096, guid: f7b3b1edb0d70a44e8afcba4beac0a17,
+      type: 3}
+    defaultDuration: 20
+    defaultSpawnType: 2
+  - objectID: RO_15
+    objectName: Chalice Gold
+    objectPrefab: {fileID: 1791166996468137097, guid: 45ffd535b5d712c46a69332671de5065,
+      type: 3}
+    defaultDuration: 20
+    defaultSpawnType: 2
+  - objectID: BO_00
+    objectName: Barrel
+    objectPrefab: {fileID: 1791166996468137068, guid: 221f31a7ce85be64d9c4d981adf5587c,
+      type: 3}
+    defaultDuration: 30
+    defaultSpawnType: 2
+  - objectID: BO_01
+    objectName: Crate Large
+    objectPrefab: {fileID: 1791166996468137069, guid: 48da906d63d511145a997c08d4668c69,
+      type: 3}
+    defaultDuration: 50
+    defaultSpawnType: 1
+  - objectID: BO_02
+    objectName: Statue King
+    objectPrefab: {fileID: 1791166996468137070, guid: c7598b5a53258514696bafad7f738620,
+      type: 3}
+    defaultDuration: 60
+    defaultSpawnType: 1
+  - objectID: BO_03
+    objectName: Bomb
+    objectPrefab: {fileID: 1791166996468137114, guid: 03910d52766fa0a44bbb00d4e7f7a622,
+      type: 3}
+    defaultDuration: 40
+    defaultSpawnType: 1
+  - objectID: BO_04
+    objectName: Treasure Chest
+    objectPrefab: {fileID: 1791166996468137072, guid: b3e99d113a2660349b79f5843958c1df,
+      type: 3}
+    defaultDuration: 60
+    defaultSpawnType: 1
+  - objectID: BO_05
+    objectName: Statue Knight
+    objectPrefab: {fileID: 1791166996468137073, guid: 627577abf6f5dca49aea99ce5e174cb7,
+      type: 3}
+    defaultDuration: 70
+    defaultSpawnType: 4
+  - objectID: BO_06
+    objectName: Candle Stand
+    objectPrefab: {fileID: 1791166996468137152, guid: 448b88483337eaa49bd7fe89945c12d4,
+      type: 3}
+    defaultDuration: 40
+    defaultSpawnType: 1
+  - objectID: MO_00
+    objectName: Thief
+    objectPrefab: {fileID: 1791166996468137130, guid: 4e9384468a376a44fab1e7ad1ff73ea2,
+      type: 3}
+    defaultDuration: 40
+    defaultSpawnType: 3
+  - objectID: MO_01
+    objectName: Jester
+    objectPrefab: {fileID: 1791166996468137136, guid: 2d8fbf8c86c81f94481125036f045809,
+      type: 3}
+    defaultDuration: 30
+    defaultSpawnType: 2
+  - objectID: MO_02
+    objectName: Royalty
+    objectPrefab: {fileID: 1791166996468137112, guid: d92803218c5c97743b79a34096c69a59,
+      type: 3}
+    defaultDuration: 30
+    defaultSpawnType: 2
+  - objectID: MO_03
+    objectName: Painter
+    objectPrefab: {fileID: 1791166996468137113, guid: c7e4601d9cf1a7f4caaab7749fb4d9df,
+      type: 3}
+    defaultDuration: 30
+    defaultSpawnType: 2
+  - objectID: MO_04
+    objectName: Guard Standard
+    objectPrefab: {fileID: 1791166996468137114, guid: 33fae60de15aca543b0682d7f6709deb,
+      type: 3}
+    defaultDuration: 40
+    defaultSpawnType: 2
+  - objectID: MO_05
+    objectName: Librarian
+    objectPrefab: {fileID: 1791166996468137115, guid: bfc4d1f63ed4d8f4f92ecd24f0332e75,
+      type: 3}
+    defaultDuration: 30
+    defaultSpawnType: 2
+  - objectID: MO_06
+    objectName: Monk
+    objectPrefab: {fileID: 1791166996468137116, guid: 9d848a47021a5de4d92399581ca15592,
+      type: 3}
+    defaultDuration: 40
+    defaultSpawnType: 2
+  - objectID: MO_07
+    objectName: Prisoner
+    objectPrefab: {fileID: 1791166996468137118, guid: b43d2070c1c26824e890f426c2b84a96,
+      type: 3}
+    defaultDuration: 40
+    defaultSpawnType: 2
+  - objectID: MO_08
+    objectName: Executioner
+    objectPrefab: {fileID: 1791166996468137119, guid: 58241a13947427046862d957e13536ce,
+      type: 3}
+    defaultDuration: 40
+    defaultSpawnType: 2
+  - objectID: MO_09
+    objectName: Scorpion
+    objectPrefab: {fileID: 1791166996468137120, guid: 3df045e3dbe38f34bae8922348852bf2,
+      type: 3}
+    defaultDuration: 30
+    defaultSpawnType: 2
+  - objectID: MO_10
+    objectName: Dirty Rat
+    objectPrefab: {fileID: 1791166996468137121, guid: bdd4310cc9440094ab9815e6a54adfbe,
+      type: 3}
+    defaultDuration: 30
+    defaultSpawnType: 2
+  - objectID: MO_11
+    objectName: Chicken Frighten
+    objectPrefab: {fileID: 1791166996468137122, guid: 0317d5e25f428fb478df86fc99612294,
+      type: 3}
+    defaultDuration: 30
+    defaultSpawnType: 2
+  - objectID: UO_00
+    objectName: Oil Lamp
+    objectPrefab: {fileID: 1791166996468137139, guid: 80e251bb58a2693468a6d2ba40ebd22d,
+      type: 3}
+    defaultDuration: 40
+    defaultSpawnType: 1
+  - objectID: UO_02
+    objectName: Alchemy Poison
+    objectPrefab: {fileID: 1791166996468137126, guid: 3ea07ccd4b12fb34495dfd0d99c93bf9,
+      type: 3}
+    defaultDuration: 40
+    defaultSpawnType: 1
+  - objectID: UO_03
+    objectName: Alchemy Fire
+    objectPrefab: {fileID: 1791166996468137052, guid: 9f1e7ab2f150f2a4db4b3a64bd0c6870,
+      type: 3}
+    defaultDuration: 40
+    defaultSpawnType: 1
+  - objectID: UO_04
+    objectName: Alchemy Shock
+    objectPrefab: {fileID: 1791166996468137140, guid: 1118cb8f4f1b732449b90e365cc14891,
+      type: 3}
+    defaultDuration: 40
+    defaultSpawnType: 1
+  - objectID: UO_05
+    objectName: Alchemy Ice
+    objectPrefab: {fileID: 1791166996468137129, guid: 639c21581776f7d418f4edddfff6780a,
+      type: 3}
+    defaultDuration: 40
+    defaultSpawnType: 1
+  - objectID: WO_00
+    objectName: Knight Sword
+    objectPrefab: {fileID: 1791166996468137103, guid: 5f1d4eb682ac49743865c418379877bc,
+      type: 3}
+    defaultDuration: 40
+    defaultSpawnType: 1
+  - objectID: WO_01
+    objectName: Knight Shield
+    objectPrefab: {fileID: 1791166996468137104, guid: c6d9999464710764bba744295f98b977,
+      type: 3}
+    defaultDuration: 40
+    defaultSpawnType: 1
+  - objectID: WO_02
+    objectName: Mithril Hammer
+    objectPrefab: {fileID: 1791166996468137105, guid: 6bc3773e09eb6ca4a8936a139fd9463f,
+      type: 3}
+    defaultDuration: 40
+    defaultSpawnType: 1
+  - objectID: WO_03
+    objectName: Axe
+    objectPrefab: {fileID: 1791166996468137106, guid: 747471092da9041428b7f4a7e41b5866,
+      type: 3}
+    defaultDuration: 40
+    defaultSpawnType: 1
+  - objectID: WOR00
+    objectName: Weapon RD All
+    objectPrefab: {fileID: 1791166996468136956, guid: 5ef188e7196484a4a95c79e09403676c,
+      type: 3}
+    defaultDuration: 40
+    defaultSpawnType: 1
+  - objectID: MOS10
+    objectName: Rat Pack
+    objectPrefab: {fileID: 1791166996468136927, guid: 3cf702358d60ec049af45c665b929ee0,
+      type: 3}
+    defaultDuration: 40
+    defaultSpawnType: 1
+  - objectID: ROR00
+    objectName: Basic RO Random
+    objectPrefab: {fileID: 1791166996468136929, guid: 0854786664e38f24b8a8315a1551946b,
+      type: 3}
+    defaultDuration: 20
+    defaultSpawnType: 1
+  - objectID: ROR01
+    objectName: Key Random
+    objectPrefab: {fileID: 1791166996468136930, guid: 741ca31996b9686468dfbdc1f53c60c5,
+      type: 3}
+    defaultDuration: 20
+    defaultSpawnType: 1
+  - objectID: MORS3
+    objectName: Castle Dungeon Random
+    objectPrefab: {fileID: 1791166996468136948, guid: c314ec02780a8c249aea15c53b7e9924,
+      type: 3}
+    defaultDuration: 30
+    defaultSpawnType: 1
+  - objectID: BORAO
+    objectName: Block Object Random All Object
+    objectPrefab: {fileID: 1791166996468136912, guid: 1753b1fffdaa09a4aa7b76c55e4bb39f,
+      type: 3}
+    defaultDuration: 60
+    defaultSpawnType: 1
+  - objectID: MORAO
+    objectName: Moving Object Random All Object
+    objectPrefab: {fileID: 1791166996468136921, guid: 7eb3f4c0bf4a4a840922b79c226afa41,
+      type: 3}
+    defaultDuration: 40
+    defaultSpawnType: 1
+  - objectID: RORAO
+    objectName: Regular Object Random All Object
+    objectPrefab: {fileID: 1791166996468136931, guid: fd2d2a7feebda4c43b704b18fd4a62c4,
+      type: 3}
+    defaultDuration: 30
+    defaultSpawnType: 2
+  - objectID: UORAO
+    objectName: Unique Object Random All Object
+    objectPrefab: {fileID: 1791166996468136950, guid: 6a0261fcca5d8334a8859fc6a8c1f11f,
+      type: 3}
+    defaultDuration: 40
+    defaultSpawnType: 1
+  - objectID: WORAO
+    objectName: Weapon Object Random All Object
+    objectPrefab: {fileID: 1791166996468136957, guid: 7c8e2dae1b2e46f439beb0dcd08dae6a,
+      type: 3}
+    defaultDuration: 40
+    defaultSpawnType: 1
+  - objectID: MORS2
+    objectName: Royal Library Random
+    objectPrefab: {fileID: 1791166996468137021, guid: e5d90eb844655ce40be587d833a9cc7a,
+      type: 3}
+    defaultDuration: 30
+    defaultSpawnType: 1
+--- !u!124 &1791166998531734469
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791166996468136893}
+  m_Enabled: 1

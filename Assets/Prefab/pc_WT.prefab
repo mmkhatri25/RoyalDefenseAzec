@@ -1,0 +1,833 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1791166996468137174}
+  m_IsPrefabParent: 1
+--- !u!4 &1791166996518469298
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137174}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1791166996518469332}
+  - {fileID: 1791166996518469251}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1791166996518469251
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137128}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.58357, y: 1.627355, z: 0.8}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1791166996518469200}
+  - {fileID: 1791166996518469107}
+  m_Father: {fileID: 1791166996518469298}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1791166996518469332
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137206}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.575, y: 0.611894, z: 0.6}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1791166996518469361}
+  m_Father: {fileID: 1791166996518469298}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1791166996518469107
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468136982}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.3969202, y: 0.1824862, z: -0.1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1791166996518469251}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1791166996518469200
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137076}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.1452706, y: 0.2752352, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1791166996518469251}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1791166996518469361
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137236}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.2848496, y: -0.242227, z: 0.04999971}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1791166996518469332}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1791166996468136982
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791166996518469107}
+  - component: {fileID: 1791166996837236683}
+  - component: {fileID: 1791166997005009083}
+  - component: {fileID: 1791166998363963906}
+  m_Layer: 0
+  m_Name: "panic mark"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1791166996468137076
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791166996518469200}
+  m_Layer: 0
+  m_Name: "Effect Position"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1791166996468137128
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791166996518469251}
+  - component: {fileID: 1791166997005009132}
+  - component: {fileID: 1791166996837236732}
+  - component: {fileID: 1791166998363964002}
+  m_Layer: 0
+  m_Name: "character sprite"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1791166996468137174
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791166996518469298}
+  - component: {fileID: 1791166998363964114}
+  - component: {fileID: 1791166998363964159}
+  - component: {fileID: 1791166998363964062}
+  m_Layer: 0
+  m_Name: "pc_WT"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1791166996468137206
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791166996518469332}
+  - component: {fileID: 1791166997005009173}
+  - component: {fileID: 1791166996837236773}
+  - component: {fileID: 1791166998363964199}
+  m_Layer: 0
+  m_Name: "AnimatedSprite2"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1791166996468137236
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791166996518469361}
+  - component: {fileID: 1791166997005009200}
+  - component: {fileID: 1791166996837236800}
+  - component: {fileID: 1791166998363964237}
+  m_Layer: 0
+  m_Name: "AnimatedSprite2"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &1791166996837236683
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468136982}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 0
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: e23a61ce08514559b5aa8a11e41df7c2, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &1791166996837236732
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137128}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 0
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: c64580ee4ffa484381de89d459a13068, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &1791166996837236773
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137206}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 0
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: c64580ee4ffa484381de89d459a13068, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &1791166996837236800
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137236}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 0
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: c64580ee4ffa484381de89d459a13068, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1791166997005009083
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468136982}
+  m_Mesh: {fileID: 0}
+--- !u!33 &1791166997005009132
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137128}
+  m_Mesh: {fileID: 0}
+--- !u!33 &1791166997005009173
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137206}
+  m_Mesh: {fileID: 0}
+--- !u!33 &1791166997005009200
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137236}
+  m_Mesh: {fileID: 0}
+--- !u!114 &1791166998363963906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468136982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88b38e574083bff5c2b7fda14c33d7c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collection: {fileID: 1791166998363963981, guid: 7134ee94a5b652041b7b2913edb8c622, type: 2}
+  _color: {r: 1, g: 1, b: 1, a: 1}
+  _scale: {x: 3, y: 3, z: 3}
+  _spriteId: 0
+  pixelPerfect: 0
+  boxCollider: {fileID: 0}
+  meshCollider: {fileID: 0}
+  meshColliderPositions: []
+  meshColliderMesh: {fileID: 0}
+  anim: {fileID: 1791166998363963980, guid: a9364034a94151f48b0a551e8ce20a76, type: 2}
+  clipId: 10
+  playAutomatically: 1
+  paused: 0
+  createCollider: 0
+--- !u!114 &1791166998363964002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88b38e574083bff5c2b7fda14c33d7c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collection: {fileID: 1791166998363963979, guid: 719c3a060d5437f45ae6b0212c8063e5, type: 2}
+  _color: {r: 1, g: 1, b: 1, a: 1}
+  _scale: {x: 2.4, y: 2.4, z: 2.5}
+  _spriteId: 14
+  pixelPerfect: 0
+  boxCollider: {fileID: 0}
+  meshCollider: {fileID: 0}
+  meshColliderPositions: []
+  meshColliderMesh: {fileID: 0}
+  anim: {fileID: 1791166998363963978, guid: a382d47b9c81836408bab76335df75d2, type: 2}
+  clipId: 6
+  playAutomatically: 0
+  paused: 0
+  createCollider: 0
+--- !u!114 &1791166998363964062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41b16209c087241e6d6ec7276a85dfb9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterID: "WT"
+  characterName: "CANDY"
+  characterClass: "wicked witch"
+  characterDifficulty: 4
+  characterBackgroundColor: {r: 0.5333334, g: 1, b: 1, a: 1}
+  redSpellName: "butterfly burst"
+  redSpellManaCost: 45
+  redSpellDescription: "candy, once cured oberon, king of the faeries from a fatal \nillness.
+  in return, oberon, lent her the power to summon his \ngraceful butterflies."
+  blueSpellName: "venus witch trap"
+  blueSpellManaCost: 35
+  blueSpellDescription: "the venus witch trap, an entirely self-aware plant. it loves gorging\non
+  people but especially witches! candy, upon killing one, sealed \nits
+  seeds into her magic. now, she is able to let the venus witch \ntrap
+  loose on her hapless foes!"
+  yellowSpellName: "hex: mushroom"
+  yellowSpellManaCost: 25
+  yellowSpellDescription: "all witches are taught to master the ways of the hex."
+  greenSpellName: "man-o-war vine"
+  greenSpellManaCost: 40
+  greenSpellDescription: "the man-o-vine is actually the protruding roots of the venus witch
+  \ntrap. the vine impales its enemies without prejudice. "
+  guardName: "blind mouse"
+  numberOfGuards: 3
+  guardAttribute: {fileID: 1791166998363964230, guid: c271a3f5eb754b645a0520e328d55847, type: 2}
+  itemDescription:
+  - 
+  - 
+  - 
+  - 
+--- !u!114 &1791166998363964114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be514a084191a6df8693f2a3b025e129, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterID: "WT"
+  animationNumber: 0
+  panicMark: 0
+  panicMarkObject: {fileID: 1791166996468136982}
+  characterSprite: {fileID: 1791166998363964002}
+  idleClipName: "N0"
+  shockedClipName: "N1"
+  defeatClipName: "N2"
+  victoryClipName: "N3"
+  tauntClipName: 
+  objectControlClipName: "O0"
+  objectUnleashClipName: "O1"
+  redSpellCastingClipName: "R0"
+  redSpellUnleashClipName: "R1"
+  blueSpellCastingClipName: 
+  blueSpellUnleashClipName: "B1"
+  yellowSpellCastingClipName: 
+  yellowSpellUnleashClipName: 
+  greenSpellCastingClipName: 
+  greenSpellUnleashClipName: "B1"
+  itemUseClipName: 
+  scrollCastingClipName: 
+  scrollUnleashClipName: 
+  movingClipName: "N4"
+  disableClipName: "N5"
+  effectPropertyDisplay: {fileID: 1791166996468137090, guid: 72020eba9e0f47b46abf2f788cf31dc9, type: 2}
+  effectPosition: {fileID: 1791166996468137076}
+  characterState: 0
+  movementSpeed: 3
+  characterAction: 0
+  characterActionWorryAdjustmentX: -0.45
+--- !u!114 &1791166998363964159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcd54edc5fc8dc1645066ac5a219fc90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterID: "WT"
+  saveID: 2
+  CharacterSpell:
+  - Spell:
+    - spellAttributeEffectClass: 0
+      spellAttributeManaCost: 45
+      spellAttributeCoolDown: 14
+      spellAttributeCastingPenalty: 3
+      spellEffectObject: {fileID: 1791166996468137397, guid: bdf02caaa04f64ac39c07fcd85dd000c, type: 2}
+      spellType: 7
+      arrowDirection: 0
+      centreSpellTypeHeight: 0
+      indicatorType: 0
+      activateSound: {fileID: 8300000, guid: 6f4a5d404a4b42fd9ad0e6ce734e1aec, type: 3}
+    - spellAttributeEffectClass: 0
+      spellAttributeManaCost: 0
+      spellAttributeCoolDown: 0
+      spellAttributeCastingPenalty: 0
+      spellEffectObject: {fileID: 0}
+      spellType: 0
+      arrowDirection: 0
+      centreSpellTypeHeight: 0
+      indicatorType: 0
+      activateSound: {fileID: 0}
+    - spellAttributeEffectClass: 0
+      spellAttributeManaCost: 0
+      spellAttributeCoolDown: 0
+      spellAttributeCastingPenalty: 0
+      spellEffectObject: {fileID: 0}
+      spellType: 0
+      arrowDirection: 0
+      centreSpellTypeHeight: 0
+      indicatorType: 0
+      activateSound: {fileID: 0}
+    - spellAttributeEffectClass: 0
+      spellAttributeManaCost: 0
+      spellAttributeCoolDown: 0
+      spellAttributeCastingPenalty: 0
+      spellEffectObject: {fileID: 0}
+      spellType: 0
+      arrowDirection: 0
+      centreSpellTypeHeight: 0
+      indicatorType: 0
+      activateSound: {fileID: 0}
+    - spellAttributeEffectClass: 0
+      spellAttributeManaCost: 0
+      spellAttributeCoolDown: 0
+      spellAttributeCastingPenalty: 0
+      spellEffectObject: {fileID: 0}
+      spellType: 0
+      arrowDirection: 0
+      centreSpellTypeHeight: 0
+      indicatorType: 0
+      activateSound: {fileID: 0}
+  - Spell:
+    - spellAttributeEffectClass: 4
+      spellAttributeManaCost: 35
+      spellAttributeCoolDown: 8
+      spellAttributeCastingPenalty: 2
+      spellEffectObject: {fileID: 1791166996468137234, guid: 000925a5ae947b44a8ce0f64fd4a925d, type: 2}
+      spellType: 1
+      arrowDirection: 0
+      centreSpellTypeHeight: 0
+      indicatorType: 4
+      activateSound: {fileID: 8300000, guid: 1b575c263a304eb4ad0e5ab10131360c, type: 3}
+    - spellAttributeEffectClass: 0
+      spellAttributeManaCost: 0
+      spellAttributeCoolDown: 0
+      spellAttributeCastingPenalty: 0
+      spellEffectObject: {fileID: 0}
+      spellType: 0
+      arrowDirection: 0
+      centreSpellTypeHeight: 0
+      indicatorType: 0
+      activateSound: {fileID: 0}
+    - spellAttributeEffectClass: 0
+      spellAttributeManaCost: 0
+      spellAttributeCoolDown: 0
+      spellAttributeCastingPenalty: 0
+      spellEffectObject: {fileID: 0}
+      spellType: 0
+      arrowDirection: 0
+      centreSpellTypeHeight: 0
+      indicatorType: 0
+      activateSound: {fileID: 0}
+    - spellAttributeEffectClass: 0
+      spellAttributeManaCost: 0
+      spellAttributeCoolDown: 0
+      spellAttributeCastingPenalty: 0
+      spellEffectObject: {fileID: 0}
+      spellType: 0
+      arrowDirection: 0
+      centreSpellTypeHeight: 0
+      indicatorType: 0
+      activateSound: {fileID: 0}
+    - spellAttributeEffectClass: 0
+      spellAttributeManaCost: 0
+      spellAttributeCoolDown: 0
+      spellAttributeCastingPenalty: 0
+      spellEffectObject: {fileID: 0}
+      spellType: 0
+      arrowDirection: 0
+      centreSpellTypeHeight: 0
+      indicatorType: 0
+      activateSound: {fileID: 0}
+  - Spell:
+    - spellAttributeEffectClass: 0
+      spellAttributeManaCost: 25
+      spellAttributeCoolDown: 10
+      spellAttributeCastingPenalty: 3
+      spellEffectObject: {fileID: 1791166996468137126, guid: d712297890ba55a449e22117dcd771c8, type: 2}
+      spellType: -1
+      arrowDirection: 180
+      centreSpellTypeHeight: 0
+      indicatorType: 0
+      activateSound: {fileID: 8300000, guid: ead5e791dfd640e3862a2de6c5a9bdc4, type: 3}
+    - spellAttributeEffectClass: 0
+      spellAttributeManaCost: 0
+      spellAttributeCoolDown: 0
+      spellAttributeCastingPenalty: 0
+      spellEffectObject: {fileID: 0}
+      spellType: 0
+      arrowDirection: 0
+      centreSpellTypeHeight: 0
+      indicatorType: 0
+      activateSound: {fileID: 0}
+    - spellAttributeEffectClass: 0
+      spellAttributeManaCost: 0
+      spellAttributeCoolDown: 0
+      spellAttributeCastingPenalty: 0
+      spellEffectObject: {fileID: 0}
+      spellType: 0
+      arrowDirection: 0
+      centreSpellTypeHeight: 0
+      indicatorType: 0
+      activateSound: {fileID: 0}
+    - spellAttributeEffectClass: 0
+      spellAttributeManaCost: 0
+      spellAttributeCoolDown: 0
+      spellAttributeCastingPenalty: 0
+      spellEffectObject: {fileID: 0}
+      spellType: 0
+      arrowDirection: 0
+      centreSpellTypeHeight: 0
+      indicatorType: 0
+      activateSound: {fileID: 0}
+    - spellAttributeEffectClass: 0
+      spellAttributeManaCost: 0
+      spellAttributeCoolDown: 0
+      spellAttributeCastingPenalty: 0
+      spellEffectObject: {fileID: 0}
+      spellType: 0
+      arrowDirection: 0
+      centreSpellTypeHeight: 0
+      indicatorType: 0
+      activateSound: {fileID: 0}
+  - Spell:
+    - spellAttributeEffectClass: 0
+      spellAttributeManaCost: 40
+      spellAttributeCoolDown: 6
+      spellAttributeCastingPenalty: 4
+      spellEffectObject: {fileID: 1791166996468137235, guid: 9f837e34978a0474da45e4ebce010637, type: 2}
+      spellType: 1
+      arrowDirection: 0
+      centreSpellTypeHeight: 0
+      indicatorType: 4
+      activateSound: {fileID: 8300000, guid: 78be6def0751429ebe7a575b3bfa8211, type: 3}
+    - spellAttributeEffectClass: 0
+      spellAttributeManaCost: 35
+      spellAttributeCoolDown: 18
+      spellAttributeCastingPenalty: 3
+      spellEffectObject: {fileID: 1791166996468137085, guid: 006a925a3746e304fa4fa64986816145, type: 2}
+      spellType: 2
+      arrowDirection: 180
+      centreSpellTypeHeight: 0
+      indicatorType: 4
+      activateSound: {fileID: 0}
+    - spellAttributeEffectClass: 0
+      spellAttributeManaCost: 0
+      spellAttributeCoolDown: 0
+      spellAttributeCastingPenalty: 0
+      spellEffectObject: {fileID: 0}
+      spellType: 0
+      arrowDirection: 0
+      centreSpellTypeHeight: 0
+      indicatorType: 0
+      activateSound: {fileID: 0}
+    - spellAttributeEffectClass: 0
+      spellAttributeManaCost: 0
+      spellAttributeCoolDown: 0
+      spellAttributeCastingPenalty: 0
+      spellEffectObject: {fileID: 0}
+      spellType: 0
+      arrowDirection: 0
+      centreSpellTypeHeight: 0
+      indicatorType: 0
+      activateSound: {fileID: 0}
+    - spellAttributeEffectClass: 0
+      spellAttributeManaCost: 0
+      spellAttributeCoolDown: 0
+      spellAttributeCastingPenalty: 0
+      spellEffectObject: {fileID: 0}
+      spellType: 0
+      arrowDirection: 0
+      centreSpellTypeHeight: 0
+      indicatorType: 0
+      activateSound: {fileID: 0}
+  characterGuardLogic: {fileID: 1791166996468137166, guid: 61caad885a4cd27458ace352b65f76f0, type: 2}
+  characterNumberOfGuards: 3
+  characterGuardRatingValue: 51
+  characterGuardHealth: 40
+  characterGuardHealthRegeneration: 4
+  characterMaximumObjectInput: 1
+  characterObjectControlManaCost: 0
+  characterObjectDamagePlus: 0
+  characterObjectSpeedPlus: 0
+  characterObjectKnockPlus: 0
+  characterMaxManaPoint: 180
+  characterStartingManaPoint: 80
+  characterManaRegenerate: 2
+  characterManaWaveRegenerate: 15
+  levelIDs:
+  - "TFez"
+  - "TF"
+  - "GB"
+  - "KN"
+  - "DW"
+  - "OG"
+  - "EF"
+  - "PR"
+  - "UD"
+  - "NA"
+  - "MY"
+  - "MM"
+  - "AS"
+  - "GH"
+  - "VP"
+  - "SK"
+  - "WW"
+  - "WT_SG"
+  StageIDs:
+  - stageID: "GrHl"
+    levelContentIDs:
+    - "GrHl_00"
+    - "GrHl_01"
+    - "GrHl_02"
+    - "GrHl_03"
+    - "GrHl_04"
+    - "GrHl_05"
+  - stageID: "RyLb"
+    levelContentIDs:
+    - "RyLb_S_00"
+    - "RyLb_S_01"
+    - "RyLb_S_02"
+    - "RyLb_S_03"
+    - "RyLb_S_04"
+    - "RyLb_S_05"
+  - stageID: "GrHl"
+    levelContentIDs:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+  - stageID: "ARENA"
+    levelContentIDs:
+    - "ARENA_00"
+    - "ARENA_00"
+    - "ARENA_00"
+    - "ARENA_00"
+    - "ARENA_00"
+    - "ARENA_00"
+  ItemUnlockID:
+  - itemID: "GI_1_7"
+    itemState: 0
+  - itemID: "GI_3_10"
+    itemState: 0
+  - itemID: "GI_3_13"
+    itemState: 0
+  - itemID: "GI_2_7"
+    itemState: 0
+  characterTutorial: {fileID: 1791166996468137396, guid: 5fa1154eafb6e4d7fab45e3aa4bcad9f, type: 2}
+  storyBeginning: "WTSC00"
+  storyEnd: "WTSC01"
+  cutsceneStage1: 
+  cutsceneStage2: 
+  cutsceneStage3: 
+--- !u!114 &1791166998363964199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88b38e574083bff5c2b7fda14c33d7c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collection: {fileID: 1791166998363963979, guid: 719c3a060d5437f45ae6b0212c8063e5, type: 2}
+  _color: {r: 1, g: 1, b: 1, a: 1}
+  _scale: {x: -1.9, y: 1.9, z: 3}
+  _spriteId: 84
+  pixelPerfect: 0
+  boxCollider: {fileID: 0}
+  meshCollider: {fileID: 0}
+  meshColliderPositions: []
+  meshColliderMesh: {fileID: 0}
+  anim: {fileID: 1791166998363963978, guid: a382d47b9c81836408bab76335df75d2, type: 2}
+  clipId: 46
+  playAutomatically: 1
+  paused: 0
+  createCollider: 0
+--- !u!114 &1791166998363964237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88b38e574083bff5c2b7fda14c33d7c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collection: {fileID: 1791166998363963979, guid: 719c3a060d5437f45ae6b0212c8063e5, type: 2}
+  _color: {r: 1, g: 1, b: 1, a: 1}
+  _scale: {x: 1.4, y: 1.4, z: 3}
+  _spriteId: 79
+  pixelPerfect: 0
+  boxCollider: {fileID: 0}
+  meshCollider: {fileID: 0}
+  meshColliderPositions: []
+  meshColliderMesh: {fileID: 0}
+  anim: {fileID: 1791166998363963978, guid: a382d47b9c81836408bab76335df75d2, type: 2}
+  clipId: 47
+  playAutomatically: 1
+  paused: 0
+  createCollider: 0

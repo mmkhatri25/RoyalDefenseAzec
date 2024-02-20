@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1791166996468136968}
+  m_IsPrefabParent: 1
+--- !u!4 &1791166996518469133
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468136968}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1791166996468136968
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791166996518469133}
+  - component: {fileID: 1791166998363964156}
+  m_Layer: 0
+  m_Name: "GrHl_05"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1791166998363964156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468136968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15737845ecdbb2d15a5bef08647a81e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelContentID: "GrHl_05"
+  description: 
+  stageLevel:
+  - objectIDs: "RO_02."
+    positionIDs: "020100."
+    behaviourID: 
+  - objectIDs: "RO_02."
+    positionIDs: "020900."
+    behaviourID: 
+  - objectIDs: "RO_01."
+    positionIDs: "020700."
+    behaviourID: 
+  - objectIDs: "RO_15."
+    positionIDs: "020300."
+    behaviourID: 
+  - objectIDs: "BO_03."
+    positionIDs: "031000."
+    behaviourID: 
+  - objectIDs: "BO_01."
+    positionIDs: "010500."
+    behaviourID: 
+  - objectIDs: "MO_02.MO_01.MO_04.MO_11."
+    positionIDs: "050000."
+    behaviourID: 
+  - objectIDs: "MO_04."
+    positionIDs: "050200.050300."
+    behaviourID: 
+  - objectIDs: "RO_01."
+    positionIDs: "030000.021500."
+    behaviourID: 
+  - objectIDs: "RO_01.RO_00."
+    positionIDs: "030300.031500."
+    behaviourID: 

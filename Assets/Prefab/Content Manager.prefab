@@ -1,0 +1,395 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1791166996468136931}
+  m_IsPrefabParent: 1
+--- !u!4 &1791166996518469096
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468136931}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.05002368, y: 0.907222, z: -5.901611}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1791166996468136931
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791166996518469096}
+  - component: {fileID: 1791166998363964131}
+  - component: {fileID: 1791166998363964218}
+  m_Layer: 0
+  m_Name: "Content Manager"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1791166998363964131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468136931}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69c6966f0aa06c644769cf2cd0028c44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemReset: 0
+  itemDebug: 0
+  data: {fileID: 0}
+  state: 0
+  musicPlaying: 0
+  StoreIAPs:
+  - iapID: "WZ"
+    iapValue: 
+    iapName: 
+    iapObject: {fileID: 0}
+    iapState: 1
+    iapProductID: 
+    iapType: 0
+    characterNumber: 0
+    characterDifficulty: 0
+    characterCompletion: 0
+    miscDescription: 
+  - iapID: "WL"
+    iapValue: 
+    iapName: 
+    iapObject: {fileID: 0}
+    iapState: 0
+    iapProductID: 
+    iapType: 0
+    characterNumber: 0
+    characterDifficulty: 0
+    characterCompletion: 0
+    miscDescription: 
+  - iapID: "WT"
+    iapValue: 
+    iapName: 
+    iapObject: {fileID: 0}
+    iapState: 0
+    iapProductID: 
+    iapType: 0
+    characterNumber: 0
+    characterDifficulty: 0
+    characterCompletion: 0
+    miscDescription: 
+  productAmountOwned: 0
+  productAmountAvaliable: 0
+  productAmountTotal: 0
+  StageList:
+  - stageID: "GrHl"
+    stageName: "great hall"
+    environmentPrefab: {fileID: 1791166996468137300, guid: 87ebb0cea472449c6832a5b450655076, type: 2}
+    objectLogicPrefab: 0
+    stageMusicTrackA: 0
+    stageMusicTrackB: 0
+    additionStageLength: 2.3
+    StageObject:
+    - objectID: "0"
+      objectPrefab:
+      - {fileID: 1791166996468137117, guid: 930e9e7ee0ea21846be240ee8f59a89c, type: 2}
+      raritySpawn: 0
+      spawnDuration: 2
+      spawnType: 2
+    - objectID: "1"
+      objectPrefab:
+      - {fileID: 1791166996468137168, guid: 214e9107146bde346955980547a6496c, type: 2}
+      raritySpawn: 0
+      spawnDuration: 15
+      spawnType: 2
+    - objectID: "2"
+      objectPrefab:
+      - {fileID: 1791166996468137169, guid: e9040ddb00ce6974c96ccccf2e37adfc, type: 2}
+      raritySpawn: 0
+      spawnDuration: 600
+      spawnType: 1
+    - objectID: "3"
+      objectPrefab:
+      - {fileID: 1791166996468137096, guid: c30a70a0410a7ee48b5cb4bf5e8246bf, type: 2}
+      raritySpawn: 0
+      spawnDuration: 10000
+      spawnType: -1
+    levelContents:
+    - levelContentID: "GrHl_00"
+      levelContentScript: {fileID: 1791166998363964151, guid: f68bf7e29252b7343b5c0f0cff305bc1, type: 2}
+    - levelContentID: "GrHl_01"
+      levelContentScript: {fileID: 1791166998363964152, guid: 303302eecbc29464480642741637c65b, type: 2}
+    - levelContentID: "GrHl_02"
+      levelContentScript: {fileID: 1791166998363964153, guid: 714f00d957521894fb44c766db1c43b3, type: 2}
+    - levelContentID: "GrHl_03"
+      levelContentScript: {fileID: 1791166998363964154, guid: f871315629a94374799302f5abfcb89e, type: 2}
+    - levelContentID: "GrHl_04"
+      levelContentScript: {fileID: 1791166998363964155, guid: 6a378d02ea8396048b7316318c464169, type: 2}
+    - levelContentID: "GrHl_05"
+      levelContentScript: {fileID: 1791166998363964156, guid: e142e17dd56a0194dbe2b5b0c180ba4f, type: 2}
+    - levelContentID: "GrHl_S_00"
+      levelContentScript: {fileID: 1791166998363964157, guid: 1626e0bb1f81bba4b9d86a1f4158da2e, type: 2}
+    - levelContentID: "GrHl_S_01"
+      levelContentScript: {fileID: 1791166998363964158, guid: 5b418880b8cb61e4783cc1bf9f3c1a72, type: 2}
+    - levelContentID: "GrHl_S_02"
+      levelContentScript: {fileID: 1791166998363964159, guid: c945936b31c179d4f9b3620fe1322719, type: 2}
+    - levelContentID: "GrHl_S_03"
+      levelContentScript: {fileID: 1791166998363964160, guid: 1f6c2bc8764245c43b901277b9d1a6d9, type: 2}
+    - levelContentID: "GrHl_S_04"
+      levelContentScript: {fileID: 1791166998363964161, guid: b722df82860374a4982c105f57dad370, type: 2}
+    - levelContentID: "GrHl_S_05"
+      levelContentScript: {fileID: 1791166998363964162, guid: a9b0bf48bd6dd3244a22430bd88b21e5, type: 2}
+    - levelContentID: "GrHl_S_06"
+      levelContentScript: {fileID: 1791166998363964163, guid: ea7e573f949779f4abb5044f650d441c, type: 2}
+    - levelContentID: "GrHl_S_07"
+      levelContentScript: {fileID: 1791166998363964164, guid: c24b52aa165131745b8ec4274fdba50b, type: 2}
+    - levelContentID: "GrHl_S_08"
+      levelContentScript: {fileID: 1791166998363964165, guid: 1f779c28e7c614e4296f686cf80af871, type: 2}
+    - levelContentID: "GrHl_S_09"
+      levelContentScript: {fileID: 1791166998363964166, guid: 315708f8635bb4f4c93f572ee2dcca43, type: 2}
+  - stageID: "RyLb"
+    stageName: "royal library"
+    environmentPrefab: {fileID: 1791166996468137369, guid: ac4bd3647d9b24741808bf7c653d446e, type: 2}
+    objectLogicPrefab: 1
+    stageMusicTrackA: 2
+    stageMusicTrackB: 2
+    additionStageLength: 1.53
+    StageObject:
+    - objectID: "0"
+      objectPrefab:
+      - {fileID: 1791166996468137144, guid: d26dbb86146a1bc469d4d33a310bfeec, type: 2}
+      raritySpawn: 0
+      spawnDuration: 2
+      spawnType: 2
+    - objectID: "1"
+      objectPrefab:
+      - {fileID: 1791166996468137170, guid: f786f857b63e823428bd02bf6d244be0, type: 2}
+      raritySpawn: 0
+      spawnDuration: 15
+      spawnType: 2
+    - objectID: "2"
+      objectPrefab:
+      - {fileID: 1791166996468137171, guid: da89019695a991f4da421581a56cf40a, type: 2}
+      raritySpawn: 0
+      spawnDuration: 600
+      spawnType: 1
+    - objectID: "3"
+      objectPrefab:
+      - {fileID: 1791166996468137096, guid: c30a70a0410a7ee48b5cb4bf5e8246bf, type: 2}
+      raritySpawn: 0
+      spawnDuration: 10000
+      spawnType: -1
+    - objectID: "4"
+      objectPrefab:
+      - {fileID: 1791166996468137021, guid: e5d90eb844655ce40be587d833a9cc7a, type: 2}
+      raritySpawn: 0
+      spawnDuration: 30
+      spawnType: 1
+    levelContents:
+    - levelContentID: "RyLb_00"
+      levelContentScript: {fileID: 1791166998363964167, guid: f0abbfb7e8ef14de592e5a53ae696877, type: 2}
+    - levelContentID: "RyLb_01"
+      levelContentScript: {fileID: 1791166998363964168, guid: e06671b0cd02b43ada1ebf9a47c95970, type: 2}
+    - levelContentID: "RyLb_02"
+      levelContentScript: {fileID: 1791166998363964169, guid: 4cd90443e980e46c78c1d7c2a8c8eb4a, type: 2}
+    - levelContentID: "RyLb_03"
+      levelContentScript: {fileID: 1791166998363964170, guid: 864bfcae424624d84816d7a898b5adb9, type: 2}
+    - levelContentID: "RyLb_04"
+      levelContentScript: {fileID: 1791166998363964171, guid: 431d6eecc451948a69ffbb37c64a33ec, type: 2}
+    - levelContentID: "RyLb_05"
+      levelContentScript: {fileID: 1791166998363964172, guid: 0eabb073cc90947a7a43a261721efbb5, type: 2}
+    - levelContentID: "RyLb_S_00"
+      levelContentScript: {fileID: 1791166998363964179, guid: 2b3ee3ab818b45c4183195c965e487c5, type: 2}
+    - levelContentID: "RyLb_S_01"
+      levelContentScript: {fileID: 1791166998363964180, guid: 0b226031964838a469e440f9039683db, type: 2}
+    - levelContentID: "RyLb_S_02"
+      levelContentScript: {fileID: 1791166998363964181, guid: 70b78998f4d90c440b5c1707898e81c3, type: 2}
+    - levelContentID: "RyLb_S_03"
+      levelContentScript: {fileID: 1791166998363964182, guid: 1700db269a1f477449b43d18a81c5928, type: 2}
+    - levelContentID: "RyLb_S_04"
+      levelContentScript: {fileID: 1791166998363964183, guid: 5249ba0145d4dbf48aac201ea544c43e, type: 2}
+    - levelContentID: "RyLb_S_05"
+      levelContentScript: {fileID: 1791166998363964184, guid: 4586b78bd42ab3a4ebdc9aa08dd56dbd, type: 2}
+    - levelContentID: "RyLb_S_06"
+      levelContentScript: {fileID: 1791166998363964185, guid: 2d7cdd85e61187941be0b3d1cce8c6fc, type: 2}
+    - levelContentID: "RyLb_S_07"
+      levelContentScript: {fileID: 1791166998363964186, guid: ed127fb567b14404298bedb15c1f1428, type: 2}
+    - levelContentID: "RyLb_S_08"
+      levelContentScript: {fileID: 1791166998363964187, guid: cd1d952628746e146912d7192f7a84d6, type: 2}
+    - levelContentID: "RyLb_S_09"
+      levelContentScript: {fileID: 1791166998363964188, guid: d908d01b91f2d0a4fb587c59f0bd6533, type: 2}
+    - levelContentID: "RyLb_06"
+      levelContentScript: {fileID: 1791166998363964173, guid: 977f27d218da0b04ca455cca28b51575, type: 2}
+    - levelContentID: "RyLb_07"
+      levelContentScript: {fileID: 1791166998363964174, guid: f448c5389c4cbc047981c7915f56984c, type: 2}
+    - levelContentID: "RyLb_08"
+      levelContentScript: {fileID: 1791166998363964175, guid: 4e41d906aa27c0242ab6c05c19362773, type: 2}
+    - levelContentID: "RyLb_09"
+      levelContentScript: {fileID: 1791166998363964176, guid: 9ec1e9f5578fb614582c2ce7a633661d, type: 2}
+    - levelContentID: "RyLb_10"
+      levelContentScript: {fileID: 1791166998363964177, guid: 4a30ad8db2fb3b842b86fa0ded7f69a6, type: 2}
+    - levelContentID: "RyLb_11"
+      levelContentScript: {fileID: 1791166998363964178, guid: 1b22eaedc8a695d439c207e6780ab7f0, type: 2}
+  - stageID: "CaDg"
+    stageName: "castle dungeon"
+    environmentPrefab: {fileID: 1791166996468137367, guid: 15dcd6659aece5a479d0509f51e67f21, type: 2}
+    objectLogicPrefab: 2
+    stageMusicTrackA: 4
+    stageMusicTrackB: 4
+    additionStageLength: 4.78
+    StageObject:
+    - objectID: "0"
+      objectPrefab:
+      - {fileID: 1791166996468137136, guid: bf18e2c8552dc184c9d8732a40100b46, type: 2}
+      raritySpawn: 0
+      spawnDuration: 2
+      spawnType: 2
+    - objectID: "1"
+      objectPrefab:
+      - {fileID: 1791166996468137147, guid: 0b011de87b9cba24fa945e4491aefdef, type: 2}
+      raritySpawn: 0
+      spawnDuration: 15
+      spawnType: 2
+    - objectID: "2"
+      objectPrefab:
+      - {fileID: 1791166996468137105, guid: a9f8fa0487262564c87c4db51cbdc36b, type: 2}
+      raritySpawn: 0
+      spawnDuration: 300
+      spawnType: 1
+    - objectID: "3"
+      objectPrefab:
+      - {fileID: 1791166996468137096, guid: c30a70a0410a7ee48b5cb4bf5e8246bf, type: 2}
+      raritySpawn: 0
+      spawnDuration: 10000
+      spawnType: -1
+    levelContents:
+    - levelContentID: "CaDg_00"
+      levelContentScript: {fileID: 1791166998363964138, guid: 0c01f03a8b948483592c27aa599108f0, type: 2}
+    - levelContentID: "CaDg_01"
+      levelContentScript: {fileID: 1791166998363964139, guid: bc6e6ce8503b04124a3730cd125f60bd, type: 2}
+    - levelContentID: "CaDg_02"
+      levelContentScript: {fileID: 1791166998363964140, guid: c52ffbde64bab47e481765efe7766458, type: 2}
+    - levelContentID: "CaDg_03"
+      levelContentScript: {fileID: 1791166998363964141, guid: a039752807d764198ae17e32147564b3, type: 2}
+    - levelContentID: "CaDg_04"
+      levelContentScript: {fileID: 1791166998363964142, guid: 94e5fdddd7b2a4fb799514da658fb9e1, type: 2}
+    - levelContentID: "CaDg_05"
+      levelContentScript: {fileID: 1791166998363964143, guid: 7460fabd4c394470b9a11b3983bef7a9, type: 2}
+    - levelContentID: "CaDg_S_00"
+      levelContentScript: {fileID: 1791166998363964144, guid: c7be2249c41449b42bd5f2daf9f621a5, type: 2}
+    - levelContentID: "CaDg_S_01"
+      levelContentScript: {fileID: 1791166998363964145, guid: fc403148fdbad654badbafe2954c840b, type: 2}
+    - levelContentID: "CaDg_S_02"
+      levelContentScript: {fileID: 1791166998363964146, guid: 61c73360f1332c54385688f31d597874, type: 2}
+    - levelContentID: "CaDg_S_03"
+      levelContentScript: {fileID: 1791166998363964147, guid: 5dfac2661d7ad394d8a3a4de1958090d, type: 2}
+    - levelContentID: "CaDg_S_04"
+      levelContentScript: {fileID: 1791166998363964148, guid: 4c6bfe209f6b92346b5bfc298af74e39, type: 2}
+    - levelContentID: "CaDg_S_05"
+      levelContentScript: {fileID: 1791166998363964149, guid: 99e575d1256a78f45ae7d80efc7dc4c7, type: 2}
+    - levelContentID: "CaDg_S_06"
+      levelContentScript: {fileID: 1791166998363964150, guid: b809d981c61b16243a7e5f984c78a5bc, type: 2}
+  - stageID: "ARENA"
+    stageName: "hall of heroes"
+    environmentPrefab: {fileID: 1791166996468137346, guid: 17935a7e3a1163748978b6c1c902334c, type: 2}
+    objectLogicPrefab: 3
+    stageMusicTrackA: 0
+    stageMusicTrackB: 0
+    additionStageLength: 5.66
+    StageObject:
+    - objectID: "0"
+      objectPrefab:
+      - {fileID: 1791166996468137117, guid: 930e9e7ee0ea21846be240ee8f59a89c, type: 2}
+      raritySpawn: 0
+      spawnDuration: 2
+      spawnType: 2
+    - objectID: "1"
+      objectPrefab:
+      - {fileID: 1791166996468137168, guid: 214e9107146bde346955980547a6496c, type: 2}
+      raritySpawn: 0
+      spawnDuration: 15
+      spawnType: 2
+    - objectID: "2"
+      objectPrefab:
+      - {fileID: 1791166996468137169, guid: e9040ddb00ce6974c96ccccf2e37adfc, type: 2}
+      raritySpawn: 0
+      spawnDuration: 300
+      spawnType: 1
+    - objectID: "3"
+      objectPrefab:
+      - {fileID: 1791166996468137096, guid: c30a70a0410a7ee48b5cb4bf5e8246bf, type: 2}
+      raritySpawn: 0
+      spawnDuration: 10000
+      spawnType: -1
+    levelContents:
+    - levelContentID: "ARENA_00"
+      levelContentScript: {fileID: 1791166998363964137, guid: e5c62f71230af344093206ecfb19316f, type: 2}
+    - levelContentID: "ARENA_00"
+      levelContentScript: {fileID: 1791166998363964137, guid: e5c62f71230af344093206ecfb19316f, type: 2}
+    - levelContentID: "ARENA_00"
+      levelContentScript: {fileID: 1791166998363964137, guid: e5c62f71230af344093206ecfb19316f, type: 2}
+    - levelContentID: "ARENA_00"
+      levelContentScript: {fileID: 1791166998363964137, guid: e5c62f71230af344093206ecfb19316f, type: 2}
+    - levelContentID: "ARENA_00"
+      levelContentScript: {fileID: 1791166998363964137, guid: e5c62f71230af344093206ecfb19316f, type: 2}
+    - levelContentID: "ARENA_00"
+      levelContentScript: {fileID: 1791166998363964137, guid: e5c62f71230af344093206ecfb19316f, type: 2}
+    - levelContentID: "ARENA_00"
+      levelContentScript: {fileID: 1791166998363964137, guid: e5c62f71230af344093206ecfb19316f, type: 2}
+    - levelContentID: "ARENA_00"
+      levelContentScript: {fileID: 1791166998363964137, guid: e5c62f71230af344093206ecfb19316f, type: 2}
+    - levelContentID: "ARENA_00"
+      levelContentScript: {fileID: 1791166998363964137, guid: e5c62f71230af344093206ecfb19316f, type: 2}
+    - levelContentID: "ARENA_00"
+      levelContentScript: {fileID: 1791166998363964137, guid: e5c62f71230af344093206ecfb19316f, type: 2}
+    - levelContentID: "ARENA_00"
+      levelContentScript: {fileID: 1791166998363964137, guid: e5c62f71230af344093206ecfb19316f, type: 2}
+    - levelContentID: "ARENA_00"
+      levelContentScript: {fileID: 1791166998363964137, guid: e5c62f71230af344093206ecfb19316f, type: 2}
+  musicGeneral:
+  - {fileID: 1791166996468136948, guid: 800ec58b7044e774394b38949195a14b, type: 2}
+  - {fileID: 1791166996468136947, guid: 13cb7cd8e0b4a934ea6a03f9a42dcfcd, type: 2}
+  - {fileID: 1791166996468136946, guid: c74ff701892bb0347a87b211f3f1d6ed, type: 2}
+  musicGameplay:
+  - {fileID: 1791166996468136943, guid: 71701f36d73fed54c90ebb6205dfb63f, type: 2}
+  - {fileID: 1791166996468136942, guid: b410f441b37df3046822e29cc32184a2, type: 2}
+  - {fileID: 1791166996468136945, guid: c702205f0e899064ca4f6cc5094048d5, type: 2}
+  - {fileID: 1791166996468136944, guid: f3a8782072894e547bd53fbb557ecba7, type: 2}
+  - {fileID: 1791166996468136941, guid: 93e73b49cb54c2e4ab10c50fedb5826e, type: 2}
+  - {fileID: 1791166996468136940, guid: 457c64a0c17ac7d4ab8409ff613eb369, type: 2}
+  musicBoss:
+  - {fileID: 1791166996468136937, guid: 0f43da4b0d5694c22b429a31ce169996, type: 2}
+  - {fileID: 1791166996468136936, guid: 611aab1f06170734cbdb61abe166d2d6, type: 2}
+  - {fileID: 1791166996468136939, guid: d74f9970ea9056b42a8f3a5e01912d57, type: 2}
+  - {fileID: 1791166996468136938, guid: 0743f53ecb08abf45a84a1ce7486861d, type: 2}
+  clickSound:
+  - {fileID: 8300000, guid: 6a48bf634fca41a89dd02e6332110146, type: 3}
+  - {fileID: 8300000, guid: 6cf66cf0de67448db09f878d04807d33, type: 3}
+  - {fileID: 8300000, guid: 29d875370e994508b44c8153e3a7cc47, type: 3}
+  - {fileID: 8300000, guid: 88f5755bc96d46178588ef123985dcf6, type: 3}
+  - {fileID: 8300000, guid: f60c18e945ba4afa8b99675bc6e65d10, type: 3}
+--- !u!114 &1791166998363964218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468136931}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3464aa917c7a46e91966243442e9ac0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  newName: "Content Manager"
+  parentName: " Managers"

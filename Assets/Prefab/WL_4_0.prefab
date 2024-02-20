@@ -1,0 +1,2131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1791166996468137228}
+  m_IsPrefabParent: 1
+--- !u!4 &1791166996518469353
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137228}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.15003, y: 2.077946, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1791166996518469417}
+  - {fileID: 1791166996518469402}
+  - {fileID: 1791166996518469288}
+  - {fileID: 1791166996518469442}
+  - {fileID: 1791166996518469435}
+  - {fileID: 1791166996518469189}
+  - {fileID: 1791166996518469381}
+  - {fileID: 1791166996518469094}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1791166996518469094
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468136969}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1791166996518469353}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1791166996518469189
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137065}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0.1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1791166996518469242}
+  - {fileID: 1791166996518469324}
+  m_Father: {fileID: 1791166996518469353}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1791166996518469288
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137164}
+  m_LocalRotation: {x: 0, y: 0, z: 0.9230425, w: 0.3846981}
+  m_LocalPosition: {x: 0, y: 0, z: 1.2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1791166996518469353}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1791166996518469381
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137256}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0.1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1791166996518469353}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1791166996518469402
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137277}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 1.2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1791166996518469353}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1791166996518469417
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137292}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 1.2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1791166996518469353}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1791166996518469435
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137310}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1791166996518469427}
+  m_Father: {fileID: 1791166996518469353}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1791166996518469442
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137317}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0.1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1791166996518469449}
+  m_Father: {fileID: 1791166996518469353}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1791166996518469242
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137118}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1791166996518469189}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1791166996518469324
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137199}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0.1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1791166996518469189}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1791166996518469427
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137302}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 5.960463E-08, y: 0.7, z: -5.960465E-07}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1791166996518469435}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1791166996518469449
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137324}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 0, y: -0.8, z: 0}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1791166996518469442}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1791166996468136969
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791166996518469094}
+  - component: {fileID: 1791166997541880263}
+  - component: {fileID: 1791166998363964104}
+  m_Layer: 0
+  m_Name: "trigger"
+  m_TagString: "AtSAB"
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1791166996468137065
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791166996518469189}
+  - component: {fileID: 1791166997005009073}
+  - component: {fileID: 1791166996837236673}
+  - component: {fileID: 1791166998363964150}
+  - component: {fileID: 1791166998363964051}
+  m_Layer: 0
+  m_Name: "void"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1791166996468137118
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791166996518469242}
+  - component: {fileID: 1791166997005009123}
+  - component: {fileID: 1791166996837236723}
+  - component: {fileID: 1791166998363964190}
+  - component: {fileID: 1791166998363964228}
+  m_Layer: 0
+  m_Name: "AnimatedSprite1"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1791166996468137164
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791166996518469288}
+  - component: {fileID: 1791166997005009164}
+  - component: {fileID: 1791166996837236764}
+  - component: {fileID: 1791166998363964289}
+  m_Layer: 0
+  m_Name: "character"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1791166996468137199
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791166996518469324}
+  - component: {fileID: 1791166997005009193}
+  - component: {fileID: 1791166996837236793}
+  - component: {fileID: 1791166998363964317}
+  - component: {fileID: 1791166998363964261}
+  m_Layer: 0
+  m_Name: "AnimatedSprite1"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1791166996468137228
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791166996518469353}
+  - component: {fileID: 1791166998363963991}
+  - component: {fileID: 1791166998363963893}
+  - component: {fileID: 1791166998363964341}
+  - component: {fileID: 1791166997357330847}
+  - component: {fileID: 1791166998363964359}
+  - component: {fileID: 1791166998363964454}
+  - component: {fileID: 1791166998363964462}
+  m_Layer: 0
+  m_Name: "WL_4_0"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1791166996468137256
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791166996518469381}
+  - component: {fileID: 1791166997005009217}
+  - component: {fileID: 1791166996837236817}
+  - component: {fileID: 1791166998363964378}
+  m_Layer: 0
+  m_Name: "character"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1791166996468137277
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791166996518469402}
+  - component: {fileID: 1791166997005009233}
+  - component: {fileID: 1791166996837236833}
+  - component: {fileID: 1791166998363964392}
+  m_Layer: 0
+  m_Name: "character"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1791166996468137292
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791166996518469417}
+  - component: {fileID: 1791166997005009243}
+  - component: {fileID: 1791166996837236843}
+  - component: {fileID: 1791166998363964404}
+  m_Layer: 0
+  m_Name: "character"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1791166996468137302
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791166996518469427}
+  - component: {fileID: 1791166997005009250}
+  - component: {fileID: 1791166996837236850}
+  - component: {fileID: 1791166998363964421}
+  - component: {fileID: 1791166998363964414}
+  m_Layer: 0
+  m_Name: "Sprite0"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1791166996468137310
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791166996518469435}
+  - component: {fileID: 1791166998363964427}
+  m_Layer: 0
+  m_Name: "GameObject"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1791166996468137317
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791166996518469442}
+  - component: {fileID: 1791166998363964433}
+  m_Layer: 0
+  m_Name: "GameObject"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1791166996468137324
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791166996518469449}
+  - component: {fileID: 1791166997005009257}
+  - component: {fileID: 1791166996837236857}
+  - component: {fileID: 1791166998363964440}
+  - component: {fileID: 1791166998363964447}
+  m_Layer: 0
+  m_Name: "Sprite0"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &1791166996837236673
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137065}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 0
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 28659de96f3945b7bddf5c675eb523ec, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &1791166996837236723
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137118}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 0
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: a9273b8536e0420584bd7908589e49fd, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &1791166996837236764
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137164}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 0
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 4c0d9cc51b2a48929a7433822f7887d2, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &1791166996837236793
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137199}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 0
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: a9273b8536e0420584bd7908589e49fd, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &1791166996837236817
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137256}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 0
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: a9273b8536e0420584bd7908589e49fd, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &1791166996837236833
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137277}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 0
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 4c0d9cc51b2a48929a7433822f7887d2, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &1791166996837236843
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137292}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 0
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 4c0d9cc51b2a48929a7433822f7887d2, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &1791166996837236850
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137302}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 0
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: e23a61ce08514559b5aa8a11e41df7c2, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &1791166996837236857
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137324}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 0
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: e23a61ce08514559b5aa8a11e41df7c2, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1791166997005009073
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137065}
+  m_Mesh: {fileID: 0}
+--- !u!33 &1791166997005009123
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137118}
+  m_Mesh: {fileID: 0}
+--- !u!33 &1791166997005009164
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137164}
+  m_Mesh: {fileID: 0}
+--- !u!33 &1791166997005009193
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137199}
+  m_Mesh: {fileID: 0}
+--- !u!33 &1791166997005009217
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137256}
+  m_Mesh: {fileID: 0}
+--- !u!33 &1791166997005009233
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137277}
+  m_Mesh: {fileID: 0}
+--- !u!33 &1791166997005009243
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137292}
+  m_Mesh: {fileID: 0}
+--- !u!33 &1791166997005009250
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137302}
+  m_Mesh: {fileID: 0}
+--- !u!33 &1791166997005009257
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137324}
+  m_Mesh: {fileID: 0}
+--- !u!54 &1791166997357330847
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137228}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &1791166997541880263
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468136969}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.6, y: 1.6, z: 5}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1791166998363963893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a45ecb814bbf160ef7b2f5e1df8994e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spellFollowType: -1
+  centreSpellTypeHeight: 0
+  duration: 10
+  followDamping: 0.05
+  spellSize: {x: 1, y: 1, z: 1}
+  MousePos: {x: 0, y: 0, z: 0}
+  poolName: "Spell Pool"
+--- !u!114 &1791166998363963991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ffe2713d5e7627fb07c1696c4e3d6bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerBox: {fileID: 1791166996468136969}
+  delayPerEnable: 0.4
+--- !u!114 &1791166998363964051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecf7b5b7c4ea4b4bd35eb8fecab2edf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activateType: 0
+  activate: 0
+  regularScale: 1
+  expandScale: 1.5
+  expandSpeed: 0.02
+--- !u!114 &1791166998363964104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468136969}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47d8da70f50c5d83daa3f226e9cb5cfd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 
+  alignment: 0
+  alignmentType: 2
+  triggerType: 1
+  triggerClass: 4
+  pureEffect: 1
+  effectType: 1
+  effectClass: 0
+  knockEffectUnalterable: 1
+  disableEffectUnalterable: 0
+  msAttributeUnalterable: 0
+  hpAttributeCriticalMultiplier: 0
+  hpAttributeToggle: 1
+  hpAttributeAmount: 2
+  hpOverTimeAttributeToggle: 0
+  hpOverTimeAttributeAmount: 0
+  hpOverTimeAttributeNumber: 0
+  hpOverTimeAttributeDelay: 0
+  hpOverTimeAttributeEffectClass: 0
+  hpOverTimeAttributeEffectNumber: 0
+  mpAttributeToggle: 0
+  mpAttributeAmount: 0
+  colorEffectToggle: 0
+  colorEffectColor: {r: 0, g: 0, b: 0, a: 0}
+  colorEffectDuration: 0
+  disableEffectToggle: 0
+  disableEffectDuration: 0
+  hexEffectToggle: 0
+  hexEffectDuration: 0
+  riseEffectToggle: 0
+  riseEffectDistance: 0
+  riseEffectDuration: 0
+  riseEffectDamping: 0
+  knockEffectToggle: 0
+  knockEffectDistance: 0
+  knockEffectDuration: 0
+  knockEffectDamping: 0
+  dmgAttributeToggle: 0
+  dmgAttributeAmount: 0
+  dmgAttributeDuration: 0
+  msAttributeToggle: 0
+  msAttributeAmount: 0
+  msAttributeDuration: 0
+  asAttributeToggle: 0
+  asAttributeAmount: 0
+  asAttributeDuration: 0
+  apAttributeToggle: 0
+  apAttributeAmount: 0
+  apAttributeDuration: 0
+  anpAttributeToggle: 0
+  anpAttributeAmount: 0
+  anpAttributeDuration: 0
+  mrpAttributeToggle: 0
+  mrpAttributeAmount: 0
+  mrpAttributeDuration: 0
+  crpAttributeToggle: 0
+  crpAttributeAmount: 0
+  crpAttributeDuration: 0
+  acpAttributeToggle: 0
+  acpAttributeAmount: 0
+  acpAttributeDuration: 0
+  evpAttributeToggle: 0
+  evpAttributeAmount: 0
+  evpAttributeDuration: 0
+  effectClassID: 0
+  effectSubID: 0
+  followTrigger: {fileID: 0}
+--- !u!114 &1791166998363964150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88b38e574083bff5c2b7fda14c33d7c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collection: {fileID: 1791166998363963963, guid: c86c7286b3c92f14da400ff8cf8610e7, type: 2}
+  _color: {r: 0, g: 0, b: 0, a: 0.5882353}
+  _scale: {x: 3.1, y: 3.1, z: 3}
+  _spriteId: 41
+  pixelPerfect: 0
+  boxCollider: {fileID: 0}
+  meshCollider: {fileID: 0}
+  meshColliderPositions: []
+  meshColliderMesh: {fileID: 0}
+  anim: {fileID: 1791166998363963975, guid: 2f4fd8070fd7a774897b94fbf1f8c758, type: 2}
+  clipId: 0
+  playAutomatically: 0
+  paused: 0
+  createCollider: 0
+--- !u!114 &1791166998363964190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137118}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88b38e574083bff5c2b7fda14c33d7c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collection: {fileID: 1791166998363963977, guid: dfbd6fd02a765ab4fbf76e8a10ba15d0, type: 2}
+  _color: {r: 1, g: 0, b: 0, a: 0.5882353}
+  _scale: {x: 3.25, y: 3.258, z: 3}
+  _spriteId: 24
+  pixelPerfect: 0
+  boxCollider: {fileID: 0}
+  meshCollider: {fileID: 0}
+  meshColliderPositions: []
+  meshColliderMesh: {fileID: 0}
+  anim: {fileID: 0}
+  clipId: 0
+  playAutomatically: 0
+  paused: 0
+  createCollider: 0
+--- !u!114 &1791166998363964228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137118}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e835f323ed39c52509853bbd26ac9e2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anim: {fileID: 0}
+  clip: 
+  playClip: 0
+  repeat: 1
+  rotate: 1
+  expand: 1
+  expandSpeed: 0.01
+  expandTime: 0.2
+  originalSize: 1
+  rotateSpeed: -2
+  clipTime: 10
+--- !u!114 &1791166998363964261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137199}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e835f323ed39c52509853bbd26ac9e2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anim: {fileID: 0}
+  clip: 
+  playClip: 0
+  repeat: 1
+  rotate: 1
+  expand: 1
+  expandSpeed: 0.01
+  expandTime: 0.2
+  originalSize: 1
+  rotateSpeed: -10
+  clipTime: 10
+--- !u!114 &1791166998363964289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137164}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88b38e574083bff5c2b7fda14c33d7c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collection: {fileID: 1791166998363963970, guid: 60a3f7317b2de31498fe545aceae06d5, type: 2}
+  _color: {r: 0.4626865, g: 0, b: 0, a: 0.7058824}
+  _scale: {x: 5, y: 30, z: 3}
+  _spriteId: 15
+  pixelPerfect: 0
+  boxCollider: {fileID: 0}
+  meshCollider: {fileID: 0}
+  meshColliderPositions: []
+  meshColliderMesh: {fileID: 0}
+  anim: {fileID: 1791166998363963976, guid: 930f29755f58ae5438527c558f4656d1, type: 2}
+  clipId: 12
+  playAutomatically: 0
+  paused: 0
+  createCollider: 0
+--- !u!114 &1791166998363964317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137199}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88b38e574083bff5c2b7fda14c33d7c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collection: {fileID: 1791166998363963977, guid: dfbd6fd02a765ab4fbf76e8a10ba15d0, type: 2}
+  _color: {r: 1, g: 0, b: 0, a: 1}
+  _scale: {x: 3, y: 3, z: 3}
+  _spriteId: 24
+  pixelPerfect: 0
+  boxCollider: {fileID: 0}
+  meshCollider: {fileID: 0}
+  meshColliderPositions: []
+  meshColliderMesh: {fileID: 0}
+  anim: {fileID: 0}
+  clipId: 0
+  playAutomatically: 0
+  paused: 0
+  createCollider: 0
+--- !u!114 &1791166998363964341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4268f6a431a0feecb5b49852475de531, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cameraFocus: 1
+--- !u!114 &1791166998363964359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5155c2ee9a0fbf175b8005f5da4646ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  statisticEffectDuration: 0
+  despawnPoolName: "Spell Pool"
+  gameEffectEnable: 1
+  spellState: 0
+  spellStateDuration: 0
+  manaEffectAmount: 0
+  manaEffectOverTime: -10
+  manaEffectOverTimeDelay: 0.8
+  manaEffectOverTimeDespawnActivate: 1
+  objectEffectEnable: 0
+  objectState: 0
+  guardEffectEnable: 0
+  GuardEffect:
+  - guardEffectToggle: 0
+    guardEffectDuration: 0
+    guardEffectHP: 0
+    guardEffectMP: 0
+    guardEffectMRP: 0
+    guardEffectAP: 0
+    guardEffectANP: 0
+    guardEffectMS: 0
+    guardEffectAS: 0
+    guardEffectCRP: 0
+    guardEffectACP: 0
+    guardEffectEVP: 0
+    guardEffectToggleHPOT: 0
+    guardEffectAmountHPOT: 0
+    guardEffectNumberHPOT: 0
+    guardEffectDelayHPOT: 0
+    guardEffectIdHPOT: 0
+    guardEffectSubIdHPOT: 0
+  - guardEffectToggle: 0
+    guardEffectDuration: 0
+    guardEffectHP: 0
+    guardEffectMP: 0
+    guardEffectMRP: 0
+    guardEffectAP: 0
+    guardEffectANP: 0
+    guardEffectMS: 0
+    guardEffectAS: 0
+    guardEffectCRP: 0
+    guardEffectACP: 0
+    guardEffectEVP: 0
+    guardEffectToggleHPOT: 0
+    guardEffectAmountHPOT: 0
+    guardEffectNumberHPOT: 0
+    guardEffectDelayHPOT: 0
+    guardEffectIdHPOT: 0
+    guardEffectSubIdHPOT: 0
+  - guardEffectToggle: 0
+    guardEffectDuration: 0
+    guardEffectHP: 0
+    guardEffectMP: 0
+    guardEffectMRP: 0
+    guardEffectAP: 0
+    guardEffectANP: 0
+    guardEffectMS: 0
+    guardEffectAS: 0
+    guardEffectCRP: 0
+    guardEffectACP: 0
+    guardEffectEVP: 0
+    guardEffectToggleHPOT: 0
+    guardEffectAmountHPOT: 0
+    guardEffectNumberHPOT: 0
+    guardEffectDelayHPOT: 0
+    guardEffectIdHPOT: 0
+    guardEffectSubIdHPOT: 0
+  - guardEffectToggle: 0
+    guardEffectDuration: 0
+    guardEffectHP: 0
+    guardEffectMP: 0
+    guardEffectMRP: 0
+    guardEffectAP: 0
+    guardEffectANP: 0
+    guardEffectMS: 0
+    guardEffectAS: 0
+    guardEffectCRP: 0
+    guardEffectACP: 0
+    guardEffectEVP: 0
+    guardEffectToggleHPOT: 0
+    guardEffectAmountHPOT: 0
+    guardEffectNumberHPOT: 0
+    guardEffectDelayHPOT: 0
+    guardEffectIdHPOT: 0
+    guardEffectSubIdHPOT: 0
+  - guardEffectToggle: 0
+    guardEffectDuration: 0
+    guardEffectHP: 0
+    guardEffectMP: 0
+    guardEffectMRP: 0
+    guardEffectAP: 0
+    guardEffectANP: 0
+    guardEffectMS: 0
+    guardEffectAS: 0
+    guardEffectCRP: 0
+    guardEffectACP: 0
+    guardEffectEVP: 0
+    guardEffectToggleHPOT: 0
+    guardEffectAmountHPOT: 0
+    guardEffectNumberHPOT: 0
+    guardEffectDelayHPOT: 0
+    guardEffectIdHPOT: 0
+    guardEffectSubIdHPOT: 0
+  statisticEffectEnable: 0
+  playerGuardHealth: 0
+  playerGuardHealthRegeneration: 0
+  playerMaximumObjectInput: 0
+  playerObjectControlManaCost: 0
+  playerMaxManaPoint: 0
+  playerStartingManaPoint: 0
+  playerManaRegenerate: 0
+  playerManaWaveRegenerate: 0
+  PlayerSpellAttribute:
+  - playerSpellState: 1
+    playerSpellNumber: 0
+    playerSpellManaCost: 0
+    playerSpellCoolDown: 0
+    playerSpellCastingPenalty: 0
+    hpAttributeToggle: 0
+    hpAttributeAmount: 0
+    hpOverTimeAttributeToggle: 0
+    hpOverTimeAttributeAmount: 0
+    hpOverTimeAttributeNumber: 0
+    hpOverTimeAttributeDelay: 0
+    mpAttributeToggle: 0
+    mpAttributeAmount: 0
+    colorEffectToggle: 0
+    colorEffectColor: {r: 0, g: 0, b: 0, a: 0}
+    colorEffectDuration: 0
+    disableEffectToggle: 0
+    disableEffectDuration: 0
+    riseEffectToggle: 0
+    riseEffectDistance: 0
+    riseEffectDuration: 0
+    riseEffectDamping: 0
+    knockEffectToggle: 0
+    knockEffectDistance: 0
+    knockEffectDuration: 0
+    knockEffectDamping: 0
+    dmgAttributeToggle: 0
+    dmgAttributeAmount: 0
+    dmgAttributeDuration: 0
+    msAttributeToggle: 0
+    msAttributeAmount: 0
+    msAttributeDuration: 0
+    asAttributeToggle: 0
+    asAttributeAmount: 0
+    asAttributeDuration: 0
+    apAttributeToggle: 0
+    apAttributeAmount: 0
+    apAttributeDuration: 0
+    anpAttributeToggle: 0
+    anpAttributeAmount: 0
+    anpAttributeDuration: 0
+    mrpAttributeToggle: 0
+    mrpAttributeAmount: 0
+    mrpAttributeDuration: 0
+    crpAttributeToggle: 0
+    crpAttributeAmount: 0
+    crpAttributeDuration: 0
+    acpAttributeToggle: 0
+    acpAttributeAmount: 0
+    acpAttributeDuration: 0
+    evpAttributeToggle: 0
+    evpAttributeAmount: 0
+    evpAttributeDuration: 0
+  - playerSpellState: 1
+    playerSpellNumber: 0
+    playerSpellManaCost: 0
+    playerSpellCoolDown: 0
+    playerSpellCastingPenalty: 0
+    hpAttributeToggle: 0
+    hpAttributeAmount: 0
+    hpOverTimeAttributeToggle: 0
+    hpOverTimeAttributeAmount: 0
+    hpOverTimeAttributeNumber: 0
+    hpOverTimeAttributeDelay: 0
+    mpAttributeToggle: 0
+    mpAttributeAmount: 0
+    colorEffectToggle: 0
+    colorEffectColor: {r: 0, g: 0, b: 0, a: 0}
+    colorEffectDuration: 0
+    disableEffectToggle: 0
+    disableEffectDuration: 0
+    riseEffectToggle: 0
+    riseEffectDistance: 0
+    riseEffectDuration: 0
+    riseEffectDamping: 0
+    knockEffectToggle: 0
+    knockEffectDistance: 0
+    knockEffectDuration: 0
+    knockEffectDamping: 0
+    dmgAttributeToggle: 0
+    dmgAttributeAmount: 0
+    dmgAttributeDuration: 0
+    msAttributeToggle: 0
+    msAttributeAmount: 0
+    msAttributeDuration: 0
+    asAttributeToggle: 0
+    asAttributeAmount: 0
+    asAttributeDuration: 0
+    apAttributeToggle: 0
+    apAttributeAmount: 0
+    apAttributeDuration: 0
+    anpAttributeToggle: 0
+    anpAttributeAmount: 0
+    anpAttributeDuration: 0
+    mrpAttributeToggle: 0
+    mrpAttributeAmount: 0
+    mrpAttributeDuration: 0
+    crpAttributeToggle: 0
+    crpAttributeAmount: 0
+    crpAttributeDuration: 0
+    acpAttributeToggle: 0
+    acpAttributeAmount: 0
+    acpAttributeDuration: 0
+    evpAttributeToggle: 0
+    evpAttributeAmount: 0
+    evpAttributeDuration: 0
+  - playerSpellState: 1
+    playerSpellNumber: 0
+    playerSpellManaCost: 0
+    playerSpellCoolDown: 0
+    playerSpellCastingPenalty: 0
+    hpAttributeToggle: 0
+    hpAttributeAmount: 0
+    hpOverTimeAttributeToggle: 0
+    hpOverTimeAttributeAmount: 0
+    hpOverTimeAttributeNumber: 0
+    hpOverTimeAttributeDelay: 0
+    mpAttributeToggle: 0
+    mpAttributeAmount: 0
+    colorEffectToggle: 0
+    colorEffectColor: {r: 0, g: 0, b: 0, a: 0}
+    colorEffectDuration: 0
+    disableEffectToggle: 0
+    disableEffectDuration: 0
+    riseEffectToggle: 0
+    riseEffectDistance: 0
+    riseEffectDuration: 0
+    riseEffectDamping: 0
+    knockEffectToggle: 0
+    knockEffectDistance: 0
+    knockEffectDuration: 0
+    knockEffectDamping: 0
+    dmgAttributeToggle: 0
+    dmgAttributeAmount: 0
+    dmgAttributeDuration: 0
+    msAttributeToggle: 0
+    msAttributeAmount: 0
+    msAttributeDuration: 0
+    asAttributeToggle: 0
+    asAttributeAmount: 0
+    asAttributeDuration: 0
+    apAttributeToggle: 0
+    apAttributeAmount: 0
+    apAttributeDuration: 0
+    anpAttributeToggle: 0
+    anpAttributeAmount: 0
+    anpAttributeDuration: 0
+    mrpAttributeToggle: 0
+    mrpAttributeAmount: 0
+    mrpAttributeDuration: 0
+    crpAttributeToggle: 0
+    crpAttributeAmount: 0
+    crpAttributeDuration: 0
+    acpAttributeToggle: 0
+    acpAttributeAmount: 0
+    acpAttributeDuration: 0
+    evpAttributeToggle: 0
+    evpAttributeAmount: 0
+    evpAttributeDuration: 0
+  - playerSpellState: 1
+    playerSpellNumber: 0
+    playerSpellManaCost: 0
+    playerSpellCoolDown: 0
+    playerSpellCastingPenalty: 0
+    hpAttributeToggle: 0
+    hpAttributeAmount: 0
+    hpOverTimeAttributeToggle: 0
+    hpOverTimeAttributeAmount: 0
+    hpOverTimeAttributeNumber: 0
+    hpOverTimeAttributeDelay: 0
+    mpAttributeToggle: 0
+    mpAttributeAmount: 0
+    colorEffectToggle: 0
+    colorEffectColor: {r: 0, g: 0, b: 0, a: 0}
+    colorEffectDuration: 0
+    disableEffectToggle: 0
+    disableEffectDuration: 0
+    riseEffectToggle: 0
+    riseEffectDistance: 0
+    riseEffectDuration: 0
+    riseEffectDamping: 0
+    knockEffectToggle: 0
+    knockEffectDistance: 0
+    knockEffectDuration: 0
+    knockEffectDamping: 0
+    dmgAttributeToggle: 0
+    dmgAttributeAmount: 0
+    dmgAttributeDuration: 0
+    msAttributeToggle: 0
+    msAttributeAmount: 0
+    msAttributeDuration: 0
+    asAttributeToggle: 0
+    asAttributeAmount: 0
+    asAttributeDuration: 0
+    apAttributeToggle: 0
+    apAttributeAmount: 0
+    apAttributeDuration: 0
+    anpAttributeToggle: 0
+    anpAttributeAmount: 0
+    anpAttributeDuration: 0
+    mrpAttributeToggle: 0
+    mrpAttributeAmount: 0
+    mrpAttributeDuration: 0
+    crpAttributeToggle: 0
+    crpAttributeAmount: 0
+    crpAttributeDuration: 0
+    acpAttributeToggle: 0
+    acpAttributeAmount: 0
+    acpAttributeDuration: 0
+    evpAttributeToggle: 0
+    evpAttributeAmount: 0
+    evpAttributeDuration: 0
+  objectPlusDMG: 0
+  objectPlusMS: 0
+  objectPlusKNK: 0
+  EffectClassAttribute:
+  - coolDownAmount: 0
+    manaCostAmount: 0
+    hpAttributeAmount: 0
+    hpOverTimeAttributeAmount: 0
+    mpAttributeAmount: 0
+    disableEffectDuration: 0
+    knockEffectDistance: 0
+    dmgAttributeAmount: 0
+    msAttributeAmount: 0
+    asAttributeAmount: 0
+    apAttributeAmount: 0
+    anpAttributeAmount: 0
+    mrpAttributeAmount: 0
+    crpAttributeAmount: 0
+    acpAttributeAmount: 0
+    evpAttributeAmount: 0
+  - coolDownAmount: 0
+    manaCostAmount: 0
+    hpAttributeAmount: 0
+    hpOverTimeAttributeAmount: 0
+    mpAttributeAmount: 0
+    disableEffectDuration: 0
+    knockEffectDistance: 0
+    dmgAttributeAmount: 0
+    msAttributeAmount: 0
+    asAttributeAmount: 0
+    apAttributeAmount: 0
+    anpAttributeAmount: 0
+    mrpAttributeAmount: 0
+    crpAttributeAmount: 0
+    acpAttributeAmount: 0
+    evpAttributeAmount: 0
+  - coolDownAmount: 0
+    manaCostAmount: 0
+    hpAttributeAmount: 0
+    hpOverTimeAttributeAmount: 0
+    mpAttributeAmount: 0
+    disableEffectDuration: 0
+    knockEffectDistance: 0
+    dmgAttributeAmount: 0
+    msAttributeAmount: 0
+    asAttributeAmount: 0
+    apAttributeAmount: 0
+    anpAttributeAmount: 0
+    mrpAttributeAmount: 0
+    crpAttributeAmount: 0
+    acpAttributeAmount: 0
+    evpAttributeAmount: 0
+  - coolDownAmount: 0
+    manaCostAmount: 0
+    hpAttributeAmount: 0
+    hpOverTimeAttributeAmount: 0
+    mpAttributeAmount: 0
+    disableEffectDuration: 0
+    knockEffectDistance: 0
+    dmgAttributeAmount: 0
+    msAttributeAmount: 0
+    asAttributeAmount: 0
+    apAttributeAmount: 0
+    anpAttributeAmount: 0
+    mrpAttributeAmount: 0
+    crpAttributeAmount: 0
+    acpAttributeAmount: 0
+    evpAttributeAmount: 0
+  - coolDownAmount: 0
+    manaCostAmount: 0
+    hpAttributeAmount: 0
+    hpOverTimeAttributeAmount: 0
+    mpAttributeAmount: 0
+    disableEffectDuration: 0
+    knockEffectDistance: 0
+    dmgAttributeAmount: 0
+    msAttributeAmount: 0
+    asAttributeAmount: 0
+    apAttributeAmount: 0
+    anpAttributeAmount: 0
+    mrpAttributeAmount: 0
+    crpAttributeAmount: 0
+    acpAttributeAmount: 0
+    evpAttributeAmount: 0
+  - coolDownAmount: 0
+    manaCostAmount: 0
+    hpAttributeAmount: 0
+    hpOverTimeAttributeAmount: 0
+    mpAttributeAmount: 0
+    disableEffectDuration: 0
+    knockEffectDistance: 0
+    dmgAttributeAmount: 0
+    msAttributeAmount: 0
+    asAttributeAmount: 0
+    apAttributeAmount: 0
+    anpAttributeAmount: 0
+    mrpAttributeAmount: 0
+    crpAttributeAmount: 0
+    acpAttributeAmount: 0
+    evpAttributeAmount: 0
+  - coolDownAmount: 0
+    manaCostAmount: 0
+    hpAttributeAmount: 0
+    hpOverTimeAttributeAmount: 0
+    mpAttributeAmount: 0
+    disableEffectDuration: 0
+    knockEffectDistance: 0
+    dmgAttributeAmount: 0
+    msAttributeAmount: 0
+    asAttributeAmount: 0
+    apAttributeAmount: 0
+    anpAttributeAmount: 0
+    mrpAttributeAmount: 0
+    crpAttributeAmount: 0
+    acpAttributeAmount: 0
+    evpAttributeAmount: 0
+  - coolDownAmount: 0
+    manaCostAmount: 0
+    hpAttributeAmount: 0
+    hpOverTimeAttributeAmount: 0
+    mpAttributeAmount: 0
+    disableEffectDuration: 0
+    knockEffectDistance: 0
+    dmgAttributeAmount: 0
+    msAttributeAmount: 0
+    asAttributeAmount: 0
+    apAttributeAmount: 0
+    anpAttributeAmount: 0
+    mrpAttributeAmount: 0
+    crpAttributeAmount: 0
+    acpAttributeAmount: 0
+    evpAttributeAmount: 0
+  - coolDownAmount: 0
+    manaCostAmount: 0
+    hpAttributeAmount: 0
+    hpOverTimeAttributeAmount: 0
+    mpAttributeAmount: 0
+    disableEffectDuration: 0
+    knockEffectDistance: 0
+    dmgAttributeAmount: 0
+    msAttributeAmount: 0
+    asAttributeAmount: 0
+    apAttributeAmount: 0
+    anpAttributeAmount: 0
+    mrpAttributeAmount: 0
+    crpAttributeAmount: 0
+    acpAttributeAmount: 0
+    evpAttributeAmount: 0
+  - coolDownAmount: 0
+    manaCostAmount: 0
+    hpAttributeAmount: 0
+    hpOverTimeAttributeAmount: 0
+    mpAttributeAmount: 0
+    disableEffectDuration: 0
+    knockEffectDistance: 0
+    dmgAttributeAmount: 0
+    msAttributeAmount: 0
+    asAttributeAmount: 0
+    apAttributeAmount: 0
+    anpAttributeAmount: 0
+    mrpAttributeAmount: 0
+    crpAttributeAmount: 0
+    acpAttributeAmount: 0
+    evpAttributeAmount: 0
+  - coolDownAmount: 0
+    manaCostAmount: 0
+    hpAttributeAmount: 0
+    hpOverTimeAttributeAmount: 0
+    mpAttributeAmount: 0
+    disableEffectDuration: 0
+    knockEffectDistance: 0
+    dmgAttributeAmount: 0
+    msAttributeAmount: 0
+    asAttributeAmount: 0
+    apAttributeAmount: 0
+    anpAttributeAmount: 0
+    mrpAttributeAmount: 0
+    crpAttributeAmount: 0
+    acpAttributeAmount: 0
+    evpAttributeAmount: 0
+  - coolDownAmount: 0
+    manaCostAmount: 0
+    hpAttributeAmount: 0
+    hpOverTimeAttributeAmount: 0
+    mpAttributeAmount: 0
+    disableEffectDuration: 0
+    knockEffectDistance: 0
+    dmgAttributeAmount: 0
+    msAttributeAmount: 0
+    asAttributeAmount: 0
+    apAttributeAmount: 0
+    anpAttributeAmount: 0
+    mrpAttributeAmount: 0
+    crpAttributeAmount: 0
+    acpAttributeAmount: 0
+    evpAttributeAmount: 0
+  - coolDownAmount: 0
+    manaCostAmount: 0
+    hpAttributeAmount: 0
+    hpOverTimeAttributeAmount: 0
+    mpAttributeAmount: 0
+    disableEffectDuration: 0
+    knockEffectDistance: 0
+    dmgAttributeAmount: 0
+    msAttributeAmount: 0
+    asAttributeAmount: 0
+    apAttributeAmount: 0
+    anpAttributeAmount: 0
+    mrpAttributeAmount: 0
+    crpAttributeAmount: 0
+    acpAttributeAmount: 0
+    evpAttributeAmount: 0
+  - coolDownAmount: 0
+    manaCostAmount: 0
+    hpAttributeAmount: 0
+    hpOverTimeAttributeAmount: 0
+    mpAttributeAmount: 0
+    disableEffectDuration: 0
+    knockEffectDistance: 0
+    dmgAttributeAmount: 0
+    msAttributeAmount: 0
+    asAttributeAmount: 0
+    apAttributeAmount: 0
+    anpAttributeAmount: 0
+    mrpAttributeAmount: 0
+    crpAttributeAmount: 0
+    acpAttributeAmount: 0
+    evpAttributeAmount: 0
+  - coolDownAmount: 0
+    manaCostAmount: 0
+    hpAttributeAmount: 0
+    hpOverTimeAttributeAmount: 0
+    mpAttributeAmount: 0
+    disableEffectDuration: 0
+    knockEffectDistance: 0
+    dmgAttributeAmount: 0
+    msAttributeAmount: 0
+    asAttributeAmount: 0
+    apAttributeAmount: 0
+    anpAttributeAmount: 0
+    mrpAttributeAmount: 0
+    crpAttributeAmount: 0
+    acpAttributeAmount: 0
+    evpAttributeAmount: 0
+  - coolDownAmount: 0
+    manaCostAmount: 0
+    hpAttributeAmount: 0
+    hpOverTimeAttributeAmount: 0
+    mpAttributeAmount: 0
+    disableEffectDuration: 0
+    knockEffectDistance: 0
+    dmgAttributeAmount: 0
+    msAttributeAmount: 0
+    asAttributeAmount: 0
+    apAttributeAmount: 0
+    anpAttributeAmount: 0
+    mrpAttributeAmount: 0
+    crpAttributeAmount: 0
+    acpAttributeAmount: 0
+    evpAttributeAmount: 0
+  - coolDownAmount: 0
+    manaCostAmount: 0
+    hpAttributeAmount: 0
+    hpOverTimeAttributeAmount: 0
+    mpAttributeAmount: 0
+    disableEffectDuration: 0
+    knockEffectDistance: 0
+    dmgAttributeAmount: 0
+    msAttributeAmount: 0
+    asAttributeAmount: 0
+    apAttributeAmount: 0
+    anpAttributeAmount: 0
+    mrpAttributeAmount: 0
+    crpAttributeAmount: 0
+    acpAttributeAmount: 0
+    evpAttributeAmount: 0
+  - coolDownAmount: 0
+    manaCostAmount: 0
+    hpAttributeAmount: 0
+    hpOverTimeAttributeAmount: 0
+    mpAttributeAmount: 0
+    disableEffectDuration: 0
+    knockEffectDistance: 0
+    dmgAttributeAmount: 0
+    msAttributeAmount: 0
+    asAttributeAmount: 0
+    apAttributeAmount: 0
+    anpAttributeAmount: 0
+    mrpAttributeAmount: 0
+    crpAttributeAmount: 0
+    acpAttributeAmount: 0
+    evpAttributeAmount: 0
+  - coolDownAmount: 0
+    manaCostAmount: 0
+    hpAttributeAmount: 0
+    hpOverTimeAttributeAmount: 0
+    mpAttributeAmount: 0
+    disableEffectDuration: 0
+    knockEffectDistance: 0
+    dmgAttributeAmount: 0
+    msAttributeAmount: 0
+    asAttributeAmount: 0
+    apAttributeAmount: 0
+    anpAttributeAmount: 0
+    mrpAttributeAmount: 0
+    crpAttributeAmount: 0
+    acpAttributeAmount: 0
+    evpAttributeAmount: 0
+  - coolDownAmount: 0
+    manaCostAmount: 0
+    hpAttributeAmount: 0
+    hpOverTimeAttributeAmount: 0
+    mpAttributeAmount: 0
+    disableEffectDuration: 0
+    knockEffectDistance: 0
+    dmgAttributeAmount: 0
+    msAttributeAmount: 0
+    asAttributeAmount: 0
+    apAttributeAmount: 0
+    anpAttributeAmount: 0
+    mrpAttributeAmount: 0
+    crpAttributeAmount: 0
+    acpAttributeAmount: 0
+    evpAttributeAmount: 0
+  - coolDownAmount: 0
+    manaCostAmount: 0
+    hpAttributeAmount: 0
+    hpOverTimeAttributeAmount: 0
+    mpAttributeAmount: 0
+    disableEffectDuration: 0
+    knockEffectDistance: 0
+    dmgAttributeAmount: 0
+    msAttributeAmount: 0
+    asAttributeAmount: 0
+    apAttributeAmount: 0
+    anpAttributeAmount: 0
+    mrpAttributeAmount: 0
+    crpAttributeAmount: 0
+    acpAttributeAmount: 0
+    evpAttributeAmount: 0
+  - coolDownAmount: 0
+    manaCostAmount: 0
+    hpAttributeAmount: 0
+    hpOverTimeAttributeAmount: 0
+    mpAttributeAmount: 0
+    disableEffectDuration: 0
+    knockEffectDistance: 0
+    dmgAttributeAmount: 0
+    msAttributeAmount: 0
+    asAttributeAmount: 0
+    apAttributeAmount: 0
+    anpAttributeAmount: 0
+    mrpAttributeAmount: 0
+    crpAttributeAmount: 0
+    acpAttributeAmount: 0
+    evpAttributeAmount: 0
+  - coolDownAmount: 0
+    manaCostAmount: 0
+    hpAttributeAmount: 0
+    hpOverTimeAttributeAmount: 0
+    mpAttributeAmount: 0
+    disableEffectDuration: 0
+    knockEffectDistance: 0
+    dmgAttributeAmount: 0
+    msAttributeAmount: 0
+    asAttributeAmount: 0
+    apAttributeAmount: 0
+    anpAttributeAmount: 0
+    mrpAttributeAmount: 0
+    crpAttributeAmount: 0
+    acpAttributeAmount: 0
+    evpAttributeAmount: 0
+  - coolDownAmount: 0
+    manaCostAmount: 0
+    hpAttributeAmount: 0
+    hpOverTimeAttributeAmount: 0
+    mpAttributeAmount: 0
+    disableEffectDuration: 0
+    knockEffectDistance: 0
+    dmgAttributeAmount: 0
+    msAttributeAmount: 0
+    asAttributeAmount: 0
+    apAttributeAmount: 0
+    anpAttributeAmount: 0
+    mrpAttributeAmount: 0
+    crpAttributeAmount: 0
+    acpAttributeAmount: 0
+    evpAttributeAmount: 0
+  - coolDownAmount: 0
+    manaCostAmount: 0
+    hpAttributeAmount: 0
+    hpOverTimeAttributeAmount: 0
+    mpAttributeAmount: 0
+    disableEffectDuration: 0
+    knockEffectDistance: 0
+    dmgAttributeAmount: 0
+    msAttributeAmount: 0
+    asAttributeAmount: 0
+    apAttributeAmount: 0
+    anpAttributeAmount: 0
+    mrpAttributeAmount: 0
+    crpAttributeAmount: 0
+    acpAttributeAmount: 0
+    evpAttributeAmount: 0
+  - coolDownAmount: 0
+    manaCostAmount: 0
+    hpAttributeAmount: 0
+    hpOverTimeAttributeAmount: 0
+    mpAttributeAmount: 0
+    disableEffectDuration: 0
+    knockEffectDistance: 0
+    dmgAttributeAmount: 0
+    msAttributeAmount: 0
+    asAttributeAmount: 0
+    apAttributeAmount: 0
+    anpAttributeAmount: 0
+    mrpAttributeAmount: 0
+    crpAttributeAmount: 0
+    acpAttributeAmount: 0
+    evpAttributeAmount: 0
+  - coolDownAmount: 0
+    manaCostAmount: 0
+    hpAttributeAmount: 0
+    hpOverTimeAttributeAmount: 0
+    mpAttributeAmount: 0
+    disableEffectDuration: 0
+    knockEffectDistance: 0
+    dmgAttributeAmount: 0
+    msAttributeAmount: 0
+    asAttributeAmount: 0
+    apAttributeAmount: 0
+    anpAttributeAmount: 0
+    mrpAttributeAmount: 0
+    crpAttributeAmount: 0
+    acpAttributeAmount: 0
+    evpAttributeAmount: 0
+  - coolDownAmount: 0
+    manaCostAmount: 0
+    hpAttributeAmount: 0
+    hpOverTimeAttributeAmount: 0
+    mpAttributeAmount: 0
+    disableEffectDuration: 0
+    knockEffectDistance: 0
+    dmgAttributeAmount: 0
+    msAttributeAmount: 0
+    asAttributeAmount: 0
+    apAttributeAmount: 0
+    anpAttributeAmount: 0
+    mrpAttributeAmount: 0
+    crpAttributeAmount: 0
+    acpAttributeAmount: 0
+    evpAttributeAmount: 0
+  - coolDownAmount: 0
+    manaCostAmount: 0
+    hpAttributeAmount: 0
+    hpOverTimeAttributeAmount: 0
+    mpAttributeAmount: 0
+    disableEffectDuration: 0
+    knockEffectDistance: 0
+    dmgAttributeAmount: 0
+    msAttributeAmount: 0
+    asAttributeAmount: 0
+    apAttributeAmount: 0
+    anpAttributeAmount: 0
+    mrpAttributeAmount: 0
+    crpAttributeAmount: 0
+    acpAttributeAmount: 0
+    evpAttributeAmount: 0
+  - coolDownAmount: 0
+    manaCostAmount: 0
+    hpAttributeAmount: 0
+    hpOverTimeAttributeAmount: 0
+    mpAttributeAmount: 0
+    disableEffectDuration: 0
+    knockEffectDistance: 0
+    dmgAttributeAmount: 0
+    msAttributeAmount: 0
+    asAttributeAmount: 0
+    apAttributeAmount: 0
+    anpAttributeAmount: 0
+    mrpAttributeAmount: 0
+    crpAttributeAmount: 0
+    acpAttributeAmount: 0
+    evpAttributeAmount: 0
+  UnitClassAttribute: []
+--- !u!114 &1791166998363964378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137256}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88b38e574083bff5c2b7fda14c33d7c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collection: {fileID: 1791166998363963977, guid: dfbd6fd02a765ab4fbf76e8a10ba15d0, type: 2}
+  _color: {r: 1, g: 1, b: 1, a: 1}
+  _scale: {x: 2.5, y: 2.5, z: 3}
+  _spriteId: 25
+  pixelPerfect: 0
+  boxCollider: {fileID: 0}
+  meshCollider: {fileID: 0}
+  meshColliderPositions: []
+  meshColliderMesh: {fileID: 0}
+  anim: {fileID: 1791166998363963976, guid: 930f29755f58ae5438527c558f4656d1, type: 2}
+  clipId: 12
+  playAutomatically: 1
+  paused: 0
+  createCollider: 0
+--- !u!114 &1791166998363964392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137277}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88b38e574083bff5c2b7fda14c33d7c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collection: {fileID: 1791166998363963970, guid: 60a3f7317b2de31498fe545aceae06d5, type: 2}
+  _color: {r: 0.7058824, g: 0, b: 0, a: 0.7058824}
+  _scale: {x: 8, y: 60, z: 3}
+  _spriteId: 15
+  pixelPerfect: 0
+  boxCollider: {fileID: 0}
+  meshCollider: {fileID: 0}
+  meshColliderPositions: []
+  meshColliderMesh: {fileID: 0}
+  anim: {fileID: 1791166998363963976, guid: 930f29755f58ae5438527c558f4656d1, type: 2}
+  clipId: 12
+  playAutomatically: 0
+  paused: 0
+  createCollider: 0
+--- !u!114 &1791166998363964404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88b38e574083bff5c2b7fda14c33d7c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collection: {fileID: 1791166998363963970, guid: 60a3f7317b2de31498fe545aceae06d5, type: 2}
+  _color: {r: 0.7058824, g: 0, b: 0, a: 0.7058824}
+  _scale: {x: 15, y: 15, z: 3}
+  _spriteId: 15
+  pixelPerfect: 0
+  boxCollider: {fileID: 0}
+  meshCollider: {fileID: 0}
+  meshColliderPositions: []
+  meshColliderMesh: {fileID: 0}
+  anim: {fileID: 1791166998363963976, guid: 930f29755f58ae5438527c558f4656d1, type: 2}
+  clipId: 12
+  playAutomatically: 0
+  paused: 0
+  createCollider: 0
+--- !u!114 &1791166998363964414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137302}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e835f323ed39c52509853bbd26ac9e2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anim: {fileID: 0}
+  clip: 
+  playClip: 0
+  repeat: 1
+  rotate: 1
+  expand: 0
+  expandSpeed: 0.3
+  expandTime: 2
+  originalSize: 1
+  rotateSpeed: -5
+  clipTime: 10
+--- !u!114 &1791166998363964421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137302}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02bff1f49f3a92e3c875f389f7423c11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collection: {fileID: 1791166998363963981, guid: 7134ee94a5b652041b7b2913edb8c622, type: 2}
+  _color: {r: 1, g: 0, b: 0, a: 0.3921569}
+  _scale: {x: 3, y: 3, z: 4}
+  _spriteId: 21
+  pixelPerfect: 0
+  boxCollider: {fileID: 0}
+  meshCollider: {fileID: 0}
+  meshColliderPositions: []
+  meshColliderMesh: {fileID: 0}
+--- !u!114 &1791166998363964427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e835f323ed39c52509853bbd26ac9e2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anim: {fileID: 0}
+  clip: 
+  playClip: 0
+  repeat: 1
+  rotate: 1
+  expand: 0
+  expandSpeed: 2
+  expandTime: 10
+  originalSize: 1
+  rotateSpeed: 2
+  clipTime: 10
+--- !u!114 &1791166998363964433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137317}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e835f323ed39c52509853bbd26ac9e2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anim: {fileID: 0}
+  clip: 
+  playClip: 0
+  repeat: 1
+  rotate: 1
+  expand: 0
+  expandSpeed: 2
+  expandTime: 10
+  originalSize: 1
+  rotateSpeed: -4
+  clipTime: 10
+--- !u!114 &1791166998363964440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02bff1f49f3a92e3c875f389f7423c11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collection: {fileID: 1791166998363963981, guid: 7134ee94a5b652041b7b2913edb8c622, type: 2}
+  _color: {r: 1, g: 0, b: 0, a: 0.3921569}
+  _scale: {x: 2, y: 2, z: 3}
+  _spriteId: 21
+  pixelPerfect: 0
+  boxCollider: {fileID: 0}
+  meshCollider: {fileID: 0}
+  meshColliderPositions: []
+  meshColliderMesh: {fileID: 0}
+--- !u!114 &1791166998363964447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e835f323ed39c52509853bbd26ac9e2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anim: {fileID: 0}
+  clip: 
+  playClip: 0
+  repeat: 1
+  rotate: 1
+  expand: 0
+  expandSpeed: 0.3
+  expandTime: 2
+  originalSize: 1
+  rotateSpeed: -10
+  clipTime: 10
+--- !u!114 &1791166998363964454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9047d21fb3368249714bc5660e415501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  poolName: "Spell Pool"
+  poolPrefeb: {fileID: 1791166996468136968, guid: e26f38b3dab6f430f9dccdda62d11c01, type: 2}
+--- !u!114 &1791166998363964462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d54f43cde565baef2a58bf7e8999617, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioSource: 1
+  spawnSoundClip: {fileID: 0}
+  idleSoundClip: {fileID: 8300000, guid: ba640ea2941a4afdbc9d66d70fedff08, type: 3}
+  idleRepeatTimer: 0.5
+  despawnSoundClip: {fileID: 0}

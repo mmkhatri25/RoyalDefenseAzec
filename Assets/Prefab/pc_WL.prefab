@@ -1,0 +1,880 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1791166996468137200}
+  m_IsPrefabParent: 1
+--- !u!4 &1791166996518469325
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137200}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1791166996518469289}
+  - {fileID: 1791166996518469243}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1791166996518469243
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137165}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.300452, y: 0.4592959, z: -0.27}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1791166996518469354}
+  m_Father: {fileID: 1791166996518469325}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1791166996518469289
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137119}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.658696, y: 1.573779, z: 0.8}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1791166996518469190}
+  - {fileID: 1791166996518469095}
+  m_Father: {fileID: 1791166996518469325}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1791166996518469095
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468136970}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.4212909, y: 0.2040987, z: -0.1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1791166996518469289}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1791166996518469190
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137066}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.2195647, y: 0.3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1791166996518469289}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1791166996518469354
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137229}
+  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0.2429664, y: -0.3325759, z: 0.09999999}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1791166996518469382}
+  m_Father: {fileID: 1791166996518469243}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1791166996518469382
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137257}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 2.173118E-08, y: 0.46, z: 0.1822944}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1791166996518469354}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1791166996468136970
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791166996518469095}
+  - component: {fileID: 1791166996837236724}
+  - component: {fileID: 1791166997005009124}
+  - component: {fileID: 1791166998363963992}
+  m_Layer: 0
+  m_Name: "panic mark"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1791166996468137066
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791166996518469190}
+  m_Layer: 0
+  m_Name: "Effect Position"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1791166996468137119
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791166996518469289}
+  - component: {fileID: 1791166997005009165}
+  - component: {fileID: 1791166996837236765}
+  - component: {fileID: 1791166998363964052}
+  m_Layer: 0
+  m_Name: "character sprite"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1791166996468137165
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791166996518469243}
+  - component: {fileID: 1791166996837236674}
+  - component: {fileID: 1791166997005009074}
+  - component: {fileID: 1791166998363963894}
+  m_Layer: 0
+  m_Name: "cage"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1791166996468137200
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791166996518469325}
+  - component: {fileID: 1791166998363964191}
+  - component: {fileID: 1791166998363964151}
+  - component: {fileID: 1791166998363964105}
+  m_Layer: 0
+  m_Name: "pc_WL"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1791166996468137229
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791166996518469354}
+  - component: {fileID: 1791166998363964229}
+  m_Layer: 0
+  m_Name: "_Character King"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1791166996468137257
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791166996518469382}
+  - component: {fileID: 1791166997005009194}
+  - component: {fileID: 1791166996837236794}
+  - component: {fileID: 1791166998363964262}
+  m_Layer: 0
+  m_Name: "AnimatedSprite"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &1791166996837236674
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137165}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 0
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: a9273b8536e0420584bd7908589e49fd, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &1791166996837236724
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468136970}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 0
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: e23a61ce08514559b5aa8a11e41df7c2, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &1791166996837236765
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137119}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 0
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: a9273b8536e0420584bd7908589e49fd, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &1791166996837236794
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137257}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 0
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 5eb46a0b28e14c659445e31e283e13bd, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1791166997005009074
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137165}
+  m_Mesh: {fileID: 0}
+--- !u!33 &1791166997005009124
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468136970}
+  m_Mesh: {fileID: 0}
+--- !u!33 &1791166997005009165
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137119}
+  m_Mesh: {fileID: 0}
+--- !u!33 &1791166997005009194
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137257}
+  m_Mesh: {fileID: 0}
+--- !u!114 &1791166998363963894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02bff1f49f3a92e3c875f389f7423c11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collection: {fileID: 1791166998363963977, guid: dfbd6fd02a765ab4fbf76e8a10ba15d0, type: 2}
+  _color: {r: 0.3134328, g: 0.3134328, b: 0.3134328, a: 1}
+  _scale: {x: 1.6, y: 1.6, z: 2.4}
+  _spriteId: 6
+  pixelPerfect: 0
+  boxCollider: {fileID: 0}
+  meshCollider: {fileID: 0}
+  meshColliderPositions: []
+  meshColliderMesh: {fileID: 0}
+--- !u!114 &1791166998363963992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468136970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88b38e574083bff5c2b7fda14c33d7c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collection: {fileID: 1791166998363963981, guid: 7134ee94a5b652041b7b2913edb8c622, type: 2}
+  _color: {r: 1, g: 1, b: 1, a: 1}
+  _scale: {x: 3, y: 3, z: 3}
+  _spriteId: 0
+  pixelPerfect: 0
+  boxCollider: {fileID: 0}
+  meshCollider: {fileID: 0}
+  meshColliderPositions: []
+  meshColliderMesh: {fileID: 0}
+  anim: {fileID: 1791166998363963980, guid: a9364034a94151f48b0a551e8ce20a76, type: 2}
+  clipId: 10
+  playAutomatically: 1
+  paused: 0
+  createCollider: 0
+--- !u!114 &1791166998363964052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137119}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88b38e574083bff5c2b7fda14c33d7c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collection: {fileID: 1791166998363963977, guid: dfbd6fd02a765ab4fbf76e8a10ba15d0, type: 2}
+  _color: {r: 1, g: 1, b: 1, a: 1}
+  _scale: {x: 2.2, y: 2.2, z: 2.5}
+  _spriteId: 1
+  pixelPerfect: 0
+  boxCollider: {fileID: 0}
+  meshCollider: {fileID: 0}
+  meshColliderPositions: []
+  meshColliderMesh: {fileID: 0}
+  anim: {fileID: 1791166998363963976, guid: 930f29755f58ae5438527c558f4656d1, type: 2}
+  clipId: 0
+  playAutomatically: 0
+  paused: 0
+  createCollider: 0
+--- !u!114 &1791166998363964105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41b16209c087241e6d6ec7276a85dfb9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterID: "WL"
+  characterName: "BLINK"
+  characterClass: "crimson warlock"
+  characterDifficulty: 3
+  characterBackgroundColor: {r: 1, g: 1, b: 0, a: 1}
+  redSpellName: "pryoclysm"
+  redSpellManaCost: 15
+  redSpellDescription: "having mastered total control of his rage, blink is able to manifest
+  \nhis rage into flames and expel it towards his foes."
+  blueSpellName: "fiend's dagger"
+  blueSpellManaCost: 30
+  blueSpellDescription: "travelling to the tombs of moruth the krullkiller, blink, took home\na
+  souvenir. one of moruth\u2019s canine teeth is now one of blink\u2019s\nmost
+  devastating weapons."
+  yellowSpellName: "crimson clap"
+  yellowSpellManaCost: 15
+  yellowSpellDescription: "many years ago, blink, made a pact with an all-powerful thunderbird.\nnow,
+  he is able to call upon her to strike his enemies. "
+  greenSpellName: "a pact with the shadow"
+  greenSpellManaCost: 20
+  greenSpellDescription: "on a journey to the netherworld, blink lost his shadow for two weeks.\nupon
+  finding it again, he discovered something had changed... his\nshadow
+  had a mind of its own! now, blink is able to team up with his\nshadow
+  to defeat their foes!"
+  guardName: "crimson goon"
+  numberOfGuards: 4
+  guardAttribute: {fileID: 1791166998363964222, guid: 812fe105cc289d34aa9c060ab387ce02, type: 2}
+  itemDescription:
+  - 
+  - 
+  - 
+  - 
+--- !u!114 &1791166998363964151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcd54edc5fc8dc1645066ac5a219fc90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterID: "WL"
+  saveID: 0
+  CharacterSpell:
+  - Spell:
+    - spellAttributeEffectClass: 3
+      spellAttributeManaCost: 15
+      spellAttributeCoolDown: 2
+      spellAttributeCastingPenalty: 3
+      spellEffectObject: {fileID: 1791166996468137195, guid: 21600430dbf4bd94594b0ff1271bba8b, type: 2}
+      spellType: -1
+      arrowDirection: 0
+      centreSpellTypeHeight: 0
+      indicatorType: 0
+      activateSound: {fileID: 8300000, guid: bcd1f156b61341b7bf49a4c4fb7dd312, type: 3}
+    - spellAttributeEffectClass: 0
+      spellAttributeManaCost: 0
+      spellAttributeCoolDown: 0
+      spellAttributeCastingPenalty: 0
+      spellEffectObject: {fileID: 0}
+      spellType: 0
+      arrowDirection: 0
+      centreSpellTypeHeight: 0
+      indicatorType: 0
+      activateSound: {fileID: 0}
+    - spellAttributeEffectClass: 0
+      spellAttributeManaCost: 0
+      spellAttributeCoolDown: 0
+      spellAttributeCastingPenalty: 0
+      spellEffectObject: {fileID: 0}
+      spellType: 0
+      arrowDirection: 0
+      centreSpellTypeHeight: 0
+      indicatorType: 0
+      activateSound: {fileID: 0}
+    - spellAttributeEffectClass: 0
+      spellAttributeManaCost: 0
+      spellAttributeCoolDown: 0
+      spellAttributeCastingPenalty: 0
+      spellEffectObject: {fileID: 0}
+      spellType: 0
+      arrowDirection: 0
+      centreSpellTypeHeight: 0
+      indicatorType: 0
+      activateSound: {fileID: 0}
+    - spellAttributeEffectClass: 0
+      spellAttributeManaCost: 0
+      spellAttributeCoolDown: 0
+      spellAttributeCastingPenalty: 0
+      spellEffectObject: {fileID: 0}
+      spellType: 0
+      arrowDirection: 0
+      centreSpellTypeHeight: 0
+      indicatorType: 0
+      activateSound: {fileID: 0}
+  - Spell:
+    - spellAttributeEffectClass: 2
+      spellAttributeManaCost: 30
+      spellAttributeCoolDown: 1
+      spellAttributeCastingPenalty: 1
+      spellEffectObject: {fileID: 1791166996468137254, guid: d3b9a5ce21aae494eaa0651e4a151952, type: 2}
+      spellType: 1
+      arrowDirection: 0
+      centreSpellTypeHeight: 0
+      indicatorType: 4
+      activateSound: {fileID: 8300000, guid: 2b40afc2ec2b43c29421a585adeb39ce, type: 3}
+    - spellAttributeEffectClass: 0
+      spellAttributeManaCost: 0
+      spellAttributeCoolDown: 0
+      spellAttributeCastingPenalty: 0
+      spellEffectObject: {fileID: 0}
+      spellType: 0
+      arrowDirection: 0
+      centreSpellTypeHeight: 0
+      indicatorType: 0
+      activateSound: {fileID: 0}
+    - spellAttributeEffectClass: 0
+      spellAttributeManaCost: 0
+      spellAttributeCoolDown: 0
+      spellAttributeCastingPenalty: 0
+      spellEffectObject: {fileID: 0}
+      spellType: 0
+      arrowDirection: 0
+      centreSpellTypeHeight: 0
+      indicatorType: 0
+      activateSound: {fileID: 0}
+    - spellAttributeEffectClass: 0
+      spellAttributeManaCost: 0
+      spellAttributeCoolDown: 0
+      spellAttributeCastingPenalty: 0
+      spellEffectObject: {fileID: 0}
+      spellType: 0
+      arrowDirection: 0
+      centreSpellTypeHeight: 0
+      indicatorType: 0
+      activateSound: {fileID: 0}
+    - spellAttributeEffectClass: 0
+      spellAttributeManaCost: 0
+      spellAttributeCoolDown: 0
+      spellAttributeCastingPenalty: 0
+      spellEffectObject: {fileID: 0}
+      spellType: 0
+      arrowDirection: 0
+      centreSpellTypeHeight: 0
+      indicatorType: 0
+      activateSound: {fileID: 0}
+  - Spell:
+    - spellAttributeEffectClass: 0
+      spellAttributeManaCost: 15
+      spellAttributeCoolDown: 0
+      spellAttributeCastingPenalty: 1
+      spellEffectObject: {fileID: 1791166996468137198, guid: a9d42ed31fde629439f7f491293b2d7e, type: 2}
+      spellType: 2
+      arrowDirection: 180
+      centreSpellTypeHeight: 0
+      indicatorType: 4
+      activateSound: {fileID: 8300000, guid: 84f1f1bd7b1d4cb68c0954a15bc1f88b, type: 3}
+    - spellAttributeEffectClass: 0
+      spellAttributeManaCost: 0
+      spellAttributeCoolDown: 0
+      spellAttributeCastingPenalty: 0
+      spellEffectObject: {fileID: 0}
+      spellType: 0
+      arrowDirection: 0
+      centreSpellTypeHeight: 0
+      indicatorType: 0
+      activateSound: {fileID: 0}
+    - spellAttributeEffectClass: 0
+      spellAttributeManaCost: 0
+      spellAttributeCoolDown: 0
+      spellAttributeCastingPenalty: 0
+      spellEffectObject: {fileID: 0}
+      spellType: 0
+      arrowDirection: 0
+      centreSpellTypeHeight: 0
+      indicatorType: 0
+      activateSound: {fileID: 0}
+    - spellAttributeEffectClass: 0
+      spellAttributeManaCost: 0
+      spellAttributeCoolDown: 0
+      spellAttributeCastingPenalty: 0
+      spellEffectObject: {fileID: 0}
+      spellType: 0
+      arrowDirection: 0
+      centreSpellTypeHeight: 0
+      indicatorType: 0
+      activateSound: {fileID: 0}
+    - spellAttributeEffectClass: 0
+      spellAttributeManaCost: 0
+      spellAttributeCoolDown: 0
+      spellAttributeCastingPenalty: 0
+      spellEffectObject: {fileID: 0}
+      spellType: 0
+      arrowDirection: 0
+      centreSpellTypeHeight: 0
+      indicatorType: 0
+      activateSound: {fileID: 0}
+  - Spell:
+    - spellAttributeEffectClass: 0
+      spellAttributeManaCost: 20
+      spellAttributeCoolDown: 5
+      spellAttributeCastingPenalty: 5
+      spellEffectObject: {fileID: 1791166996468137228, guid: aa85a4433904ed34f8a92ed42d583f22, type: 2}
+      spellType: -1
+      arrowDirection: 0
+      centreSpellTypeHeight: 0
+      indicatorType: 0
+      activateSound: {fileID: 8300000, guid: 7d8cfa5877244d51be71ced1b1d3c683, type: 3}
+    - spellAttributeEffectClass: 0
+      spellAttributeManaCost: 35
+      spellAttributeCoolDown: 18
+      spellAttributeCastingPenalty: 3
+      spellEffectObject: {fileID: 1791166996468137085, guid: 006a925a3746e304fa4fa64986816145, type: 2}
+      spellType: 2
+      arrowDirection: 180
+      centreSpellTypeHeight: 0
+      indicatorType: 4
+      activateSound: {fileID: 0}
+    - spellAttributeEffectClass: 0
+      spellAttributeManaCost: 0
+      spellAttributeCoolDown: 0
+      spellAttributeCastingPenalty: 0
+      spellEffectObject: {fileID: 0}
+      spellType: 0
+      arrowDirection: 0
+      centreSpellTypeHeight: 0
+      indicatorType: 0
+      activateSound: {fileID: 0}
+    - spellAttributeEffectClass: 0
+      spellAttributeManaCost: 0
+      spellAttributeCoolDown: 0
+      spellAttributeCastingPenalty: 0
+      spellEffectObject: {fileID: 0}
+      spellType: 0
+      arrowDirection: 0
+      centreSpellTypeHeight: 0
+      indicatorType: 0
+      activateSound: {fileID: 0}
+    - spellAttributeEffectClass: 0
+      spellAttributeManaCost: 0
+      spellAttributeCoolDown: 0
+      spellAttributeCastingPenalty: 0
+      spellEffectObject: {fileID: 0}
+      spellType: 0
+      arrowDirection: 0
+      centreSpellTypeHeight: 0
+      indicatorType: 0
+      activateSound: {fileID: 0}
+  characterGuardLogic: {fileID: 1791166996468137192, guid: 6a056c5a2fb37a74f831755d32460cb0, type: 2}
+  characterNumberOfGuards: 4
+  characterGuardRatingValue: 51
+  characterGuardHealth: 30
+  characterGuardHealthRegeneration: 12
+  characterMaximumObjectInput: 1
+  characterObjectControlManaCost: 0
+  characterObjectDamagePlus: 0
+  characterObjectSpeedPlus: 0
+  characterObjectKnockPlus: 0
+  characterMaxManaPoint: 120
+  characterStartingManaPoint: 60
+  characterManaRegenerate: 2
+  characterManaWaveRegenerate: 5
+  levelIDs:
+  - "TFez"
+  - "TF"
+  - "GB"
+  - "KN"
+  - "DW"
+  - "OG"
+  - "EF"
+  - "PR"
+  - "UD"
+  - "NA"
+  - "MY"
+  - "MM"
+  - "AS"
+  - "GH"
+  - "VP"
+  - "SK"
+  - "WW"
+  - "WL_WZ"
+  StageIDs:
+  - stageID: "RyLb"
+    levelContentIDs:
+    - "RyLb_00"
+    - "RyLb_01"
+    - "RyLb_02"
+    - "RyLb_03"
+    - "RyLb_04"
+    - "RyLb_05"
+  - stageID: "CaDg"
+    levelContentIDs:
+    - "CaDg_S_00"
+    - "CaDg_S_01"
+    - "CaDg_S_02"
+    - "CaDg_S_03"
+    - "CaDg_S_04"
+    - "CaDg_S_05"
+  - stageID: "GrHl"
+    levelContentIDs:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+  - stageID: "ARENA"
+    levelContentIDs:
+    - "ARENA_00"
+    - "ARENA_00"
+    - "ARENA_00"
+    - "ARENA_00"
+    - "ARENA_00"
+    - "ARENA_00"
+  ItemUnlockID:
+  - itemID: "GI_3_4"
+    itemState: 0
+  - itemID: "GI_2_6"
+    itemState: 0
+  - itemID: "GI_3_14"
+    itemState: 0
+  - itemID: "GI_3_12"
+    itemState: 0
+  characterTutorial: {fileID: 1791166996468137418, guid: 4c712beaff4ca654f9012a07b2425370, type: 2}
+  storyBeginning: "WLSC00"
+  storyEnd: "WLSC01"
+  cutsceneStage1: 
+  cutsceneStage2: 
+  cutsceneStage3: 
+--- !u!114 &1791166998363964191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be514a084191a6df8693f2a3b025e129, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterID: "WL"
+  animationNumber: 0
+  panicMark: 0
+  panicMarkObject: {fileID: 1791166996468136970}
+  characterSprite: {fileID: 1791166998363964052}
+  idleClipName: "N0"
+  shockedClipName: "N1"
+  defeatClipName: "N2"
+  victoryClipName: "N3"
+  tauntClipName: 
+  objectControlClipName: "O0"
+  objectUnleashClipName: "O1"
+  redSpellCastingClipName: "R0"
+  redSpellUnleashClipName: "R1"
+  blueSpellCastingClipName: "B0"
+  blueSpellUnleashClipName: "B1"
+  yellowSpellCastingClipName: "B0"
+  yellowSpellUnleashClipName: "B1"
+  greenSpellCastingClipName: "B0"
+  greenSpellUnleashClipName: "B1"
+  itemUseClipName: 
+  scrollCastingClipName: 
+  scrollUnleashClipName: 
+  movingClipName: "N4"
+  disableClipName: "N5"
+  effectPropertyDisplay: {fileID: 1791166996468137090, guid: 72020eba9e0f47b46abf2f788cf31dc9, type: 2}
+  effectPosition: {fileID: 1791166996468137066}
+  characterState: 0
+  movementSpeed: 3
+  characterAction: 0
+  characterActionWorryAdjustmentX: -0.45
+--- !u!114 &1791166998363964229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137229}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd9fbd11cac6ba04256a9e118a914635, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 1791166998363964262}
+  playAnimationName: "king_scared"
+  movingAnimationName: "king_scared"
+  characterDirection: 0
+  movementSpeed: 0
+  moveForward: 0
+  moveUp: 0
+  characterAction: 1
+  sceneLogic: {fileID: 0}
+  tutorialLogic: {fileID: 0}
+--- !u!114 &1791166998363964262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791166996468137257}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88b38e574083bff5c2b7fda14c33d7c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collection: {fileID: 1791166998363963974, guid: 9f78d679d1052a54ba396d7bffccadf5, type: 2}
+  _color: {r: 1, g: 1, b: 1, a: 1}
+  _scale: {x: -2.4, y: 2.4, z: 2.4}
+  _spriteId: 24
+  pixelPerfect: 0
+  boxCollider: {fileID: 0}
+  meshCollider: {fileID: 0}
+  meshColliderPositions: []
+  meshColliderMesh: {fileID: 0}
+  anim: {fileID: 1791166998363963973, guid: afe3b5289a291854288474decd9454fb, type: 2}
+  clipId: 15
+  playAutomatically: 0
+  paused: 0
+  createCollider: 0
