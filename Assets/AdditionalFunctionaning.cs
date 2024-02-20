@@ -20,11 +20,14 @@ public class AdditionalFunctionaning : MonoBehaviour
     public void onTutorial()
     {
         Time.timeScale = 0f;
+        print("open time scale is " + Time.timeScale);
+
     }
     public void onTutorialClose()
     {
         Time.timeScale = 1f;
-    }
+        print("cloase time scale is " + Time.timeScale);
+;    }
     public float scrollSpeed = 8.0f;
 
     private bool isMovingLeft;

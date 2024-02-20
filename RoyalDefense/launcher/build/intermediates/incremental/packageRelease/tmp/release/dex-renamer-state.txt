@@ -1,0 +1,4 @@
+#Tue Feb 20 13:32:43 IST 2024
+base.0=/Users/apple/Desktop/MyData/work/Kanik Noida/RoyalDefenseAzec/RoyalDefense/launcher/build/intermediates/dex/release/mergeDexRelease/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
